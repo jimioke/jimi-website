@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Jimi B Oke</title>
+    <link>https://people.umass.edu/jboke/publications/</link>
+    <description>Recent content in Publications on Jimi B Oke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://people.umass.edu/jboke/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evaluating the impacts of shared automated mobility on-demand: an activity-based accessibility approach</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who Benefits from AVs? Social Implications of Autonomous Vehicle Policies in Full-Scale Cities</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation and Evaluation of Automated Mobility On-Demand Strategies in Dense Transit-Oriented Cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020simulation/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2020simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where is my Infusion Pump? Harnessing Network Dynamics for Improved Hospital Equipment Fleet Management</title>
+      <link>https://people.umass.edu/jboke/publications/martinez2020where/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/martinez2020where/</guid>
+      <description>Background: Timely availability of infusion pumps is critical for delivering high-quality patient care. However, pumps are a shared asset among hospital units without central management of their distribution. We performed a quantitative analysis of the extent of unit-to-unit sharing and its impact on shortages, and developed a system to increase availability throughout the hospital.
+Methods: We performed a retrospective study of 3,832 pumps moving in a densely interconnected network of 5,292 radio frequency and infrared sensors from January to November 2017 at a tertiary care center in Baltimore, Maryland.</description>
+    </item>
+    
+  </channel>
+</rss>

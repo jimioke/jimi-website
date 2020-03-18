@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jimi B Oke</title>
+    <link>https://people.umass.edu/jboke/</link>
+    <description>Recent content on Jimi B Oke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2020 10:53:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://people.umass.edu/jboke/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evaluating the impacts of shared automated mobility on-demand: an activity-based accessibility approach</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who Benefits from AVs? Social Implications of Autonomous Vehicle Policies in Full-Scale Cities</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation and Evaluation of Automated Mobility On-Demand Strategies in Dense Transit-Oriented Cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020simulation/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2020simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datasets and Software</title>
+      <link>https://people.umass.edu/jboke/datacode/</link>
+      <pubDate>Thu, 05 Mar 2020 10:53:59 -0500</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/datacode/</guid>
+      <description>This page provides links to projects and datasets I have [co]developed and [co]authored. Most (if not all) are available on github or other repository.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://people.umass.edu/jboke/research/</link>
+      <pubDate>Thu, 05 Mar 2020 10:49:02 -0500</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/research/</guid>
+      <description>Synopsis The unique environments of urban agglomerations have given rise to interesting problems and opportunities for development on a scale that requires innovative approaches and new ways of thinking. Chief among these concerns are energy and water consumption, climate change, mobility and accessibility. Rapid developments in information technology, big data analytics, sharing platforms and automation have increased the uncertainty in future urban outcomes, while raising ever more complex challenges of integration and planning in order to ensure equitable and sustainable societies.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://people.umass.edu/jboke/teaching/teaching/</link>
+      <pubDate>Thu, 05 Mar 2020 09:38:55 -0500</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/teaching/teaching/</guid>
+      <description>CEE 697M: Big Data and Machine Learning for Engineers This is a graduate course that delves into the theory of machine learning, broadly divided into supervised learning, unsupervised learning and neural networks. Slides and course material are available here.
+Semesters taught: Spring 2020
+CEE 260/MIE 273: Probability and Statistics for Engineers This is a core undergraduate course for civil/mechanical/industrial engineering majors at UMass Amherst.
+Semesters taught: Fall 2019, Fall 2020</description>
+    </item>
+    
+    <item>
+      <title>Where is my Infusion Pump? Harnessing Network Dynamics for Improved Hospital Equipment Fleet Management</title>
+      <link>https://people.umass.edu/jboke/publications/martinez2020where/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/martinez2020where/</guid>
+      <description>Background: Timely availability of infusion pumps is critical for delivering high-quality patient care. However, pumps are a shared asset among hospital units without central management of their distribution. We performed a quantitative analysis of the extent of unit-to-unit sharing and its impact on shortages, and developed a system to increase availability throughout the hospital.
+Methods: We performed a retrospective study of 3,832 pumps moving in a densely interconnected network of 5,292 radio frequency and infrared sensors from January to November 2017 at a tertiary care center in Baltimore, Maryland.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://people.umass.edu/jboke/about/</link>
+      <pubDate>Tue, 03 Mar 2020 12:52:21 -0500</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/about/</guid>
+      <description>The following bio and this photo may be used in media releases without further permission.
+ Jimi B Oke is an Assistant Professor in the Department of Civil and Environmental Engineering at University of Massachusetts Amherst, where he leads the Networks for Accessibility, Sustainability and Resilience Laboratory. From 2016 to 2019, he was a Postdoctoral Associate at the Intelligent Transportation Systems Lab working on the MIT Energy Initiative&amp;rsquo;s Future Mobility Study.</description>
+    </item>
+    
+  </channel>
+</rss>
