@@ -1,0 +1,3 @@
+hugo server -D
+sftp jboke@webadmin.oit.umass.edu 
+put -r Projects/jboke-website/public/* public_html/

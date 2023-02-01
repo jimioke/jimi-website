@@ -5,7 +5,7 @@ date: 2020-03-03T12:52:21-05:00
 
 The following bio and [**this photo**](/img/headshot-jun-2019.jpg) may be used in media releases without further permission.
 
->**Jimi B Oke** is an Assistant Professor in the [Department of Civil and Environmental Engineering](http://cee.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/), where he leads the Networks for Accessibility, Sustainability and Resilience Laboratory. From 2016 to 2019, he was a Postdoctoral Associate at the [Intelligent Transportation Systems Lab](http://its.mit.edu/) working on the [MIT Energy Initiative's Future Mobility Study](http://energy.mit.edu/research/mobilityofthefuture/). Jimi received his MSE and PhD in Civil Engineering from the [Johns Hopkins University](https://engineering.jhu.edu/case/), where he studied from 2012 to 2014. Prior to graduate school, Jimi taught mathematics at [The Pennington School](https://www.pennington.org/) after graduating from [Williams College](https://www.williams.edu/) with majors in Physics and Music in 2010.
+>**Jimi Oke** is an Assistant Professor in the [Department of Civil and Environmental Engineering](http://cee.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/), where he directs the [Networks for Accessibility, Sustainability and Resilience Laboratory](https://narslab.org/). From 2016 to 2019, he was a Postdoctoral Associate at the [Intelligent Transportation Systems Lab](http://its.mit.edu/) working on the [MIT Energy Initiative's Future Mobility Study](http://energy.mit.edu/research/mobilityofthefuture/). Jimi received his MSE and PhD in Civil Engineering from the [Johns Hopkins University](https://engineering.jhu.edu/case/), where he studied from 2012 to 2016. Prior to graduate school, Jimi taught mathematics at [The Pennington School](https://www.pennington.org/) after graduating from [Williams College](https://www.williams.edu/) with majors in Physics and Music in 2010.
 
 <h4><a href="/files/Oke-CV.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;pdf</a> <a href="/files/Oke-CV.pdf">Curriculum Vitae</a> &nbsp; </h4>
 
@@ -25,15 +25,11 @@ Office: Marston 214B, [University of Massachusetts Amherst](https://www.umass.ed
 
 Here is a list of [recent news articles about me](/in-the-news/).
 
-## Administrative responsibilities
+## AA
 
-  * Head, [Department of Econometrics and Business Statistics, Monash University](https://www.monash.edu/business/ebs).
-  * Editor, *[Journal of Statistical Software](http://www.jstatsoft.org/)*.
-  * Associate Editor, *[International Journal of Forecasting](http://ijf.forecasters.org/)*.
-  * Editor of the [NEP forecasting report](http://ideas.repec.org/n/nep-for/).
-  * Member of the Scaling committee, [Victorian Tertiary Admissions Centre](http://www.vtac.edu.au). This committee is responsible for producing the [ATAR for VCE students](http://en.wikipedia.org/wiki/Australian_Tertiary_Admission_Rank).
-  * Member of the Interstate Transfer Index Technical Group for the [Australasian Conference of Tertiary Admissions Centres](http://www.actac.edu.au).
-  * Member of the Aboriginal and Torres Strait Islander Statistical and Technical Advisory Group for the [Australian Institute of Health and Welfare](http://www.aihw.gov.au). -->
+  * --
+  * --  
+   -->
 
 ## Memberships
 
@@ -48,12 +44,6 @@ I am a member of the following organizations:
 
 <!-- ## Trivia
 
-My [mathematical genealogy](/hyndsight/mathematical-genealogy/) goes back to Leibniz, Bernoulli, Euler, Lagrange and Poisson.
-
-My [Erdös number](http://www.oakland.edu/enp/) is 3 in two different ways.
-
-  * via Peter Brockwell / Kai-Lai Chung / Paul Erdös
-  * via J. Keith Ord / Peter C Fishburn / Paul Erdös
  -->
 ## Other interests
 

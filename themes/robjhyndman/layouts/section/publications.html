@@ -88,8 +88,27 @@
        <br>
 <!--      </div>
      <div class="column small-12 medium-6"> -->
-      <h2>Published articles and book chapters</h2>
-      {{ range (where .Pages "Params.kind" "!=" "unpublished").GroupByDate "2006" "desc" }}
+      <h2>Published articles</h2>
+      {{ range (where .Pages "Params.type" "==" "journal").GroupByDate "2006" "desc" }}
+      <div class="row">
+        <div class="column small-1 medium-1">
+          <h3>{{ .Key }}</h3>
+        </div>
+        <div class="column small-11 medium-11">
+          <span style="font-size: 90%">
+           <ul class="compact fa-ul">
+             {{ range .Pages.ByDate.Reverse }}
+             <li style="margin-bottom: 9px;">{{ partial "pub-summary" . }}</li>
+             {{ end }}
+           </ul></span>
+         </div>
+       </div>
+       {{ end }}
+       <br>
+<!--      </div>
+     <div class="column small-12 medium-6"> -->
+      <h2>Reports</h2>
+      {{ range (where .Pages "Params.type" "==" "report").GroupByDate "2006" "desc" }}
       <div class="row">
         <div class="column small-1 medium-1">
           <h3>{{ .Key }}</h3>

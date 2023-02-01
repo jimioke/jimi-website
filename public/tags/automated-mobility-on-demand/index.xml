@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>automated mobility on demand on Jimi B Oke</title>
+    <title>automated mobility on demand on Jimi Oke</title>
     <link>https://people.umass.edu/jboke/tags/automated-mobility-on-demand/</link>
-    <description>Recent content in automated mobility on demand on Jimi B Oke</description>
+    <description>Recent content in automated mobility on demand on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://people.umass.edu/jboke/tags/automated-mobility-on-demand/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://people.umass.edu/jboke/tags/automated-mobility-on-demand/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Evaluating the impacts of shared automated mobility on-demand: an activity-based accessibility approach</title>
-      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</guid>
+      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
       <description></description>
     </item>
     
@@ -35,15 +31,6 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://people.umass.edu/jboke/publications/oke2020simulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
-      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
       <description></description>
     </item>
     

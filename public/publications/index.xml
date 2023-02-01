@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Jimi B Oke</title>
+    <title>Publications on Jimi Oke</title>
     <link>https://people.umass.edu/jboke/publications/</link>
-    <description>Recent content in Publications on Jimi B Oke</description>
+    <description>Recent content in Publications on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://people.umass.edu/jboke/publications/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://people.umass.edu/jboke/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
+      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
+      <description></description>
+    </item>
     
     <item>
-      <title>Evaluating the impacts of shared automated mobility on-demand: an activity-based accessibility approach</title>
-      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</link>
+      <title>Activity-Based Contact Network Scaling And Epidemic Propagation In Metropolitan Areas</title>
+      <link>https://people.umass.edu/jboke/publications/kumar2020activitybased/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/kumar2020activitybased/</guid>
+      <description>Given the growth of urbanization and emerging pandemic threats, more sophisticated models are required to understand disease propagation and investigate the impacts of intervention strategies across various city types. We introduce a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages on person-trajectories obtained from integrated mobility demand and supply models in full-scale cities. Simulating COVID-19 evolution in two full-scale cities with representative synthetic populations and mobility patterns, we analyze activity-based contact networks.</description>
+    </item>
+    
+    <item>
+      <title>Where Is My Infusion Pump? Harnessing Network Dynamics For Improved Hospital Equipment Fleet Management</title>
+      <link>https://people.umass.edu/jboke/publications/martinez2020where/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluating/</guid>
-      <description></description>
+      <guid>https://people.umass.edu/jboke/publications/martinez2020where/</guid>
+      <description>AbstractObjective. Timely availability of intravenous infusion pumps is critical for high-quality care delivery. Pumps are shared among hospital units, often w</description>
     </item>
     
     <item>
@@ -39,22 +53,84 @@
     </item>
     
     <item>
-      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
-      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Evaluating The Impacts Of Shared Automated Mobility On-Demand Services: An Activity-Based Accessibility Approach</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluatinga/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
-      <description></description>
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluatinga/</guid>
+      <description>Autonomous vehicle (AV) technologies are under constant improvement with pilot programs now underway in several urban areas worldwide. Modeling and field-testing efforts are demonstrating that shared mobility coupled with AV technology for automated mobility on-demand (AMoD) service may significantly impact levels of service and environmental outcomes in future cities. Given these rapidly emerging developments, there is an urgent need for methods to adequately quantify the economic impacts of new vehicle technologies and future urban mobility policy.</description>
     </item>
     
     <item>
-      <title>Where is my Infusion Pump? Harnessing Network Dynamics for Improved Hospital Equipment Fleet Management</title>
-      <link>https://people.umass.edu/jboke/publications/martinez2020where/</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      <title>From Traditional To Automated Mobility On Demand: A Comprehensive Framework For Modeling On-Demand Services In Simmobility</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2019traditionala/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://people.umass.edu/jboke/publications/martinez2020where/</guid>
-      <description>Background: Timely availability of infusion pumps is critical for delivering high-quality patient care. However, pumps are a shared asset among hospital units without central management of their distribution. We performed a quantitative analysis of the extent of unit-to-unit sharing and its impact on shortages, and developed a system to increase availability throughout the hospital.
-Methods: We performed a retrospective study of 3,832 pumps moving in a densely interconnected network of 5,292 radio frequency and infrared sensors from January to November 2017 at a tertiary care center in Baltimore, Maryland.</description>
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2019traditionala/</guid>
+      <description>Mobility on demand (MoD) systems have recently emerged as a promising paradigm for sustainable personal urban mobility in cities. In the context of multi-agent simulation technology, the state-of-the-art lacks a platform that captures the dynamics between decentralized driver decision-making and the centralized coordinated decision-making. This work aims to fill this gap by introducing a comprehensive framework that models various facets of MoD, namely heterogeneous MoD driver decision-making and coordinated fleet management within SimMobility, an agent- and activity-based demand model integrated with a dynamic multi-modal network assignment model.</description>
+    </item>
+    
+    <item>
+      <title>Insights Into Future Mobility: A Report From The Mobility Of The Future Study</title>
+      <link>https://people.umass.edu/jboke/publications/green2019insights/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/green2019insights/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>A Novel Global Urban Typology Framework For Sustainable Mobility Futures</title>
+      <link>https://people.umass.edu/jboke/publications/oke2019novela/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2019novela/</guid>
+      <description>Urban mobility significantly contributes to global carbon dioxide emissions. Given the rapid expansion and growth in urban areas, cities thus require innovative policies to ensure efficient and sustainable mobility. Urban typologies can serve as a vehicle for understanding dynamics of cities, which exhibit high variability in form, economic output, mobility behavior, among others. Yet, typologies relevant for sustainable urban mobility analyses are few, outdated and not large enough in scope. In this paper, we present a new typologization spanning 331 cities in 124 countries.</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Transportation Flows In Energy Networks With An Application To Crude Oil Markets</title>
+      <link>https://people.umass.edu/jboke/publications/oke2019multimodal/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2019multimodal/</guid>
+      <description>Network models of energy markets have been beneficial for analyses and decision-making to tackle challenges related to the production, distribution and consumption of energy in its various forms. Despite the growing awareness of environmental and safety impacts of fuel transfer, such as emissions, spills and other harmful effects, existing energy models for various types of networks are yet to fully capture modal distinctions which are relevant to providing pathways to limiting these impacts.</description>
+    </item>
+    
+    <item>
+      <title>Spatial Associations In Global Household Bicycle Ownership</title>
+      <link>https://people.umass.edu/jboke/publications/oke2018spatial/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2018spatial/</guid>
+      <description>The interest in bicycling and its determining factors is growing within the public health, transportation and geography communities. Ownership is one factor affecting bicycle usage, but work is still ongoing to not only quantify its effects but also to understand patterns in its growth and influence. In recent work, we mined and discovered patterns in global bicycle ownership that showed the existence of four characteristic country groups and their trends. Building on these results, we show in this paper that the ownership dataset can be modeled as a network.</description>
+    </item>
+    
+    <item>
+      <title>Tracking Global Bicycle Ownership Patterns</title>
+      <link>https://people.umass.edu/jboke/publications/oke2015tracking/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2015tracking/</guid>
+      <description>Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia.</description>
+    </item>
+    
+    <item>
+      <title>Efficient Automated Schematic Map Drawing Using Multiobjective Mixed Integer Programming</title>
+      <link>https://people.umass.edu/jboke/publications/oke2015efficient/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/oke2015efficient/</guid>
+      <description>We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of Nöllenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two.</description>
+    </item>
+    
+    <item>
+      <title>Entanglement And Composite Bosons</title>
+      <link>https://people.umass.edu/jboke/publications/chudzicki2010entanglement/</link>
+      <pubDate>Thu, 18 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://people.umass.edu/jboke/publications/chudzicki2010entanglement/</guid>
+      <description>We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity χN+1/χN that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity χN+1/χN approaches its ideal bosonic value.</description>
     </item>
     
   </channel>
