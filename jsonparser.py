@@ -99,7 +99,7 @@ def fix_datestring(d):
 def parse_citation_item(item):
     """Parse the JSON-formatted citation"""
     # First create the filename by pulling the citation key
-    file_name = item['citekey']+'.md'
+    file_name = item['citationKey']+'.md'
 
     print('Creating {}'.format(file_name))
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Jimi Oke</title>
+    <link>https://people.umass.edu/jboke/presentations/</link>
+    <description>Recent content in Presentations on Jimi Oke</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://people.umass.edu/jboke/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typology-informed solutions for sustainable infrastructure systems</title>
+      <link>https://people.umass.edu/jboke/presentations/typology-informed-solutions-2024/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/typology-informed-solutions-2024/</guid>
+      <description>Presentation at the NSF REU: Computing for an Equitable Energy Transition (CEET) Technical Seminar Series, University of Massachusetts, Amherst 2024</description>
+    </item>
+    <item>
+      <title>Typology-informed solutions for sustainable and accessible transportation networks</title>
+      <link>https://people.umass.edu/jboke/presentations/typology-informed-solutions-trbam-2024/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/typology-informed-solutions-trbam-2024/</guid>
+      <description>Keynote Presentation at the 4th International Conference on Access Management Boston, Massachusetts, 2024&#xA;Abstract The unique environments of both rural and urban agglomerations have given rise to interesting problems and opportunities for development on a scale that requires innovative approaches and new ways of thinking. Chief among these concerns are climate change, mobility and accessibility. Rapid developments in information technology, big data analytics, sharing platforms and automation have increased the uncertainty in future urban outcomes, while raising ever more complex challenges of integration and planning in order to ensure equitable and sustainable societies.</description>
+    </item>
+    <item>
+      <title>Learning a spatial crash typology representation for analyzing and improving multimodal road safety in New England</title>
+      <link>https://people.umass.edu/jboke/presentations/learning-crash-typology/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/learning-crash-typology/</guid>
+      <description>Lightning Talk presented at the New England University Transportation Center (NEUTC) Symposium&#xA;DCU Center, Worcester, MA, Monday, April 29, 2024</description>
+    </item>
+    <item>
+      <title>Machine learning-enhanced decision-making frameworks for sustainable mobility systems</title>
+      <link>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</guid>
+      <description>Presentation at the 2024 Emerging Technologies in Transportation Seminar Series&#xA;University of Florida, Gainesville Massachusetts, Thursday, March 21, 2024&#xA;Abstract Our critical infrastructure systems, especially public transportation, are in urgent need of decision-making and planning frameworks to address multiple challenges arising from disruptive events, climate change mitigation and shrinking revenues. In this talk, I will discuss how supervised and unsupervised machine learning (ML) approaches can enhance these frameworks in order to provide deeper insights into transit and road networks at various scales.</description>
+    </item>
+  </channel>
+</rss>

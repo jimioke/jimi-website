@@ -1,0 +1,1872 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 6,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": true,
+      "bibtexEditionOrdinal": false,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+year+veryshorttitle.lower",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importDetectURLs": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "library",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "packages": "",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "file, abstract",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 0,
+      "warnTitleCased": false
+    },
+    "options": {
+      "exportNotes": true,
+      "exportFileData": false,
+      "Items": true,
+      "Preferences": true,
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
+    }
+  },
+  "version": {
+    "zotero": "6.0.11.SOURCE.ba1906c05",
+    "bbt": "6.7.212"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "FCRYAVND",
+      "version": 1302,
+      "itemType": "journalArticle",
+      "title": "Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Boarding Data",
+      "abstractNote": "We present a framework for extracting spatiotemporal trip typologies using noisy mobile ticketing boarding data sampled from passengers in a bus network. Our case study was the Pioneer Valley Transit Authority in Massachusetts. We first used a greedy approach to infer bus boarding stops. Next, we calculated the multi-dimensional dissimilarity of passenger activation time series using the AWarp alignment algorithm for sparse time series. We then employed hierarchical clustering to discover the spatiotemporal patterns, resulting in four distinct trip pattern typologies. We analyzed the typologies, based on trip length and duration, seasonality and other temporal distributions, spatial distributions, and faretype. Three typologies were linked to regular commuters, distinguished by boarding time or transfer tendency. The fourth typology was primarily associated with leisure or other activities. Our typology method provides valuable passenger behavioral insights and can facilitate demand estimation by planners. Further, we demonstrate a potential for decision-making support for other regional transit authorities with limited passenger data availability.",
+      "date": "2023-09-14",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s42421-023-00082-x",
+      "accessDate": "2023-10-03T15:45:08Z",
+      "volume": "5",
+      "pages": "20",
+      "publicationTitle": "Data Science for Transportation",
+      "DOI": "10.1007/s42421-023-00082-x",
+      "issue": "3",
+      "journalAbbreviation": "Data Sci. Transp.",
+      "ISSN": "2948-1368",
+      "creators": [
+        {
+          "firstName": "Mohammed",
+          "lastName": "Abdalazeem",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Public transportation",
+          "type": 1
+        },
+        {
+          "tag": "Clustering",
+          "type": 1
+        },
+        {
+          "tag": "Dynamic time warping",
+          "type": 1
+        },
+        {
+          "tag": "Typologies",
+          "type": 1
+        },
+        {
+          "tag": "Mobile ticketing",
+          "type": 1
+        },
+        {
+          "tag": "Spatiotemporal patterns",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2023-10-03T15:45:08Z",
+      "dateModified": "2023-10-03T15:45:08Z",
+      "uri": "http://zotero.org/users/6356012/items/FCRYAVND",
+      "itemID": 6191,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "abdalazeem2023extracting",
+      "itemKey": "FCRYAVND",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FCRYAVND"
+    },
+    {
+      "key": "PTKY2H33",
+      "version": 1464,
+      "itemType": "journalArticle",
+      "title": "Predicting tree failure likelihood for utility risk mitigation via a convolutional neural network",
+      "abstractNote": "Critical to the resilience of utility power lines, tree failure assessments have historically been performed via costly manual inspections. In this paper, we develop a convolutional neural network (CNN) to predict tree failure likelihood categories (Probable, Possible, Improbable) under three classification strategies. The CNN produced the best performance under the Probable/Possible vs. Improbable strategy, achieving a recall score of 0.82. We also perform a visual analysis of the predictions via Grad-CAM++ heatmaps, indicating an approach for incorporating interpretability into model selection. Benchmarking the results of our model against those produced by two state-of-the-art CNNs (ResNet-50 and Inception-v3), we show that our relatively simple model produces better results in a computational time that is three times faster. Via this novel framework, we demonstrate the potential of artificial intelligence to automate and consequently reduce the costs of tree failure likelihood assessments in proximity to power lines, thereby promoting sustainable infrastructure.",
+      "date": "2023-11-02",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "url": "https://doi.org/10.1080/23789689.2023.2233759",
+      "accessDate": "2024-02-19T19:03:38Z",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/23789689.2023.2233759",
+      "volume": "8",
+      "pages": "572-588",
+      "publicationTitle": "Sustainable and Resilient Infrastructure",
+      "DOI": "10.1080/23789689.2023.2233759",
+      "issue": "6",
+      "ISSN": "2378-9689",
+      "creators": [
+        {
+          "firstName": "Atanas",
+          "lastName": "Apostolov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ryan",
+          "lastName": "Suttle",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sanjay",
+          "lastName": "Arwade",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brian",
+          "lastName": "Kane",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "resilience",
+          "type": 1
+        },
+        {
+          "tag": "CNN",
+          "type": 1
+        },
+        {
+          "tag": "AI",
+          "type": 1
+        },
+        {
+          "tag": "infrastructure management",
+          "type": 1
+        },
+        {
+          "tag": "Utility power lines",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-19T19:03:38Z",
+      "dateModified": "2024-02-19T19:03:38Z",
+      "uri": "http://zotero.org/users/6356012/items/PTKY2H33",
+      "itemID": 6468,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "apostolov2023predictinga",
+      "itemKey": "PTKY2H33",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/PTKY2H33"
+    },
+    {
+      "key": "3N5VERMT",
+      "version": 2261,
+      "itemType": "report",
+      "title": "Artificial Intelligence Framework for Crosswalk Detection Across Massachusetts",
+      "abstractNote": "The goal of this project was to develop an artificial intelligence (AI) framework to detect crosswalk locations across the state of Massachusetts, as well as their type classification (continental, parallel lines, or solid) and location category (intersection, midblock, or driveway). Aerial images downloaded from MassGIS were annotated, and these were used to train the AI model, which was then used to detect crosswalks across the entire state using images from both 2019 and 2021. About 88,000 crosswalks were detected in 2021. In terms of location category, 89% of these were intersection crosswalks, 8% were midblock, and 3% were at driveways. In terms of type, just under 65% were continental (zebra-style) crosswalks, about 35% were parallel lines, and less than 1% were solid/painted crosswalks. A python script was developed to perform the post-processing. The model and the post-processing script will be available to MassDOT to perform further analyses, and results will be expected to inform maintenance and safety initiatives.",
+      "date": "2024-02-01",
+      "language": "English",
+      "libraryCatalog": "ROSA P",
+      "callNumber": "dot:75247",
+      "url": "https://rosap.ntl.bts.gov/view/dot/75247",
+      "accessDate": "2024-07-25T13:44:11Z",
+      "reportNumber": "20-024",
+      "institution": "Massachusetts Department of Transportation",
+      "creators": [
+        {
+          "firstName": "Atanas",
+          "lastName": "Apostolov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yuanchang",
+          "lastName": "Xie",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chengbo",
+          "lastName": "Ai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Francis",
+          "lastName": "Tainter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Aerial photogrammetry",
+          "type": 1
+        },
+        {
+          "tag": "Artificial intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Crosswalks",
+          "type": 1
+        },
+        {
+          "tag": "Driveways",
+          "type": 1
+        },
+        {
+          "tag": "Intersections",
+          "type": 1
+        },
+        {
+          "tag": "Safety",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-07-25T13:44:13Z",
+      "dateModified": "2024-07-25T13:49:35Z",
+      "uri": "http://zotero.org/users/6356012/items/3N5VERMT",
+      "itemID": 7919,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "apostolov2024artificial",
+      "itemKey": "3N5VERMT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/3N5VERMT"
+    },
+    {
+      "key": "S6GANRLT",
+      "version": 1919,
+      "itemType": "journalArticle",
+      "title": "Comprehensive Energy Modeling Framework for Multi-Powertrain Bus Transit Systems",
+      "abstractNote": "With the increasing emphasis on sustainable transportation solutions, there is an urgent need for a system that can accurately assess vehicle-specific energy consumption in real-time. However, the current modeling frameworks have a significant gap in that they are not demand- and congestion-responsive, nor are they capable of modeling the system-wide energy consumption of bus fleets at the vehicle-level, encompassing all three types of powertrains\u2014conventional, hybrid, and electric. To address this gap, we present a comprehensive modeling framework that takes into account passenger loading, considers the dynamics of the system including acceleration, and is capable of predicting the real-time energy usage of each bus in a transit network. Using the Pioneer Valley Transit Authority system as a case study, we calibrated existing powertrain-specific models for conventional diesel, hybrid, and battery electric buses. Our demand- and congestion-responsive energy consumption modeling framework fills this critical gap and offers significant potential for future sustainable transportation planning. Relying on detailed trajectories computed from one month of bus location data, along with passenger counts and road grade, our framework is a novel contribution in that it provides spatiotemporal energy predictions for an entire bus system. As it is readily calibrated with potential improvements in accuracy given more data, this framework can be applied by transit agencies for the purposes of real-time energy consumption monitoring, fleet electrification planning, equity analyses, and carbon emission reduction strategies.",
+      "date": "2024-01-01",
+      "language": "en",
+      "libraryCatalog": "SAGE Journals",
+      "url": "https://doi.org/10.1177/03611981231172502",
+      "accessDate": "2024-06-18T14:43:24Z",
+      "extra": "Publisher: SAGE Publications Inc",
+      "volume": "2678",
+      "pages": "707-720",
+      "publicationTitle": "Transportation Research Record",
+      "DOI": "10.1177/03611981231172502",
+      "issue": "1",
+      "ISSN": "0361-1981",
+      "creators": [
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-06-18T14:43:24Z",
+      "dateModified": "2024-06-18T14:43:24Z",
+      "uri": "http://zotero.org/users/6356012/items/S6GANRLT",
+      "itemID": 7438,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "SAGE PDF Full Text",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-06-18T14:43:25Z",
+          "dateModified": "2024-06-18T14:43:25Z",
+          "uri": "http://zotero.org/users/6356012/items/APQISQDZ",
+          "path": "/home/jbo/Zotero/storage/APQISQDZ/Arabi and Oke - 2024 - Comprehensive Energy Modeling Framework for Multi-.pdf",
+          "select": "zotero://select/library/items/APQISQDZ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "arabi2024comprehensive",
+      "itemKey": "S6GANRLT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/S6GANRLT"
+    },
+    {
+      "key": "XXCKR2MC",
+      "version": 1917,
+      "itemType": "journalArticle",
+      "title": "Resilience in multilayer transportation infrastructure networks: a review and conceptual framework for equity-based assessment",
+      "abstractNote": "This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure. Our findings show that this approach significantly contributes to more informed and inclusive decision-making, fostering the development of resilient and equitable urban environments.",
+      "date": "2024",
+      "shortTitle": "Resilience in multilayer transportation infrastructure networks",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "url": "https://doi.org/10.1080/23789689.2024.2344909",
+      "accessDate": "2024-06-18T14:42:47Z",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/23789689.2024.2344909",
+      "volume": "0",
+      "pages": "1\u201324",
+      "publicationTitle": "Sustainable and Resilient Infrastructure",
+      "DOI": "10.1080/23789689.2024.2344909",
+      "issue": "0",
+      "ISSN": "2378-9689",
+      "creators": [
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Simos",
+          "lastName": "Gerasimidis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Camille",
+          "lastName": "Barchers",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "resilience",
+          "type": 1
+        },
+        {
+          "tag": "Equity",
+          "type": 1
+        },
+        {
+          "tag": "multilayer network",
+          "type": 1
+        },
+        {
+          "tag": "transportation infrastructure system",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-06-18T14:42:47Z",
+      "dateModified": "2024-06-18T14:42:47Z",
+      "uri": "http://zotero.org/users/6356012/items/XXCKR2MC",
+      "itemID": 7436,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "arabi2024resilience",
+      "itemKey": "XXCKR2MC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XXCKR2MC"
+    },
+    {
+      "key": "6ZXSKBC8",
+      "version": 1299,
+      "itemType": "journalArticle",
+      "title": "Entanglement and Composite Bosons",
+      "abstractNote": "We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity \u03c7N+1/\u03c7N that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity \u03c7N+1/\u03c7N approaches its ideal bosonic value.",
+      "date": "February 18, 2010",
+      "libraryCatalog": "APS",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.104.070402",
+      "accessDate": "2020-04-28T07:13:25Z",
+      "rights": "All rights reserved",
+      "extra": "Publisher: American Physical Society",
+      "volume": "104",
+      "pages": "070402",
+      "publicationTitle": "Physical Review Letters",
+      "DOI": "10.1103/PhysRevLett.104.070402",
+      "issue": "7",
+      "journalAbbreviation": "Phys. Rev. Lett.",
+      "creators": [
+        {
+          "firstName": "Christopher",
+          "lastName": "Chudzicki",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Olufolajimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "William K.",
+          "lastName": "Wootters",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-04-28T07:13:25Z",
+      "dateModified": "2020-04-28T07:13:25Z",
+      "uri": "http://zotero.org/users/6356012/items/6ZXSKBC8",
+      "itemID": 17,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "APS Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-04-28T07:13:30Z",
+          "dateModified": "2020-04-28T07:13:30Z",
+          "uri": "http://zotero.org/users/6356012/items/SAQU63JW",
+          "path": "/home/jbo/Zotero/storage/SAQU63JW/PhysRevLett.104.html",
+          "select": "zotero://select/library/items/SAQU63JW"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Submitted Version",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-04-28T07:13:32Z",
+          "dateModified": "2020-04-28T07:13:32Z",
+          "uri": "http://zotero.org/users/6356012/items/JQ9CYIZ8",
+          "path": "/home/jbo/Zotero/storage/JQ9CYIZ8/Chudzicki et al. - 2010 - Entanglement and Composite Bosons.pdf",
+          "select": "zotero://select/library/items/JQ9CYIZ8"
+        }
+      ],
+      "notes": [],
+      "citationKey": "chudzicki2010entanglement",
+      "itemKey": "6ZXSKBC8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/6ZXSKBC8"
+    },
+    {
+      "key": "UGVKIYC2",
+      "version": 1926,
+      "itemType": "journalArticle",
+      "title": "Drinking water accessibility typologies in low- and middle-income countries",
+      "abstractNote": "We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes. We clustered the countries based on their seven-dimensional water accessibility factor scores, referring to the resulting three clusters as \u2018typologies,\u2019 namely, Decentralized, Centralized and Hybrid. The typologies serve as a vehicle for analyzing water accessibility among countries with similar patterns, in contrast with geographically-based approaches. Finally, we fitted a decision tree classifier to analyze relationships between a country\u2019s typology membership and socioeconomic, geographic and transportation explanatory variables. We found that private car ownership, population density and per-capita gross domestic product are most relevant in predicting a country\u2019s drinking water accessibility typology.",
+      "date": "2023-02",
+      "language": "en",
+      "libraryCatalog": "Institute of Physics",
+      "url": "https://dx.doi.org/10.1088/1748-9326/acb662",
+      "accessDate": "2023-06-13T16:31:56Z",
+      "extra": "Publisher: IOP Publishing",
+      "volume": "18",
+      "pages": "025009",
+      "publicationTitle": "Environmental Research Letters",
+      "DOI": "10.1088/1748-9326/acb662",
+      "issue": "2",
+      "journalAbbreviation": "Environ. Res. Lett.",
+      "ISSN": "1748-9326",
+      "creators": [
+        {
+          "firstName": "Hichul",
+          "lastName": "Chung",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emily",
+          "lastName": "Kumpel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {
+        "owl:sameAs": [
+          "http://zotero.org/groups/5331465/items/SLJ4TYSJ"
+        ]
+      },
+      "dateAdded": "2023-06-13T16:31:56Z",
+      "dateModified": "2023-06-13T16:31:56Z",
+      "uri": "http://zotero.org/users/6356012/items/UGVKIYC2",
+      "itemID": 5515,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "IOP Full Text PDF",
+          "tags": [],
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/5331465/items/83LD6KCE"
+            ]
+          },
+          "dateAdded": "2023-06-13T16:32:00Z",
+          "dateModified": "2023-06-13T16:32:00Z",
+          "uri": "http://zotero.org/users/6356012/items/6TVZGJLI",
+          "path": "/home/jbo/Zotero/storage/6TVZGJLI/Chung et al. - 2023 - Drinking water accessibility typologies in low- an.pdf",
+          "select": "zotero://select/library/items/6TVZGJLI"
+        }
+      ],
+      "notes": [],
+      "citationKey": "chung2023drinking",
+      "itemKey": "UGVKIYC2",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/UGVKIYC2"
+    },
+    {
+      "key": "FHFE6KU2",
+      "version": 1301,
+      "itemType": "journalArticle",
+      "title": "Data-driven methods to predict track degradation: A case study",
+      "abstractNote": "Predicting track degradation is extremely important due to its beneficial effects on increasing track safety and scheduling preventive maintenance. Logistic regression and Gradient Boosting Machine (GBM) were employed in this paper for predicting Yellow-tag Defect in the Next Inspection (YDNI), which is an indicator of maintenance requirement in the track. The geometry data of this paper were collected from passenger tracks with a length of 155 miles from 2011 to 2020. In addition to geometry data, Ground Penetrating Radar (GPR) data were used as additional explanatory variables to improve the performance of models. As there are a limited number of YDNI observations, Synthetic Minority Oversampling Technique (SMOTE) is employed to resolve the issue of imbalance dataset. Results indicate that the GBM outperforms logistic regression and can successfully predict YDNI with a very high sensitivity of 0.94. Parametric analysis indicated the direct correlation between the Ballast Fouling Index (BFI) and the probability of defect occurrence. Finally, the model can be integrated into a decision-making framework which generates predictions based on a given probability threshold for classification. Thus, the railway companies can select a specific threshold according to their maintenance budget and desired level of track safety for scheduling preventive maintenance interventions.",
+      "date": "2022-08-15",
+      "language": "en",
+      "shortTitle": "Data-driven methods to predict track degradation",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S095006182201830X",
+      "accessDate": "2023-01-19T01:45:00Z",
+      "rights": "All rights reserved",
+      "volume": "344",
+      "pages": "128166",
+      "publicationTitle": "Construction and Building Materials",
+      "DOI": "10.1016/j.conbuildmat.2022.128166",
+      "journalAbbreviation": "Construction and Building Materials",
+      "ISSN": "0950-0618",
+      "creators": [
+        {
+          "firstName": "Saeed",
+          "lastName": "Goodarzi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hamed F.",
+          "lastName": "Kashani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlton L.",
+          "lastName": "Ho",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Geometry data",
+          "type": 1
+        },
+        {
+          "tag": "Gradient Boosting Machine (GBM)",
+          "type": 1
+        },
+        {
+          "tag": "Ground Penetrating Radar (GPR)",
+          "type": 1
+        },
+        {
+          "tag": "Large data",
+          "type": 1
+        },
+        {
+          "tag": "Logistic regression",
+          "type": 1
+        },
+        {
+          "tag": "Preventive maintenance",
+          "type": 1
+        },
+        {
+          "tag": "SMOTE",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2023-01-19T01:45:00Z",
+      "dateModified": "2023-01-19T01:45:00Z",
+      "uri": "http://zotero.org/users/6356012/items/FHFE6KU2",
+      "itemID": 4406,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-01-19T01:45:07Z",
+          "dateModified": "2023-01-19T01:45:07Z",
+          "uri": "http://zotero.org/users/6356012/items/ZNHXLCVM",
+          "path": "/home/jbo/Zotero/storage/ZNHXLCVM/S095006182201830X.html",
+          "select": "zotero://select/library/items/ZNHXLCVM"
+        }
+      ],
+      "notes": [],
+      "citationKey": "goodarzi2022datadriven",
+      "itemKey": "FHFE6KU2",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FHFE6KU2"
+    },
+    {
+      "key": "JHXY5F6H",
+      "version": 1304,
+      "itemType": "journalArticle",
+      "title": "Stochastic analysis for estimating track geometry degradation rates based on GPR and LiDAR data",
+      "abstractNote": "The estimation of track degradation rate is a challenging step in scheduling preventive maintenance interventions due to its uncertain nature. To tackle this challenge, a large dataset of historic passenger track geometry data, between 2011 and 2021, integrated with Ground Penetrating Radar (GPR), and Light Detection And Ranging (LiDAR) data are investigated. Stochastic models are proposed for estimating the expected track degradation rates based on subsurface and drainage conditions of blocks and also a framework is proposed for automatically evaluating drainage conditions of track from LiDAR data. Results indicate that the probability of having high track degradation rates in highly fouled ballast condition can be 10 times more than in clean ballast condition. In addition, analyzing the effect of drainage conditions revealed that sections with poor drainage conditions are 30% more likely to have high track degradation rates than sections with moderate drainage conditions. The results of this study enhance scheduling geometry maintenance and provide reliable information for decision making on different types of maintenance such as Ballast Cleaning and ditching.",
+      "date": "2023-03-10",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950061823003021",
+      "accessDate": "2023-10-03T15:47:35Z",
+      "volume": "369",
+      "pages": "130591",
+      "publicationTitle": "Construction and Building Materials",
+      "DOI": "10.1016/j.conbuildmat.2023.130591",
+      "journalAbbreviation": "Construction and Building Materials",
+      "ISSN": "0950-0618",
+      "creators": [
+        {
+          "firstName": "Saeed",
+          "lastName": "Goodarzi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hamed F.",
+          "lastName": "Kashani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anahita",
+          "lastName": "Saeedi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlton L.",
+          "lastName": "Ho",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "LiDAR",
+          "type": 1
+        },
+        {
+          "tag": "Geometry data",
+          "type": 1
+        },
+        {
+          "tag": "Large data",
+          "type": 1
+        },
+        {
+          "tag": "Preventive maintenance",
+          "type": 1
+        },
+        {
+          "tag": "Ground Penetrating Radar",
+          "type": 1
+        },
+        {
+          "tag": "Probabilistic analysis",
+          "type": 1
+        },
+        {
+          "tag": "Probability distribution fitting",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2023-10-03T15:47:35Z",
+      "dateModified": "2023-10-03T15:47:35Z",
+      "uri": "http://zotero.org/users/6356012/items/JHXY5F6H",
+      "itemID": 6193,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-10-03T15:47:37Z",
+          "dateModified": "2023-10-03T15:47:37Z",
+          "uri": "http://zotero.org/users/6356012/items/IQH63DXG",
+          "path": "/home/jbo/Zotero/storage/IQH63DXG/Goodarzi et al. - 2023 - Stochastic analysis for estimating track geometry .pdf",
+          "select": "zotero://select/library/items/IQH63DXG"
+        }
+      ],
+      "notes": [],
+      "citationKey": "goodarzi2023stochastic",
+      "itemKey": "JHXY5F6H",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/JHXY5F6H"
+    },
+    {
+      "key": "GJTN5FQQ",
+      "version": 1301,
+      "itemType": "journalArticle",
+      "title": "Modeling System-Wide Urban Rail Transit Energy Consumption: A Case Study of Boston",
+      "abstractNote": "Rapid transit systems are critical components of urban public transportation networks in their impact, not only on personal mobility but also on the energy and environmental costs associated with network operations. To facilitate effective planning for current and future needs, a framework is required that provides important consumption metrics and also explains the various contributors to energy consumption, along with their interactions. To address this gap, we estimated models that utilized operational and ridership data for the Massachusetts Bay Transportation Authority?s rapid transit system, as well as ambient temperature, to accurately predict system-wide electricity consumption. The models were trained with data from 2019 and tested with data from 2020. The estimated multiple linear regression (MLR) and random forest (RF) models explained 93% and 95% of the variance in the data set, respectively. The MLR model provided predictions with a root mean squared error (RMSE) of 2.7?MWh and mean absolute percentage error (MAPE) of 4.68%, while the RF model resulted in an RMSE of 2.94?MWh and MAPE of 5.01%. We also investigated the impacts of COVID-19 on the transit system by exploring the effects on ridership, energy consumption, cost, and train movement metrics before and during the pandemic. We find that the models are robust and perform well, even with the significant disruptions associated with the COVID-19 pandemic.",
+      "date": "2022-12-01",
+      "language": "en",
+      "shortTitle": "Modeling System-Wide Urban Rail Transit Energy Consumption",
+      "libraryCatalog": "SAGE Journals",
+      "url": "https://doi.org/10.1177/03611981221096442",
+      "accessDate": "2023-01-19T01:48:10Z",
+      "rights": "All rights reserved",
+      "extra": "Publisher: SAGE Publications Inc",
+      "volume": "2676",
+      "pages": "627-640",
+      "publicationTitle": "Transportation Research Record",
+      "DOI": "10.1177/03611981221096442",
+      "issue": "12",
+      "ISSN": "0361-1981",
+      "creators": [
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Gonzales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2023-01-19T01:48:10Z",
+      "dateModified": "2023-01-19T01:48:10Z",
+      "uri": "http://zotero.org/users/6356012/items/GJTN5FQQ",
+      "itemID": 4403,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "han2022modeling",
+      "itemKey": "GJTN5FQQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GJTN5FQQ"
+    },
+    {
+      "key": "5ZLNVSJS",
+      "version": 1922,
+      "itemType": "journalArticle",
+      "title": "Line-Specific Energy Modeling Framework for Urban Rail Transit Systems: A Case Study of Boston",
+      "abstractNote": "Urban rail transit systems play an essential role in improving mobility and efficiency. A complex rail transit network serves the Boston metropolitan area, U.S., which costs $38\u2009million for the 422\u2009GWh of system electricity consumed annually. With the aim of developing a tool for energy and cost reduction decision support, we propose a comprehensive machine learning framework to investigate line-specific contributions to energy. This effort builds on prior work in estimating a system-wide energy model for the Boston network. By introducing line-specific train movement and operation variables, we obtain a higher-performing model \n(R2=0.91)\n. Furthermore, the model better explains the relationship between energy and train movement, ridership, and weather variables. Most importantly, the model facilitates analyses of how each line contributes to system consumption at the hour level. We found that the non-line-specific variables made a contribution of \u22122.7% to the average hourly energy of consumption of \u22125.4\u2009MWh with a baseline energy consumption of 39\u2009MWh. The Red Line dominates the energy consumption among line-specific variables, contributing 2.3% to the hourly average. Our model could be further enhanced to evaluate the energy and cost impacts of line-specific strategies that may be required for future planning and disaster response, as well as for real-time energy monitoring by line.",
+      "date": "2024-01-01",
+      "language": "en",
+      "shortTitle": "Line-Specific Energy Modeling Framework for Urban Rail Transit Systems",
+      "libraryCatalog": "SAGE Journals",
+      "url": "https://doi.org/10.1177/03611981231170181",
+      "accessDate": "2024-06-18T14:43:40Z",
+      "extra": "Publisher: SAGE Publications Inc",
+      "volume": "2678",
+      "pages": "150-164",
+      "publicationTitle": "Transportation Research Record",
+      "DOI": "10.1177/03611981231170181",
+      "issue": "1",
+      "ISSN": "0361-1981",
+      "creators": [
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Gonzales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-06-18T14:43:40Z",
+      "dateModified": "2024-06-18T14:43:40Z",
+      "uri": "http://zotero.org/users/6356012/items/5ZLNVSJS",
+      "itemID": 7440,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "SAGE PDF Full Text",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-06-18T14:43:42Z",
+          "dateModified": "2024-06-18T14:43:42Z",
+          "uri": "http://zotero.org/users/6356012/items/MR7QC2N5",
+          "path": "/home/jbo/Zotero/storage/MR7QC2N5/Han et al. - 2024 - Line-Specific Energy Modeling Framework for Urban .pdf",
+          "select": "zotero://select/library/items/MR7QC2N5"
+        }
+      ],
+      "notes": [],
+      "citationKey": "han2024linespecific",
+      "itemKey": "5ZLNVSJS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/5ZLNVSJS"
+    },
+    {
+      "key": "TIGUCQP6",
+      "version": 1456,
+      "itemType": "journalArticle",
+      "title": "Activity-based epidemic propagation and contact network scaling in auto-dependent metropolitan areas",
+      "abstractNote": "We build on recent work to develop a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages person-trajectories obtained from an activity-based model calibrated for two full-scale prototype cities, consisting of representative synthetic populations and mobility networks for two contrasting auto-dependent city typologies. We simulate the propagation of the COVID-19 epidemic in both cities to analyze spreading patterns in urban networks across various activity types. Investigating the impact of the transit network, we find that its removal dampens disease propagation significantly, suggesting that transit restriction is more critical for mitigating post-peak disease spreading\u00a0in transit dense cities. In the\u00a0latter stages of disease spread, we find that the greatest share of infections occur at work locations. A statistical analysis of the resulting activity-based contact networks indicates that transit contacts are scale-free, work contacts are Weibull distributed, and shopping or leisure contacts are exponentially distributed. We validate our simulation results against existing case and mortality data across multiple cities in their respective typologies. Our framework demonstrates the potential for tracking epidemic propagation in urban networks, analyzing socio-demographic impacts and assessing activity- and mobility-specific implications of both non-pharmaceutical and pharmaceutical intervention strategies.",
+      "date": "2021-11-22",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "url": "https://www.nature.com/articles/s41598-021-01522-w",
+      "accessDate": "2023-10-03T15:49:58Z",
+      "rights": "2021 The Author(s)",
+      "extra": "Number: 1\nPublisher: Nature Publishing Group",
+      "volume": "11",
+      "pages": "22665",
+      "publicationTitle": "Scientific Reports",
+      "DOI": "10.1038/s41598-021-01522-w",
+      "issue": "1",
+      "journalAbbreviation": "Sci Rep",
+      "ISSN": "2045-2322",
+      "creators": [
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bat-hen",
+          "lastName": "Nahmias-Biran",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Diseases",
+          "type": 1
+        },
+        {
+          "tag": "Viral infection",
+          "type": 1
+        },
+        {
+          "tag": "Applied mathematics",
+          "type": 1
+        },
+        {
+          "tag": "Infectious diseases",
+          "type": 1
+        },
+        {
+          "tag": "Mathematics and computing",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2023-10-03T15:49:58Z",
+      "dateModified": "2023-10-03T15:49:58Z",
+      "uri": "http://zotero.org/users/6356012/items/TIGUCQP6",
+      "itemID": 6204,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-10-03T15:50:00Z",
+          "dateModified": "2023-10-03T15:50:00Z",
+          "uri": "http://zotero.org/users/6356012/items/I3HNPFA3",
+          "path": "/home/jbo/Zotero/storage/I3HNPFA3/Kumar et al. - 2021 - Activity-based epidemic propagation and contact ne.pdf",
+          "select": "zotero://select/library/items/I3HNPFA3"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kumar2021activitybaseda",
+      "itemKey": "TIGUCQP6",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TIGUCQP6"
+    },
+    {
+      "key": "7BY9B2WF",
+      "version": 1300,
+      "itemType": "journalArticle",
+      "title": "Where is my infusion pump? Harnessing network dynamics for improved hospital equipment fleet management",
+      "abstractNote": "AbstractObjective.  Timely availability of intravenous infusion pumps is critical for high-quality care delivery. Pumps are shared among hospital units, often w",
+      "date": "2020-06-01",
+      "language": "en",
+      "shortTitle": "Where is my infusion pump?",
+      "libraryCatalog": "academic.oup.com",
+      "url": "https://academic.oup.com/jamia/article/27/6/884/5825396",
+      "accessDate": "2020-07-11T19:14:48Z",
+      "rights": "All rights reserved",
+      "extra": "Publisher: Oxford Academic",
+      "volume": "27",
+      "pages": "884-892",
+      "publicationTitle": "Journal of the American Medical Informatics Association",
+      "DOI": "10.1093/jamia/ocaa033",
+      "issue": "6",
+      "journalAbbreviation": "J Am Med Inform Assoc",
+      "creators": [
+        {
+          "firstName": "Diego A.",
+          "lastName": "Martinez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jiarui",
+          "lastName": "Cai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Jarrell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Felipe",
+          "lastName": "Feijoo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jeffrey",
+          "lastName": "Appelbaum",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eili",
+          "lastName": "Klein",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sean",
+          "lastName": "Barnes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Scott R.",
+          "lastName": "Levin",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-07-11T19:14:48Z",
+      "dateModified": "2020-07-11T19:29:06Z",
+      "uri": "http://zotero.org/users/6356012/items/7BY9B2WF",
+      "itemID": 752,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-07-11T19:14:52Z",
+          "dateModified": "2020-07-11T19:14:52Z",
+          "uri": "http://zotero.org/users/6356012/items/SDB27IIJ",
+          "path": "/home/jbo/Zotero/storage/SDB27IIJ/5825396.html",
+          "select": "zotero://select/library/items/SDB27IIJ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "martinez2020where",
+      "itemKey": "7BY9B2WF",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7BY9B2WF"
+    },
+    {
+      "key": "PFP4YM5B",
+      "version": 1425,
+      "itemType": "journalArticle",
+      "title": "Origin-destination inference in public transportation systems: A comprehensive review",
+      "abstractNote": "Origin-destination (OD) modeling facilitates effective demand-responsive public transportation planning in order to meet emergent needs. Given recent advances in transit information and personal communications technology, transit OD estimation methods have evolved from relying on limited survey sources to automated big data sources. Innovative modeling approaches have also been developed over several decades to estimate trip ODs, not only for single routes, but also for full networks, including transfers. In this paper, we synthesize a review of the state of the art in research and practice, along with descriptions of key data types and methodological approaches, indicating how they interact. We also discuss current research gaps and opportunities for further innovation. This review provides a comprehensive resource that should facilitate the application of these methods to various transit systems, thus enabling planners and policymakers to gain insights from new and improved model estimates in various transit systems.",
+      "date": "2023-03-01",
+      "shortTitle": "Origin-destination inference in public transportation systems",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2046043022000223",
+      "accessDate": "2023-10-03T15:47:50Z",
+      "volume": "12",
+      "pages": "315-328",
+      "publicationTitle": "International Journal of Transportation Science and Technology",
+      "DOI": "10.1016/j.ijtst.2022.03.002",
+      "issue": "1",
+      "journalAbbreviation": "International Journal of Transportation Science and Technology",
+      "ISSN": "2046-0430",
+      "creators": [
+        {
+          "firstName": "Mohammed",
+          "lastName": "Mohammed",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Transit",
+          "type": 1
+        },
+        {
+          "tag": "Trip chaining",
+          "type": 1
+        },
+        {
+          "tag": "Automated data collection systems",
+          "type": 1
+        },
+        {
+          "tag": "Origin-destination inference",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2023-10-03T15:48:17Z",
+      "dateModified": "2023-10-03T15:48:17Z",
+      "uri": "http://zotero.org/users/6356012/items/PFP4YM5B",
+      "itemID": 6195,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-10-03T15:48:18Z",
+          "dateModified": "2023-10-03T15:48:18Z",
+          "uri": "http://zotero.org/users/6356012/items/PGFQ9Y3G",
+          "path": "/home/jbo/Zotero/storage/PGFQ9Y3G/Mohammed and Oke - 2023 - Origin-destination inference in public transportat.pdf",
+          "select": "zotero://select/library/items/PGFQ9Y3G"
+        }
+      ],
+      "notes": [],
+      "citationKey": "mohammed2023origindestination",
+      "itemKey": "PFP4YM5B",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/PFP4YM5B"
+    },
+    {
+      "key": "57FT2PEI",
+      "version": 1300,
+      "itemType": "journalArticle",
+      "title": "From Traditional to Automated Mobility on Demand: A Comprehensive Framework for Modeling On-Demand Services in SimMobility",
+      "abstractNote": "Mobility on demand (MoD) systems have recently emerged as a promising paradigm for sustainable personal urban mobility in cities. In the context of multi-agent simulation technology, the state-of-the-art lacks a platform that captures the dynamics between decentralized driver decision-making and the centralized coordinated decision-making. This work aims to fill this gap by introducing a comprehensive framework that models various facets of MoD, namely heterogeneous MoD driver decision-making and coordinated fleet management within SimMobility, an agent- and activity-based demand model integrated with a dynamic multi-modal network assignment model. To facilitate such a study, we propose an event-based modeling framework. Behavioral models were estimated to characterize the decision-making of drivers using a GPS dataset from a major MoD fleet operator in Singapore. The proposed framework was designed to accommodate behaviors of multiple on-demand services such as traditional MoD, Lyft-like services, and automated MoD (AMoD) services which interact with traffic simulators and a multi-modal transportation network. We demonstrate the benefits of the proposed framework through a large-scale case study in Singapore comparing the fully decentralized traditional MoD with the future AMoD services in a realistic simulation setting. We found that AMoD results in a more efficient service even with increased demand. Parking strategies and fleet sizes will also have an effect on user satisfaction and network performance.",
+      "date": "December 1, 2019",
+      "language": "en",
+      "shortTitle": "From Traditional to Automated Mobility on Demand",
+      "libraryCatalog": "SAGE Journals",
+      "url": "https://doi.org/10.1177/0361198119853553",
+      "accessDate": "2020-04-28T07:24:41Z",
+      "rights": "All rights reserved",
+      "extra": "Publisher: SAGE Publications Inc",
+      "volume": "2673",
+      "pages": "15-29",
+      "publicationTitle": "Transportation Research Record",
+      "DOI": "10.1177/0361198119853553",
+      "issue": "12",
+      "journalAbbreviation": "Transportation Research Record",
+      "ISSN": "0361-1981",
+      "creators": [
+        {
+          "firstName": "Bat-hen",
+          "lastName": "Nahmias-Biran",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kakali",
+          "lastName": "Basak",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrea",
+          "lastName": "Araldo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ravi",
+          "lastName": "Seshadri",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arun",
+          "lastName": "Akkinepally",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlos",
+          "lastName": "Lima Azevedo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Moshe",
+          "lastName": "Ben-Akiva",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-04-28T07:24:41Z",
+      "dateModified": "2020-04-28T07:24:41Z",
+      "uri": "http://zotero.org/users/6356012/items/57FT2PEI",
+      "itemID": 9,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "nahmias-biran2019traditional",
+      "itemKey": "57FT2PEI",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/57FT2PEI"
+    },
+    {
+      "key": "LLP92N3Y",
+      "version": 1986,
+      "itemType": "journalArticle",
+      "title": "Evaluating the impacts of shared automated mobility on-demand services: an activity-based accessibility approach",
+      "abstractNote": "Autonomous vehicle (AV) technologies are under constant improvement with pilot programs now underway in several urban areas worldwide. Modeling and field-testing efforts are demonstrating that shared mobility coupled with AV technology for automated mobility on-demand (AMoD) service may significantly impact levels of service and environmental outcomes in future cities. Given these rapidly emerging developments, there is an urgent need for methods to adequately quantify the economic impacts of new vehicle technologies and future urban mobility policy. In this paper, we show how broader user-centric impacts can be captured by the activity-based accessibility (ABA) measure, which takes advantage of the rich data and outcomes of utility-maximization activity-based models and its interaction with mesoscale agent-based traffic simulation frameworks. Using the SimMobility simulator, we evaluate shared AMoD strategies applied to a Singapore micromodel city testbed. A near-future strategy of exclusive availability of AMoD service in the central business district (CBD), and a further-horizon strategy of the full operation of AMoD city-wide in the absence of other on-demand services, were tested and evaluated. Our results provide insights into the income and accessibility effects on the population under the implementation of shared and automated mobility policies. The outcomes indicate that the city-wide deployment of AMoD results in greater accessibility and network performance. Moreover, the accessibility of low-income individuals is improved relative to that of mid- and high-income individuals. The restriction of AMoD to the CBD along with the operation of other on-demand services, however, provides a certain level of disbenefit to segments of the population in two exceptional cases. The first is to high-income individuals who live in a suburban zone and rely heavily on on-demand services; the second is to mid-income residents that have excellent public transportation coverage with close proximity to the CBD. We further establish the efficacy of the ABA measure, as these findings motivate the need for measuring socioeconomic impacts at the individual level. The work presented here serves as a foundation for policy evaluation in real-world urban models for future mobility paradigms.",
+      "date": "2021-08-01",
+      "language": "en",
+      "shortTitle": "Evaluating the impacts of shared automated mobility on-demand services",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s11116-020-10106-y",
+      "accessDate": "2024-06-26T19:28:58Z",
+      "volume": "48",
+      "pages": "1613-1638",
+      "publicationTitle": "Transportation",
+      "DOI": "10.1007/s11116-020-10106-y",
+      "issue": "4",
+      "journalAbbreviation": "Transportation",
+      "ISSN": "1572-9435",
+      "creators": [
+        {
+          "firstName": "Bat-hen",
+          "lastName": "Nahmias-Biran",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlos",
+          "lastName": "Lima Azevedo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Moshe",
+          "lastName": "Ben-Akiva",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Agent-based modeling",
+          "type": 1
+        },
+        {
+          "tag": "Simulation",
+          "type": 1
+        },
+        {
+          "tag": "Accessibility",
+          "type": 1
+        },
+        {
+          "tag": "Automated mobility on-demand",
+          "type": 1
+        },
+        {
+          "tag": "Autonomous vehicles",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-06-26T19:28:59Z",
+      "dateModified": "2024-06-26T19:28:59Z",
+      "uri": "http://zotero.org/users/6356012/items/LLP92N3Y",
+      "itemID": 7657,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-06-26T19:29:01Z",
+          "dateModified": "2024-06-26T19:29:01Z",
+          "uri": "http://zotero.org/users/6356012/items/T7BAVJBH",
+          "path": "/home/jbo/Zotero/storage/T7BAVJBH/Nahmias-Biran et al. - 2021 - Evaluating the impacts of shared automated mobilit.pdf",
+          "select": "zotero://select/library/items/T7BAVJBH"
+        }
+      ],
+      "notes": [],
+      "citationKey": "nahmias-biran2021evaluating",
+      "itemKey": "LLP92N3Y",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/LLP92N3Y"
+    },
+    {
+      "key": "KFHD4FUX",
+      "version": 1632,
+      "itemType": "journalArticle",
+      "title": "Who benefits from AVs? Equity implications of automated vehicles policies in full-scale prototype cities",
+      "abstractNote": "While researchers have stressed the potential of automated vehicle (AV) technology in improving mobility and accessibility for a range of people, only a few attempts have been made to examine the impact of this new technology on different segments of the population in a realistic setting using high-fidelity simulation. To fill this gap, we analyze the equity implications of Automated Mobility-on-Demand (AMoD) in three full-scale prototype cities using SimMobility, a state-of-the-art activity- and agent-based framework. The prototype cities were developed based on two auto-dependent typologies, representing cities largely in the US/Canada, and a dense transit-oriented typology. We perform equity analyses at the individual and income-group level, in order to reveal the winners and losers from the introduction of AVs under two scenarios: (1) AMoD Intro, in which a low-cost AMoD service competes with mass transit, and (2) AMoD Transit Integration, where AMoD complements mass transit, via access/egress connectivity service to rapid transit stations. We evaluate the following outcomes: induced demand by age and income groups, mode share by income levels, individual kilometers traveled by different modes and income levels, and the spatial distribution of change in fare and accessibility. Outcomes are considered as equity-oriented if they reduce accessibility gaps, particularly among disadvantaged populations. Our results indicate that in large population-dense and transit-oriented cities, the most equity-oriented outcomes can be achieved, due to extensive mass transit usage, which depresses car usage and restricts induced demand for AMoD. Such cities provide greater opportunities for low-income groups. Specifically, the AMoD Transit Integration scenario results in the best outcomes and implies a new market share, as disadvantaged groups, such as children and low-income individuals, were able to travel more using the integrated AMoD-transit service. Nevertheless, in car-dependent cities, where accessibility gaps are much larger, AMoD Intro scenario performs better compared to AMoD Transit Integration, as it serves the less accessible population and significantly improves their opportunities.",
+      "date": "2021-12-01",
+      "language": "en",
+      "shortTitle": "Who benefits from AVs?",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0965856421002469",
+      "accessDate": "2023-01-19T01:46:45Z",
+      "rights": "All rights reserved",
+      "volume": "154",
+      "pages": "92-107",
+      "publicationTitle": "Transportation Research Part A: Policy and Practice",
+      "DOI": "10.1016/j.tra.2021.09.013",
+      "journalAbbreviation": "Transportation Research Part A: Policy and Practice",
+      "ISSN": "0965-8564",
+      "creators": [
+        {
+          "firstName": "Bat-hen",
+          "lastName": "Nahmias-Biran",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Simulation",
+          "type": 1
+        },
+        {
+          "tag": "Accessibility",
+          "type": 1
+        },
+        {
+          "tag": "Equity",
+          "type": 1
+        },
+        {
+          "tag": "Automated Mobility-on-Demand",
+          "type": 1
+        }
+      ],
+      "relations": {
+        "owl:sameAs": [
+          "http://zotero.org/groups/5331465/items/U3T2TWN4"
+        ]
+      },
+      "inPublications": true,
+      "dateAdded": "2023-01-19T01:46:45Z",
+      "dateModified": "2023-01-19T01:46:45Z",
+      "uri": "http://zotero.org/users/6356012/items/KFHD4FUX",
+      "itemID": 4404,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/5331465/items/7GAVSYAT"
+            ]
+          },
+          "dateAdded": "2023-01-19T01:46:51Z",
+          "dateModified": "2023-01-19T01:46:51Z",
+          "uri": "http://zotero.org/users/6356012/items/YL5I7TKZ",
+          "path": "/home/jbo/Zotero/storage/YL5I7TKZ/S0965856421002469.html",
+          "select": "zotero://select/library/items/YL5I7TKZ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "nahmias-biran2021who",
+      "itemKey": "KFHD4FUX",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/KFHD4FUX"
+    },
+    {
+      "key": "AC8J9W7V",
+      "version": 1931,
+      "itemType": "journalArticle",
+      "title": "Efficient automated schematic map drawing using multiobjective mixed integer programming",
+      "abstractNote": "We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of N\u00f6llenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two. We also employ an efficient augmented \u03f5-constraint method to assist in obtaining all Pareto optimal solutions, both supported and unsupported, for a given network. Through the Vienna Underground network and a cancer pathway, along with three numerical examples, we demonstrate the applications of our methods. Finally, we discuss future directions for research in this area.",
+      "date": "2015-09-01",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0305054815000416",
+      "accessDate": "2024-02-26T16:17:21Z",
+      "volume": "61",
+      "pages": "1-17",
+      "publicationTitle": "Computers & Operations Research",
+      "DOI": "10.1016/j.cor.2015.02.010",
+      "journalAbbreviation": "Computers & Operations Research",
+      "ISSN": "0305-0548",
+      "creators": [
+        {
+          "firstName": "Olufolajimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sauleh",
+          "lastName": "Siddiqui",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Automated schematic mapping",
+          "type": 1
+        },
+        {
+          "tag": "Multiobjective mixed integer programming",
+          "type": 1
+        },
+        {
+          "tag": "Network visualization",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-26T16:17:21Z",
+      "dateModified": "2024-02-26T16:17:21Z",
+      "uri": "http://zotero.org/users/6356012/items/AC8J9W7V",
+      "itemID": 6531,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-26T16:17:42Z",
+          "dateModified": "2024-02-26T16:17:42Z",
+          "uri": "http://zotero.org/users/6356012/items/GGXJ9HHK",
+          "path": "/home/jbo/Zotero/storage/GGXJ9HHK/S0305054815000416.html",
+          "select": "zotero://select/library/items/GGXJ9HHK"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2015efficient",
+      "itemKey": "AC8J9W7V",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/AC8J9W7V"
+    },
+    {
+      "key": "7AF294QC",
+      "version": 1300,
+      "itemType": "journalArticle",
+      "title": "Tracking global bicycle ownership patterns",
+      "abstractNote": "Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia. We determine worldwide household ownership patterns and demonstrate a basis for understanding the global impact of cycling as a sustainable transit mode. Furthermore, we find a lower-bound estimate of the number of bicycles available to the world\u05f3s households. We establish that at the global level 42% of households own at least one bicycle, and thus there are at least 580 million bicycles in private household ownership. Our data are publicly available and amenable for future analyses.",
+      "date": "December 1, 2015",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "url": "http://www.sciencedirect.com/science/article/pii/S2214140515006787",
+      "accessDate": "2020-04-28T07:13:35Z",
+      "rights": "All rights reserved",
+      "volume": "2",
+      "pages": "490-501",
+      "publicationTitle": "Journal of Transport & Health",
+      "DOI": "10.1016/j.jth.2015.08.006",
+      "issue": "4",
+      "journalAbbreviation": "Journal of Transport & Health",
+      "ISSN": "2214-1405",
+      "creators": [
+        {
+          "firstName": "Olufolajimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kavi",
+          "lastName": "Bhalla",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David C.",
+          "lastName": "Love",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sauleh",
+          "lastName": "Siddiqui",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Bicycle ownership",
+          "type": 1
+        },
+        {
+          "tag": "Data mining",
+          "type": 1
+        },
+        {
+          "tag": "Sustainable transportation",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-04-28T07:13:35Z",
+      "dateModified": "2020-04-28T07:13:35Z",
+      "uri": "http://zotero.org/users/6356012/items/7AF294QC",
+      "itemID": 16,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-04-28T07:13:39Z",
+          "dateModified": "2020-04-28T07:13:39Z",
+          "uri": "http://zotero.org/users/6356012/items/JPD99RMA",
+          "path": "/home/jbo/Zotero/storage/JPD99RMA/S2214140515006787.html",
+          "select": "zotero://select/library/items/JPD99RMA"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2015tracking",
+      "itemKey": "7AF294QC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7AF294QC"
+    },
+    {
+      "key": "GDRIUVA3",
+      "version": 1300,
+      "itemType": "journalArticle",
+      "title": "Spatial associations in global household bicycle ownership",
+      "abstractNote": "The interest in bicycling and its determining factors is growing within the public health, transportation and geography communities. Ownership is one factor affecting bicycle usage, but work is still ongoing to not only quantify its effects but also to understand patterns in its growth and influence. In recent work, we mined and discovered patterns in global bicycle ownership that showed the existence of four characteristic country groups and their trends. Building on these results, we show in this paper that the ownership dataset can be modeled as a network. First, we observe mixing tendencies that indicate neighboring countries are more likely to be in the same ownership group and we map the likelihoods for cross-group mixings. Further, we define the strength of connections between countries by their proximity in ownership levels. We then determine the weighted degree assortative coefficient for the network and for each group relative to the network. We find that while the weighted degree assortativity of the ownership network is statistically insignificant, the highest and lowest ownership groups exhibit disassortative behavior with respect to the entire network. The second and third ranked groups, however, are strongly assortative. Our model serves as a step toward further work in studying the relationship between proximity and bicycle ownership among nations and unearthing possible patterns of influence. Considering further developments, this work can inform policy-relevant recommendations toward regional planning. This effort also contributes to expanding research in assortativity analyses, especially in weighted networks.",
+      "date": "2018-04-01",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s10479-016-2358-2",
+      "accessDate": "2020-04-28T07:15:09Z",
+      "rights": "All rights reserved",
+      "volume": "263",
+      "pages": "529-549",
+      "publicationTitle": "Annals of Operations Research",
+      "DOI": "10.1007/s10479-016-2358-2",
+      "issue": "1",
+      "journalAbbreviation": "Ann Oper Res",
+      "ISSN": "1572-9338",
+      "creators": [
+        {
+          "firstName": "Olufolajimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kavi",
+          "lastName": "Bhalla",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David C.",
+          "lastName": "Love",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sauleh",
+          "lastName": "Siddiqui",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-04-28T07:15:09Z",
+      "dateModified": "2020-04-28T07:15:09Z",
+      "uri": "http://zotero.org/users/6356012/items/GDRIUVA3",
+      "itemID": 10,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Springer Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-04-28T07:15:11Z",
+          "dateModified": "2020-04-28T07:15:11Z",
+          "uri": "http://zotero.org/users/6356012/items/6CF5TL4G",
+          "path": "/home/jbo/Zotero/storage/6CF5TL4G/Oke et al. - 2018 - Spatial associations in global household bicycle o.pdf",
+          "select": "zotero://select/library/items/6CF5TL4G"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2018spatial",
+      "itemKey": "GDRIUVA3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GDRIUVA3"
+    },
+    {
+      "key": "VCMASFVL",
+      "version": 1300,
+      "itemType": "journalArticle",
+      "title": "Multimodal Transportation Flows in Energy Networks with an Application to Crude Oil Markets",
+      "abstractNote": "Network models of energy markets have been beneficial for analyses and decision-making to tackle challenges related to the production, distribution and consumption of energy in its various forms. Despite the growing awareness of environmental and safety impacts of fuel transfer, such as emissions, spills and other harmful effects, existing energy models for various types of networks are yet to fully capture modal distinctions which are relevant to providing pathways to limiting these impacts. To address this deficit in detailed multimodal analyses, we have built on recent work to develop a partial-equilibrium model that incorporates the representation of multimodal fuel transfer within energy networks. In a novel application to the North American crude oil market, we also demonstrate that our model is a useful tool for exploring avenues for reducing the risks of light and heavy crude oil transportation across this region. The results we obtain indicate that a combined strategy of rail loading restrictions, pipeline deployments and a discontinuation of the oil export ban is most effective in reducing the transportation of crude oil by rail and thereby mitigating the associated risks.",
+      "date": "2019-06-01",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s11067-018-9387-0",
+      "accessDate": "2020-04-28T07:25:10Z",
+      "rights": "All rights reserved",
+      "volume": "19",
+      "pages": "521-555",
+      "publicationTitle": "Networks and Spatial Economics",
+      "DOI": "10.1007/s11067-018-9387-0",
+      "issue": "2",
+      "journalAbbreviation": "Netw Spat Econ",
+      "ISSN": "1572-9427",
+      "creators": [
+        {
+          "firstName": "Olufolajimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Huppmann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Max",
+          "lastName": "Marshall",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ricky",
+          "lastName": "Poulton",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sauleh",
+          "lastName": "Siddiqui",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "inPublications": true,
+      "dateAdded": "2020-04-28T07:25:10Z",
+      "dateModified": "2020-04-28T07:25:10Z",
+      "uri": "http://zotero.org/users/6356012/items/VCMASFVL",
+      "itemID": 8,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Springer Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2020-04-28T07:25:12Z",
+          "dateModified": "2020-04-28T07:25:12Z",
+          "uri": "http://zotero.org/users/6356012/items/5KQUXZBV",
+          "path": "/home/jbo/Zotero/storage/5KQUXZBV/Oke et al. - 2019 - Multimodal Transportation Flows in Energy Networks.pdf",
+          "select": "zotero://select/library/items/5KQUXZBV"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2019multimodal",
+      "itemKey": "VCMASFVL",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VCMASFVL"
+    },
+    {
+      "key": "E5USYLMT",
+      "version": 2263,
+      "itemType": "report",
+      "title": "Tracking the Energy and Emissions of MBTA Rapid Transit Vehicles",
+      "abstractNote": "Rapid transit systems are critical components of public transportation networks in urban areas, in terms of their impact on person mobility and on monetary, energy, and environmental costs associated with their operations. To facilitate effective planning for current and future needs, a framework is required that provides important consumption metrics and explains the various contributors to energy consumption and their interactions. This study presents a model that utilizes operational and ridership data for the Massachusetts Bay Transportation Authority's rapid transit system, as well as ambient temperature, to accurately predict system-wide electricity consumption. Linear regression and random forests were used to estimate energy consumption, which could explain a 0.93 and 0.95 variance in the data set, respectively. The model was trained with data from 2019 and tested with data from 2020. The linear regression model provided predictions with RMSE of 2.7 MWh and MAPE of 4.68%, and the random forest model resulted in a RMSE of 2.94 MWh and MAPE of 5.01%. These models are robust and perform well, even with the significant impacts to transit operations associated with the COVID-19 pandemic. This project also investigated COVID-19 impact on the whole system by exploring effects on ridership, energy consumption, cost, and train movement metrics, before and during the pandemic.",
+      "date": "2021-08-01",
+      "language": "English",
+      "libraryCatalog": "ROSA P",
+      "callNumber": "dot:60026",
+      "url": "https://rosap.ntl.bts.gov/view/dot/60026",
+      "accessDate": "2024-07-25T13:44:45Z",
+      "reportNumber": "21-023",
+      "institution": "Massachusetts Department of Transportation",
+      "creators": [
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Gonzales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sean",
+          "lastName": "Donaghy",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "COVID-19",
+          "type": 1
+        },
+        {
+          "tag": "Energy consumption",
+          "type": 1
+        },
+        {
+          "tag": "Exhaust gases",
+          "type": 1
+        },
+        {
+          "tag": "Passenger trains",
+          "type": 1
+        },
+        {
+          "tag": "Predictive models",
+          "type": 1
+        },
+        {
+          "tag": "Rapid transit",
+          "type": 1
+        },
+        {
+          "tag": "Train trajectory",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-07-25T13:44:45Z",
+      "dateModified": "2024-07-25T13:49:21Z",
+      "uri": "http://zotero.org/users/6356012/items/E5USYLMT",
+      "itemID": 7923,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-07-25T13:44:48Z",
+          "dateModified": "2024-07-25T13:44:48Z",
+          "uri": "http://zotero.org/users/6356012/items/AZNYSTPP",
+          "path": "/home/jbo/Zotero/storage/AZNYSTPP/Oke et al. - 2021 - Tracking the Energy and Emissions of MBTA Rapid Tr.pdf",
+          "select": "zotero://select/library/items/AZNYSTPP"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2021tracking",
+      "itemKey": "E5USYLMT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/E5USYLMT"
+    },
+    {
+      "key": "3HE37NVJ",
+      "version": 1928,
+      "itemType": "journalArticle",
+      "title": "Feature Engineering and Decision Trees for Predicting High Crash-Risk Locations Using Roadway Indicators",
+      "abstractNote": "Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators. The three models were random forest, gradient boosting, and extra trees. This research used features engineering to reduce the number of indicators in the model, and the synthetic minority oversampling technique to address imbalances in the dataset between the minority (high crash-risk locations identified using crash reports) and majority classes (medium to low crash-risk locations identified based on local police testimonies, site inspections, and geometry analysis). Although all three models performed similarly, the extra trees model outperformed the other two on a range of performance metrics, including the area under the precision\u2013recall curve and the F1-score. The findings revealed that design speeds, pavement markings, signage presence, and pavement condition were the most influential factors affecting roadway safety. The contribution of this research is in the development of a transferable methodology for classifying high crash-risk locations in addition to revealing key indicators for crash-risk potential, which in turn can inform cost-effective data collection and maintenance activities.",
+      "date": "2024-01-07",
+      "language": "en",
+      "libraryCatalog": "SAGE Journals",
+      "url": "https://doi.org/10.1177/03611981231217497",
+      "accessDate": "2024-06-18T14:45:11Z",
+      "extra": "Publisher: SAGE Publications Inc",
+      "pages": "03611981231217497",
+      "publicationTitle": "Transportation Research Record",
+      "DOI": "10.1177/03611981231217497",
+      "ISSN": "0361-1981",
+      "creators": [
+        {
+          "firstName": "Dimitrios",
+          "lastName": "Sarigiannis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Maria",
+          "lastName": "Atzemi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Simos",
+          "lastName": "Gerasimidis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-06-18T14:45:11Z",
+      "dateModified": "2024-06-18T14:45:11Z",
+      "uri": "http://zotero.org/users/6356012/items/3HE37NVJ",
+      "itemID": 7442,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "SAGE PDF Full Text",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-06-18T14:45:12Z",
+          "dateModified": "2024-06-18T14:45:12Z",
+          "uri": "http://zotero.org/users/6356012/items/IAF4WTY9",
+          "path": "/home/jbo/Zotero/storage/IAF4WTY9/Sarigiannis et al. - 2024 - Feature Engineering and Decision Trees for Predict.pdf",
+          "select": "zotero://select/library/items/IAF4WTY9"
+        }
+      ],
+      "notes": [],
+      "citationKey": "sarigiannis2024feature",
+      "itemKey": "3HE37NVJ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/3HE37NVJ"
+    }
+  ]
+}

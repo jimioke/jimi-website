@@ -2,26 +2,29 @@
 <div class='sans'>
     <h4>Topics covered</h4>
         {{ if not (eq (len $.Site.Taxonomies.categories) 0) }}
-    {{ $fontUnit := "rem" }}
-    {{ $largestFontSize := 2.8 }}
-    {{ $smallestFontSize := 0.7 }}
-    {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
-    {{ $max := len (index $.Site.Taxonomies.categories.ByCount 0).Pages }}
-    {{ $min := len (index $.Site.Taxonomies.categories.ByCount.Reverse 0).Pages }}
-    {{ $spread := sub $max $min }}
-    {{ $fontStep := div $fontSpread $spread }}
+            {{ $fontUnit := "rem" }}
+            {{ $largestFontSize := 2.8 }}
+            {{ $smallestFontSize := 0.7 }}
+            {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+            {{ $max := len (index $.Site.Taxonomies.categories.ByCount 0).Pages }}
+            {{ $min := len (index $.Site.Taxonomies.categories.ByCount.Reverse 0).Pages }}
+            {{ $spread := sub $max $min }}
+            {{ if eq $spread 0 }}
+                {{ $spread := 1 }}
+            {{ end }}
+            {{ $fontStep := div $fontSpread  $spread }}
 
-    <div id="tag-cloud" style="padding: 5px 15px">
-        {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
-            {{ $currentTagCount := len $taxonomy.Pages }}
-            {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
-            {{ $count := len $taxonomy.Pages }}
-            {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-            {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
-            <!--Current font size: {{$currentFontSize}}-->
-            <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name }}</a>
+            <div id="tag-cloud" style="padding: 5px 15px">
+                {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
+                    {{ $currentTagCount := len $taxonomy.Pages }}
+                    {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
+                    {{ $count := len $taxonomy.Pages }}
+                    {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+                    {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
+                    <!--Current font size: {{$currentFontSize}}-->
+                    <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name }}</a>
+                {{ end }}
+            </div>
         {{ end }}
-    </div>
-{{ end }}
 </div>
 </section>

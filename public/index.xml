@@ -4,174 +4,401 @@
     <title>Jimi Oke</title>
     <link>https://people.umass.edu/jboke/</link>
     <description>Recent content on Jimi Oke</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://people.umass.edu/jboke/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://people.umass.edu/jboke/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Evaluating systemic effects of automated on-demand services through large-scale, agent-based simulation of auto-dependent, prototype cities</title>
-      <link>https://people.umass.edu/jboke/publications/oke2020evaluating/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/oke2020evaluating/</guid>
-      <description></description>
+      <title>Typology-informed solutions for sustainable infrastructure systems</title>
+      <link>https://people.umass.edu/jboke/presentations/typology-informed-solutions-2024/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/typology-informed-solutions-2024/</guid>
+      <description>Presentation at the NSF REU: Computing for an Equitable Energy Transition (CEET) Technical Seminar Series, University of Massachusetts, Amherst 2024</description>
     </item>
-    
     <item>
-      <title>Activity-Based Contact Network Scaling And Epidemic Propagation In Metropolitan Areas</title>
-      <link>https://people.umass.edu/jboke/publications/kumar2020activitybased/</link>
-      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/kumar2020activitybased/</guid>
-      <description>Given the growth of urbanization and emerging pandemic threats, more sophisticated models are required to understand disease propagation and investigate the impacts of intervention strategies across various city types. We introduce a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages on person-trajectories obtained from integrated mobility demand and supply models in full-scale cities. Simulating COVID-19 evolution in two full-scale cities with representative synthetic populations and mobility patterns, we analyze activity-based contact networks.</description>
+      <title>Typology-informed solutions for sustainable and accessible transportation networks</title>
+      <link>https://people.umass.edu/jboke/presentations/typology-informed-solutions-trbam-2024/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/typology-informed-solutions-trbam-2024/</guid>
+      <description>Keynote Presentation at the 4th International Conference on Access Management Boston, Massachusetts, 2024&#xA;Abstract The unique environments of both rural and urban agglomerations have given rise to interesting problems and opportunities for development on a scale that requires innovative approaches and new ways of thinking. Chief among these concerns are climate change, mobility and accessibility. Rapid developments in information technology, big data analytics, sharing platforms and automation have increased the uncertainty in future urban outcomes, while raising ever more complex challenges of integration and planning in order to ensure equitable and sustainable societies.</description>
     </item>
-    
+    <item>
+      <title>Another LaTeX post</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Nice Gantt charts in LaTeX</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Understanding Gaussian processes</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/understanding-gaussian-processes/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/understanding-gaussian-processes/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Learning a spatial crash typology representation for analyzing and improving multimodal road safety in New England</title>
+      <link>https://people.umass.edu/jboke/presentations/learning-crash-typology/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/learning-crash-typology/</guid>
+      <description>Lightning Talk presented at the New England University Transportation Center (NEUTC) Symposium&#xA;DCU Center, Worcester, MA, Monday, April 29, 2024</description>
+    </item>
+    <item>
+      <title>Machine learning-enhanced decision-making frameworks for sustainable mobility systems</title>
+      <link>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</guid>
+      <description>Presentation at the 2024 Emerging Technologies in Transportation Seminar Series&#xA;University of Florida, Gainesville Massachusetts, Thursday, March 21, 2024&#xA;Abstract Our critical infrastructure systems, especially public transportation, are in urgent need of decision-making and planning frameworks to address multiple challenges arising from disruptive events, climate change mitigation and shrinking revenues. In this talk, I will discuss how supervised and unsupervised machine learning (ML) approaches can enhance these frameworks in order to provide deeper insights into transit and road networks at various scales.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence Framework for Crosswalk Detection Across Massachusetts</title>
+      <link>https://people.umass.edu/jboke/publications/2024-apostolov-artificial-intelligence-framework/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2024-apostolov-artificial-intelligence-framework/</guid>
+      <description>The goal of this project was to develop an artificial intelligence (AI) framework to detect crosswalk locations across the state of Massachusetts, as well as their type classification (continental, parallel lines, or solid) and location category (intersection, midblock, or driveway). Aerial images downloaded from MassGIS were annotated, and these were used to train the AI model, which was then used to detect crosswalks across the entire state using images from both 2019 and 2021.</description>
+    </item>
+    <item>
+      <title>Feature Engineering and Decision Trees for Predicting High Crash-Risk Locations Using Roadway Indicators</title>
+      <link>https://people.umass.edu/jboke/publications/2024-sarigiannis-feature-engineering-decision/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2024-sarigiannis-feature-engineering-decision/</guid>
+      <description>Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators.</description>
+    </item>
+    <item>
+      <title>Feature Engineering And Decision Trees For Predicting High Crash-Risk Locations Using Roadway Indicators</title>
+      <link>https://people.umass.edu/jboke/publications/sarigiannis2024feature/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/sarigiannis2024feature/</guid>
+      <description>Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators.</description>
+    </item>
+    <item>
+      <title>Comprehensive Energy Modeling Framework for Multi-Powertrain Bus Transit Systems</title>
+      <link>https://people.umass.edu/jboke/publications/2024-arabi-comprehensive-energy-modeling/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2024-arabi-comprehensive-energy-modeling/</guid>
+      <description>With the increasing emphasis on sustainable transportation solutions, there is an urgent need for a system that can accurately assess vehicle-specific energy consumption in real-time. However, the current modeling frameworks have a significant gap in that they are not demand- and congestion-responsive, nor are they capable of modeling the system-wide energy consumption of bus fleets at the vehicle-level, encompassing all three types of powertrains—conventional, hybrid, and electric. To address this gap, we present a comprehensive modeling framework that takes into account passenger loading, considers the dynamics of the system including acceleration, and is capable of predicting the real-time energy usage of each bus in a transit network.</description>
+    </item>
+    <item>
+      <title>Comprehensive Energy Modeling Framework For Multi-Powertrain Bus Transit Systems</title>
+      <link>https://people.umass.edu/jboke/publications/arabi2024comprehensive/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/arabi2024comprehensive/</guid>
+      <description>With the increasing emphasis on sustainable transportation solutions, there is an urgent need for a system that can accurately assess vehicle-specific energy consumption in real-time. However, the current modeling frameworks have a significant gap in that they are not demand- and congestion-responsive, nor are they capable of modeling the system-wide energy consumption of bus fleets at the vehicle-level, encompassing all three types of powertrains—conventional, hybrid, and electric. To address this gap, we present a comprehensive modeling framework that takes into account passenger loading, considers the dynamics of the system including acceleration, and is capable of predicting the real-time energy usage of each bus in a transit network.</description>
+    </item>
+    <item>
+      <title>Line-Specific Energy Modeling Framework for Urban Rail Transit Systems: A Case Study of Boston</title>
+      <link>https://people.umass.edu/jboke/publications/2024-han-linespecific-energy-modeling/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2024-han-linespecific-energy-modeling/</guid>
+      <description>Urban rail transit systems play an essential role in improving mobility and efficiency. A complex rail transit network serves the Boston metropolitan area, U.S., which costs $38 million for the 422 GWh of system electricity consumed annually. With the aim of developing a tool for energy and cost reduction decision support, we propose a comprehensive machine learning framework to investigate line-specific contributions to energy. This effort builds on prior work in estimating a system-wide energy model for the Boston network.</description>
+    </item>
+    <item>
+      <title>Line-Specific Energy Modeling Framework For Urban Rail Transit Systems: A Case Study Of Boston</title>
+      <link>https://people.umass.edu/jboke/publications/han2024linespecific/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/han2024linespecific/</guid>
+      <description>Urban rail transit systems play an essential role in improving mobility and efficiency. A complex rail transit network serves the Boston metropolitan area, U.S., which costs $38 million for the 422 GWh of system electricity consumed annually. With the aim of developing a tool for energy and cost reduction decision support, we propose a comprehensive machine learning framework to investigate line-specific contributions to energy. This effort builds on prior work in estimating a system-wide energy model for the Boston network.</description>
+    </item>
+    <item>
+      <title>Resilience In Multilayer Transportation Infrastructure Networks: A Review And Conceptual Framework For Equity-Based Assessment</title>
+      <link>https://people.umass.edu/jboke/publications/arabi2024resilience/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/arabi2024resilience/</guid>
+      <description>This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure.</description>
+    </item>
+    <item>
+      <title>Predicting tree failure likelihood for utility risk mitigation via a convolutional neural network</title>
+      <link>https://people.umass.edu/jboke/publications/2023-apostolov-predicting-tree-failure/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-apostolov-predicting-tree-failure/</guid>
+      <description>Critical to the resilience of utility power lines, tree failure assessments have historically been performed via costly manual inspections. In this paper, we develop a convolutional neural network (CNN) to predict tree failure likelihood categories (Probable, Possible, Improbable) under three classification strategies. The CNN produced the best performance under the Probable/Possible vs. Improbable strategy, achieving a recall score of 0.82. We also perform a visual analysis of the predictions via Grad-CAM++ heatmaps, indicating an approach for incorporating interpretability into model selection.</description>
+    </item>
+    <item>
+      <title>Predicting Tree Failure Likelihood For Utility Risk Mitigation Via A Convolutional Neural Network</title>
+      <link>https://people.umass.edu/jboke/publications/apostolov2023predictinga/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/apostolov2023predictinga/</guid>
+      <description>Critical to the resilience of utility power lines, tree failure assessments have historically been performed via costly manual inspections. In this paper, we develop a convolutional neural network (CNN) to predict tree failure likelihood categories (Probable, Possible, Improbable) under three classification strategies. The CNN produced the best performance under the Probable/Possible vs. Improbable strategy, achieving a recall score of 0.82. We also perform a visual analysis of the predictions via Grad-CAM++ heatmaps, indicating an approach for incorporating interpretability into model selection.</description>
+    </item>
+    <item>
+      <title>Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Boarding Data</title>
+      <link>https://people.umass.edu/jboke/publications/2023-abdalazeem-extracting-spatiotemporal-bus/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-abdalazeem-extracting-spatiotemporal-bus/</guid>
+      <description>We present a framework for extracting spatiotemporal trip typologies using noisy mobile ticketing boarding data sampled from passengers in a bus network. Our case study was the Pioneer Valley Transit Authority in Massachusetts. We first used a greedy approach to infer bus boarding stops. Next, we calculated the multi-dimensional dissimilarity of passenger activation time series using the AWarp alignment algorithm for sparse time series. We then employed hierarchical clustering to discover the spatiotemporal patterns, resulting in four distinct trip pattern typologies.</description>
+    </item>
+    <item>
+      <title>Extracting Spatiotemporal Bus Passenger Trip Typologies From Noisy Mobile Ticketing Boarding Data</title>
+      <link>https://people.umass.edu/jboke/publications/abdalazeem2023extracting/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/abdalazeem2023extracting/</guid>
+      <description>We present a framework for extracting spatiotemporal trip typologies using noisy mobile ticketing boarding data sampled from passengers in a bus network. Our case study was the Pioneer Valley Transit Authority in Massachusetts. We first used a greedy approach to infer bus boarding stops. Next, we calculated the multi-dimensional dissimilarity of passenger activation time series using the AWarp alignment algorithm for sparse time series. We then employed hierarchical clustering to discover the spatiotemporal patterns, resulting in four distinct trip pattern typologies.</description>
+    </item>
+    <item>
+      <title>Stochastic analysis for estimating track geometry degradation rates based on GPR and LiDAR data</title>
+      <link>https://people.umass.edu/jboke/publications/2023-goodarzi-stochastic-analysis-estimating/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-goodarzi-stochastic-analysis-estimating/</guid>
+      <description>The estimation of track degradation rate is a challenging step in scheduling preventive maintenance interventions due to its uncertain nature. To tackle this challenge, a large dataset of historic passenger track geometry data, between 2011 and 2021, integrated with Ground Penetrating Radar (GPR), and Light Detection And Ranging (LiDAR) data are investigated. Stochastic models are proposed for estimating the expected track degradation rates based on subsurface and drainage conditions of blocks and also a framework is proposed for automatically evaluating drainage conditions of track from LiDAR data.</description>
+    </item>
+    <item>
+      <title>Stochastic Analysis For Estimating Track Geometry Degradation Rates Based On Gpr And Lidar Data</title>
+      <link>https://people.umass.edu/jboke/publications/goodarzi2023stochastic/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/goodarzi2023stochastic/</guid>
+      <description>The estimation of track degradation rate is a challenging step in scheduling preventive maintenance interventions due to its uncertain nature. To tackle this challenge, a large dataset of historic passenger track geometry data, between 2011 and 2021, integrated with Ground Penetrating Radar (GPR), and Light Detection And Ranging (LiDAR) data are investigated. Stochastic models are proposed for estimating the expected track degradation rates based on subsurface and drainage conditions of blocks and also a framework is proposed for automatically evaluating drainage conditions of track from LiDAR data.</description>
+    </item>
+    <item>
+      <title>Origin-destination inference in public transportation systems: A comprehensive review</title>
+      <link>https://people.umass.edu/jboke/publications/2023-mohammed-origindestination-inference-public/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-mohammed-origindestination-inference-public/</guid>
+      <description>Origin-destination (OD) modeling facilitates effective demand-responsive public transportation planning in order to meet emergent needs. Given recent advances in transit information and personal communications technology, transit OD estimation methods have evolved from relying on limited survey sources to automated big data sources. Innovative modeling approaches have also been developed over several decades to estimate trip ODs, not only for single routes, but also for full networks, including transfers. In this paper, we synthesize a review of the state of the art in research and practice, along with descriptions of key data types and methodological approaches, indicating how they interact.</description>
+    </item>
+    <item>
+      <title>Origin-Destination Inference In Public Transportation Systems: A Comprehensive Review</title>
+      <link>https://people.umass.edu/jboke/publications/mohammed2023origindestination/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/mohammed2023origindestination/</guid>
+      <description>Origin-destination (OD) modeling facilitates effective demand-responsive public transportation planning in order to meet emergent needs. Given recent advances in transit information and personal communications technology, transit OD estimation methods have evolved from relying on limited survey sources to automated big data sources. Innovative modeling approaches have also been developed over several decades to estimate trip ODs, not only for single routes, but also for full networks, including transfers. In this paper, we synthesize a review of the state of the art in research and practice, along with descriptions of key data types and methodological approaches, indicating how they interact.</description>
+    </item>
+    <item>
+      <title>Drinking Water Accessibility Typologies In Low- And Middle-Income Countries</title>
+      <link>https://people.umass.edu/jboke/publications/chung2023drinking/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/chung2023drinking/</guid>
+      <description>We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes.</description>
+    </item>
+    <item>
+      <title>Modeling System-Wide Urban Rail Transit Energy Consumption: A Case Study of Boston</title>
+      <link>https://people.umass.edu/jboke/publications/2022-han-modeling-systemwide-urban/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2022-han-modeling-systemwide-urban/</guid>
+      <description>Rapid transit systems are critical components of urban public transportation networks in their impact, not only on personal mobility but also on the energy and environmental costs associated with network operations. To facilitate effective planning for current and future needs, a framework is required that provides important consumption metrics and also explains the various contributors to energy consumption, along with their interactions. To address this gap, we estimated models that utilized operational and ridership data for the Massachusetts Bay Transportation Authority?</description>
+    </item>
+    <item>
+      <title>Modeling System-Wide Urban Rail Transit Energy Consumption: A Case Study Of Boston</title>
+      <link>https://people.umass.edu/jboke/publications/han2022modeling/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/han2022modeling/</guid>
+      <description>Rapid transit systems are critical components of urban public transportation networks in their impact, not only on personal mobility but also on the energy and environmental costs associated with network operations. To facilitate effective planning for current and future needs, a framework is required that provides important consumption metrics and also explains the various contributors to energy consumption, along with their interactions. To address this gap, we estimated models that utilized operational and ridership data for the Massachusetts Bay Transportation Authority?</description>
+    </item>
+    <item>
+      <title>Data-driven methods to predict track degradation: A case study</title>
+      <link>https://people.umass.edu/jboke/publications/2022-goodarzi-datadriven-methods-predict/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2022-goodarzi-datadriven-methods-predict/</guid>
+      <description>Predicting track degradation is extremely important due to its beneficial effects on increasing track safety and scheduling preventive maintenance. Logistic regression and Gradient Boosting Machine (GBM) were employed in this paper for predicting Yellow-tag Defect in the Next Inspection (YDNI), which is an indicator of maintenance requirement in the track. The geometry data of this paper were collected from passenger tracks with a length of 155 miles from 2011 to 2020.</description>
+    </item>
+    <item>
+      <title>Data-Driven Methods To Predict Track Degradation: A Case Study</title>
+      <link>https://people.umass.edu/jboke/publications/goodarzi2022datadriven/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/goodarzi2022datadriven/</guid>
+      <description>Predicting track degradation is extremely important due to its beneficial effects on increasing track safety and scheduling preventive maintenance. Logistic regression and Gradient Boosting Machine (GBM) were employed in this paper for predicting Yellow-tag Defect in the Next Inspection (YDNI), which is an indicator of maintenance requirement in the track. The geometry data of this paper were collected from passenger tracks with a length of 155 miles from 2011 to 2020.</description>
+    </item>
+    <item>
+      <title>Signing Pdfs Linux Okular</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/signing-pdfs-linux-okular/</link>
+      <pubDate>Thu, 27 Jan 2022 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/signing-pdfs-linux-okular/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Who benefits from AVs? Equity implications of automated vehicles policies in full-scale prototype cities</title>
+      <link>https://people.umass.edu/jboke/publications/2021-nahmias-biran-benefits-avs-equity/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2021-nahmias-biran-benefits-avs-equity/</guid>
+      <description>While researchers have stressed the potential of automated vehicle (AV) technology in improving mobility and accessibility for a range of people, only a few attempts have been made to examine the impact of this new technology on different segments of the population in a realistic setting using high-fidelity simulation. To fill this gap, we analyze the equity implications of Automated Mobility-on-Demand (AMoD) in three full-scale prototype cities using SimMobility, a state-of-the-art activity- and agent-based framework.</description>
+    </item>
+    <item>
+      <title>Who Benefits From Avs? Equity Implications Of Automated Vehicles Policies In Full-Scale Prototype Cities</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2021who/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2021who/</guid>
+      <description>While researchers have stressed the potential of automated vehicle (AV) technology in improving mobility and accessibility for a range of people, only a few attempts have been made to examine the impact of this new technology on different segments of the population in a realistic setting using high-fidelity simulation. To fill this gap, we analyze the equity implications of Automated Mobility-on-Demand (AMoD) in three full-scale prototype cities using SimMobility, a state-of-the-art activity- and agent-based framework.</description>
+    </item>
+    <item>
+      <title>Activity-based epidemic propagation and contact network scaling in auto-dependent metropolitan areas</title>
+      <link>https://people.umass.edu/jboke/publications/2021-kumar-activitybased-epidemic-propagation/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2021-kumar-activitybased-epidemic-propagation/</guid>
+      <description>We build on recent work to develop a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages person-trajectories obtained from an activity-based model calibrated for two full-scale prototype cities, consisting of representative synthetic populations and mobility networks for two contrasting auto-dependent city typologies. We simulate the propagation of the COVID-19 epidemic in both cities to analyze spreading patterns in urban networks across various activity types. Investigating the impact of the transit network, we find that its removal dampens disease propagation significantly, suggesting that transit restriction is more critical for mitigating post-peak disease spreading in transit dense cities.</description>
+    </item>
+    <item>
+      <title>Activity-Based Epidemic Propagation And Contact Network Scaling In Auto-Dependent Metropolitan Areas</title>
+      <link>https://people.umass.edu/jboke/publications/kumar2021activitybaseda/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/kumar2021activitybaseda/</guid>
+      <description>We build on recent work to develop a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages person-trajectories obtained from an activity-based model calibrated for two full-scale prototype cities, consisting of representative synthetic populations and mobility networks for two contrasting auto-dependent city typologies. We simulate the propagation of the COVID-19 epidemic in both cities to analyze spreading patterns in urban networks across various activity types. Investigating the impact of the transit network, we find that its removal dampens disease propagation significantly, suggesting that transit restriction is more critical for mitigating post-peak disease spreading in transit dense cities.</description>
+    </item>
+    <item>
+      <title>Evaluating the impacts of shared automated mobility on-demand services: an activity-based accessibility approach</title>
+      <link>https://people.umass.edu/jboke/publications/2021-nahmias-biran-evaluating-impacts-shared/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2021-nahmias-biran-evaluating-impacts-shared/</guid>
+      <description>Autonomous vehicle (AV) technologies are under constant improvement with pilot programs now underway in several urban areas worldwide. Modeling and field-testing efforts are demonstrating that shared mobility coupled with AV technology for automated mobility on-demand (AMoD) service may significantly impact levels of service and environmental outcomes in future cities. Given these rapidly emerging developments, there is an urgent need for methods to adequately quantify the economic impacts of new vehicle technologies and future urban mobility policy.</description>
+    </item>
+    <item>
+      <title>Evaluating The Impacts Of Shared Automated Mobility On-Demand Services: An Activity-Based Accessibility Approach</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2021evaluating/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2021evaluating/</guid>
+      <description>Autonomous vehicle (AV) technologies are under constant improvement with pilot programs now underway in several urban areas worldwide. Modeling and field-testing efforts are demonstrating that shared mobility coupled with AV technology for automated mobility on-demand (AMoD) service may significantly impact levels of service and environmental outcomes in future cities. Given these rapidly emerging developments, there is an urgent need for methods to adequately quantify the economic impacts of new vehicle technologies and future urban mobility policy.</description>
+    </item>
+    <item>
+      <title>Tracking the Energy and Emissions of MBTA Rapid Transit Vehicles</title>
+      <link>https://people.umass.edu/jboke/publications/2021-oke-tracking-energy-emissions/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2021-oke-tracking-energy-emissions/</guid>
+      <description>Rapid transit systems are critical components of public transportation networks in urban areas, in terms of their impact on person mobility and on monetary, energy, and environmental costs associated with their operations. To facilitate effective planning for current and future needs, a framework is required that provides important consumption metrics and explains the various contributors to energy consumption and their interactions. This study presents a model that utilizes operational and ridership data for the Massachusetts Bay Transportation Authority&amp;rsquo;s rapid transit system, as well as ambient temperature, to accurately predict system-wide electricity consumption.</description>
+    </item>
+    <item>
+      <title>Where is my infusion pump? Harnessing network dynamics for improved hospital equipment fleet management</title>
+      <link>https://people.umass.edu/jboke/publications/2020-martinez-infusion-pump-harnessing/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2020-martinez-infusion-pump-harnessing/</guid>
+      <description>AbstractObjective. Timely availability of intravenous infusion pumps is critical for high-quality care delivery. Pumps are shared among hospital units, often w</description>
+    </item>
     <item>
       <title>Where Is My Infusion Pump? Harnessing Network Dynamics For Improved Hospital Equipment Fleet Management</title>
       <link>https://people.umass.edu/jboke/publications/martinez2020where/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/martinez2020where/</guid>
       <description>AbstractObjective. Timely availability of intravenous infusion pumps is critical for high-quality care delivery. Pumps are shared among hospital units, often w</description>
     </item>
-    
-    <item>
-      <title>Who Benefits from AVs? Social Implications of Autonomous Vehicle Policies in Full-Scale Cities</title>
-      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulation and Evaluation of Automated Mobility On-Demand Strategies in Dense Transit-Oriented Cities</title>
-      <link>https://people.umass.edu/jboke/publications/oke2020simulation/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/oke2020simulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluating The Impacts Of Shared Automated Mobility On-Demand Services: An Activity-Based Accessibility Approach</title>
-      <link>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluatinga/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluatinga/</guid>
-      <description>Autonomous vehicle (AV) technologies are under constant improvement with pilot programs now underway in several urban areas worldwide. Modeling and field-testing efforts are demonstrating that shared mobility coupled with AV technology for automated mobility on-demand (AMoD) service may significantly impact levels of service and environmental outcomes in future cities. Given these rapidly emerging developments, there is an urgent need for methods to adequately quantify the economic impacts of new vehicle technologies and future urban mobility policy.</description>
-    </item>
-    
     <item>
       <title>Datasets and Software</title>
       <link>https://people.umass.edu/jboke/datacode/</link>
       <pubDate>Thu, 05 Mar 2020 10:53:59 -0500</pubDate>
-      
       <guid>https://people.umass.edu/jboke/datacode/</guid>
       <description>This page provides links to projects and datasets I have [co]developed and [co]authored. Most (if not all) are available on github or other repository.</description>
     </item>
-    
     <item>
       <title>Research</title>
       <link>https://people.umass.edu/jboke/research/</link>
       <pubDate>Thu, 05 Mar 2020 10:49:02 -0500</pubDate>
-      
       <guid>https://people.umass.edu/jboke/research/</guid>
       <description>Synopsis The unique environments of urban agglomerations have given rise to interesting problems and opportunities for development on a scale that requires innovative approaches and new ways of thinking. Chief among these concerns are energy and water consumption, climate change, mobility and accessibility. Rapid developments in information technology, big data analytics, sharing platforms and automation have increased the uncertainty in future urban outcomes, while raising ever more complex challenges of integration and planning in order to ensure equitable and sustainable societies.</description>
     </item>
-    
     <item>
       <title>Teaching</title>
       <link>https://people.umass.edu/jboke/teaching/teaching/</link>
       <pubDate>Thu, 05 Mar 2020 09:38:55 -0500</pubDate>
-      
       <guid>https://people.umass.edu/jboke/teaching/teaching/</guid>
-      <description>CEE 697M: Big Data and Machine Learning for Engineers This is a graduate course that delves into the theory of machine learning, broadly divided into supervised learning, unsupervised learning and neural networks. Slides and course material are available here.
-Semesters taught: Spring 2020
-CEE 260/MIE 273: Probability and Statistics for Engineers This is a core undergraduate course for civil/mechanical/industrial engineering majors at UMass Amherst.
-Semesters taught: Fall 2019, Fall 2020</description>
+      <description>CEE 697M: Big Data and Machine Learning for Engineers This is a graduate course that delves into the theory of machine learning, broadly divided into supervised learning, unsupervised learning and neural networks. Slides and course material are available here.&#xA;Semesters taught: Spring 2020&#xA;CEE 260/MIE 273: Probability and Statistics for Engineers This is a core undergraduate course for civil/mechanical/industrial engineering majors at UMass Amherst.&#xA;Semesters taught: Fall 2019, Fall 2020</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://people.umass.edu/jboke/about/</link>
       <pubDate>Tue, 03 Mar 2020 12:52:21 -0500</pubDate>
-      
       <guid>https://people.umass.edu/jboke/about/</guid>
-      <description>The following bio and this photo may be used in media releases without further permission.
- Jimi Oke is an Assistant Professor in the Department of Civil and Environmental Engineering at University of Massachusetts Amherst, where he directs the Networks for Accessibility, Sustainability and Resilience Laboratory. From 2016 to 2019, he was a Postdoctoral Associate at the Intelligent Transportation Systems Lab working on the MIT Energy Initiative&amp;rsquo;s Future Mobility Study. Jimi received his MSE and PhD in Civil Engineering from the Johns Hopkins University, where he studied from 2012 to 2016.</description>
+      <description>The following bio and this photo may be used in media releases without further permission.&#xA;Jimi Oke is an Assistant Professor in the Department of Civil and Environmental Engineering at University of Massachusetts Amherst, where he directs the Networks for Accessibility, Sustainability and Resilience Laboratory. From 2016 to 2019, he was a Postdoctoral Associate at the Intelligent Transportation Systems Lab working on the MIT Energy Initiative&amp;rsquo;s Future Mobility Study. Jimi received his MSE and PhD in Civil Engineering from the Johns Hopkins University, where he studied from 2012 to 2016.</description>
     </item>
-    
     <item>
-      <title>From Traditional To Automated Mobility On Demand: A Comprehensive Framework For Modeling On-Demand Services In Simmobility</title>
-      <link>https://people.umass.edu/jboke/publications/nahmias-biran2019traditionala/</link>
+      <title>From Traditional to Automated Mobility on Demand: A Comprehensive Framework for Modeling On-Demand Services in SimMobility</title>
+      <link>https://people.umass.edu/jboke/publications/2019-nahmias-biran-traditional-automated-mobility/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2019traditionala/</guid>
+      <guid>https://people.umass.edu/jboke/publications/2019-nahmias-biran-traditional-automated-mobility/</guid>
       <description>Mobility on demand (MoD) systems have recently emerged as a promising paradigm for sustainable personal urban mobility in cities. In the context of multi-agent simulation technology, the state-of-the-art lacks a platform that captures the dynamics between decentralized driver decision-making and the centralized coordinated decision-making. This work aims to fill this gap by introducing a comprehensive framework that models various facets of MoD, namely heterogeneous MoD driver decision-making and coordinated fleet management within SimMobility, an agent- and activity-based demand model integrated with a dynamic multi-modal network assignment model.</description>
     </item>
-    
     <item>
-      <title>Insights Into Future Mobility: A Report From The Mobility Of The Future Study</title>
-      <link>https://people.umass.edu/jboke/publications/green2019insights/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/green2019insights/</guid>
-      <description> </description>
+      <title>From Traditional To Automated Mobility On Demand: A Comprehensive Framework For Modeling On-Demand Services In Simmobility</title>
+      <link>https://people.umass.edu/jboke/publications/nahmias-biran2019traditional/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/nahmias-biran2019traditional/</guid>
+      <description>Mobility on demand (MoD) systems have recently emerged as a promising paradigm for sustainable personal urban mobility in cities. In the context of multi-agent simulation technology, the state-of-the-art lacks a platform that captures the dynamics between decentralized driver decision-making and the centralized coordinated decision-making. This work aims to fill this gap by introducing a comprehensive framework that models various facets of MoD, namely heterogeneous MoD driver decision-making and coordinated fleet management within SimMobility, an agent- and activity-based demand model integrated with a dynamic multi-modal network assignment model.</description>
     </item>
-    
     <item>
-      <title>A Novel Global Urban Typology Framework For Sustainable Mobility Futures</title>
-      <link>https://people.umass.edu/jboke/publications/oke2019novela/</link>
-      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://people.umass.edu/jboke/publications/oke2019novela/</guid>
-      <description>Urban mobility significantly contributes to global carbon dioxide emissions. Given the rapid expansion and growth in urban areas, cities thus require innovative policies to ensure efficient and sustainable mobility. Urban typologies can serve as a vehicle for understanding dynamics of cities, which exhibit high variability in form, economic output, mobility behavior, among others. Yet, typologies relevant for sustainable urban mobility analyses are few, outdated and not large enough in scope. In this paper, we present a new typologization spanning 331 cities in 124 countries.</description>
+      <title>Multimodal Transportation Flows in Energy Networks with an Application to Crude Oil Markets</title>
+      <link>https://people.umass.edu/jboke/publications/2019-oke-multimodal-transportation-flows/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2019-oke-multimodal-transportation-flows/</guid>
+      <description>Network models of energy markets have been beneficial for analyses and decision-making to tackle challenges related to the production, distribution and consumption of energy in its various forms. Despite the growing awareness of environmental and safety impacts of fuel transfer, such as emissions, spills and other harmful effects, existing energy models for various types of networks are yet to fully capture modal distinctions which are relevant to providing pathways to limiting these impacts.</description>
     </item>
-    
     <item>
       <title>Multimodal Transportation Flows In Energy Networks With An Application To Crude Oil Markets</title>
       <link>https://people.umass.edu/jboke/publications/oke2019multimodal/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/oke2019multimodal/</guid>
       <description>Network models of energy markets have been beneficial for analyses and decision-making to tackle challenges related to the production, distribution and consumption of energy in its various forms. Despite the growing awareness of environmental and safety impacts of fuel transfer, such as emissions, spills and other harmful effects, existing energy models for various types of networks are yet to fully capture modal distinctions which are relevant to providing pathways to limiting these impacts.</description>
     </item>
-    
+    <item>
+      <title>Spatial associations in global household bicycle ownership</title>
+      <link>https://people.umass.edu/jboke/publications/2018-oke-spatial-associations-global/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2018-oke-spatial-associations-global/</guid>
+      <description>The interest in bicycling and its determining factors is growing within the public health, transportation and geography communities. Ownership is one factor affecting bicycle usage, but work is still ongoing to not only quantify its effects but also to understand patterns in its growth and influence. In recent work, we mined and discovered patterns in global bicycle ownership that showed the existence of four characteristic country groups and their trends. Building on these results, we show in this paper that the ownership dataset can be modeled as a network.</description>
+    </item>
     <item>
       <title>Spatial Associations In Global Household Bicycle Ownership</title>
       <link>https://people.umass.edu/jboke/publications/oke2018spatial/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/oke2018spatial/</guid>
       <description>The interest in bicycling and its determining factors is growing within the public health, transportation and geography communities. Ownership is one factor affecting bicycle usage, but work is still ongoing to not only quantify its effects but also to understand patterns in its growth and influence. In recent work, we mined and discovered patterns in global bicycle ownership that showed the existence of four characteristic country groups and their trends. Building on these results, we show in this paper that the ownership dataset can be modeled as a network.</description>
     </item>
-    
+    <item>
+      <title>Tracking global bicycle ownership patterns</title>
+      <link>https://people.umass.edu/jboke/publications/2015-oke-tracking-global-bicycle/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2015-oke-tracking-global-bicycle/</guid>
+      <description>Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia.</description>
+    </item>
     <item>
       <title>Tracking Global Bicycle Ownership Patterns</title>
       <link>https://people.umass.edu/jboke/publications/oke2015tracking/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/oke2015tracking/</guid>
       <description>Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia.</description>
     </item>
-    
+    <item>
+      <title>Efficient automated schematic map drawing using multiobjective mixed integer programming</title>
+      <link>https://people.umass.edu/jboke/publications/2015-oke-efficient-automated-schematic/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2015-oke-efficient-automated-schematic/</guid>
+      <description>We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of Nöllenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two.</description>
+    </item>
     <item>
       <title>Efficient Automated Schematic Map Drawing Using Multiobjective Mixed Integer Programming</title>
       <link>https://people.umass.edu/jboke/publications/oke2015efficient/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/oke2015efficient/</guid>
       <description>We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of Nöllenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two.</description>
     </item>
-    
+    <item>
+      <title>Entanglement and Composite Bosons</title>
+      <link>https://people.umass.edu/jboke/publications/2010-chudzicki-entanglement-composite-bosons/</link>
+      <pubDate>Thu, 18 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2010-chudzicki-entanglement-composite-bosons/</guid>
+      <description>We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity χN+1/χN that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity χN+1/χN approaches its ideal bosonic value.</description>
+    </item>
     <item>
       <title>Entanglement And Composite Bosons</title>
       <link>https://people.umass.edu/jboke/publications/chudzicki2010entanglement/</link>
       <pubDate>Thu, 18 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://people.umass.edu/jboke/publications/chudzicki2010entanglement/</guid>
       <description>We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity χN+1/χN that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity χN+1/χN approaches its ideal bosonic value.</description>
     </item>
-    
+    <item>
+      <title>Resilience in multilayer transportation infrastructure networks: a review and conceptual framework for equity-based assessment</title>
+      <link>https://people.umass.edu/jboke/publications/2024-arabi-resilience-multilayer-transportation/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:44 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2024-arabi-resilience-multilayer-transportation/</guid>
+      <description>This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure.</description>
+    </item>
+    <item>
+      <title>Drinking water accessibility typologies in low- and middle-income countries</title>
+      <link>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</guid>
+      <description>We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes.</description>
+    </item>
   </channel>
 </rss>

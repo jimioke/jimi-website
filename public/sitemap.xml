@@ -1,134 +1,201 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/tags/automated-mobility-on-demand/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/oke2020evaluating/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://people.umass.edu/jboke/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/tags/prototype-cities/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/presentations/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/presentations/typology-informed-solutions-2024/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/presentations/typology-informed-solutions-trbam-2024/</loc>
+    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/categories/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/categories/latex/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/categories/statistics/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/wrotelearning/understanding-gaussian-processes/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/wrotelearning/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/presentations/learning-crash-typology/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2024-apostolov-artificial-intelligence-framework/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/tags/simulation/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/tags/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/kumar2020activitybased/</loc>
-    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2024-sarigiannis-feature-engineering-decision/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/sarigiannis2024feature/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2024-arabi-comprehensive-energy-modeling/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/arabi2024comprehensive/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2024-han-linespecific-energy-modeling/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/han2024linespecific/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/arabi2024resilience/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2023-apostolov-predicting-tree-failure/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/apostolov2023predictinga/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2023-abdalazeem-extracting-spatiotemporal-bus/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/abdalazeem2023extracting/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2023-goodarzi-stochastic-analysis-estimating/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/goodarzi2023stochastic/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2023-mohammed-origindestination-inference-public/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/mohammed2023origindestination/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/chung2023drinking/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2022-han-modeling-systemwide-urban/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/han2022modeling/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2022-goodarzi-datadriven-methods-predict/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/goodarzi2022datadriven/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/categories/linux/</loc>
+    <lastmod>2022-01-27T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/wrotelearning/signing-pdfs-linux-okular/</loc>
+    <lastmod>2022-01-27T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2021-nahmias-biran-benefits-avs-equity/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2021who/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2021-kumar-activitybased-epidemic-propagation/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/kumar2021activitybaseda/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2021-nahmias-biran-evaluating-impacts-shared/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2021evaluating/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2021-oke-tracking-energy-emissions/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2020-martinez-infusion-pump-harnessing/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/martinez2020where/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2020who/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/oke2020simulation/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2020evaluatinga/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://people.umass.edu/jboke/datacode/</loc>
     <lastmod>2020-03-05T10:53:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://people.umass.edu/jboke/research/</loc>
     <lastmod>2020-03-05T10:49:02-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://people.umass.edu/jboke/teaching/</loc>
     <lastmod>2020-03-05T09:38:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://people.umass.edu/jboke/teaching/teaching/</loc>
     <lastmod>2020-03-05T09:38:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://people.umass.edu/jboke/about/</loc>
     <lastmod>2020-03-03T12:52:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2019traditionala/</loc>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2019-nahmias-biran-traditional-automated-mobility/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/green2019insights/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/publications/oke2019novela/</loc>
-    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/nahmias-biran2019traditional/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2019-oke-multimodal-transportation-flows/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/oke2019multimodal/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2018-oke-spatial-associations-global/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/oke2018spatial/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2015-oke-tracking-global-bicycle/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/oke2015tracking/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2015-oke-efficient-automated-schematic/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/oke2015efficient/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2010-chudzicki-entanglement-composite-bosons/</loc>
+    <lastmod>2010-02-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/chudzicki2010entanglement/</loc>
     <lastmod>2010-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2024-arabi-resilience-multilayer-transportation/</loc>
+    <lastmod>1969-12-31T19:33:44-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</loc>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://people.umass.edu/jboke/categories/</loc>
-  </url>
-  
 </urlset>

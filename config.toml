@@ -1,4 +1,4 @@
-baseurl = "https://people.umass.edu/jboke/"
+baseurl = "https://people.umass.edu/jboke"
 title = "Jimi Oke"
 languageCode = "en-us"
 canonifyurls = true
@@ -78,8 +78,8 @@ seminars_count = 5
 # The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Wrote Learning Blog"
+  url = "/wrotelearning/"
   weight = 1
 
 [[menu.main]]

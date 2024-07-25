@@ -19,7 +19,7 @@ deploy: compress citations site
 	echo "- `git push origin master`"
 
 citations: data\\scottdoy.json
-	python jsonparser.py --input data/jimiboke.json --output_dir content/publications/
+	python jsonparser.py --input data/okepublications.json --output_dir content/publications/
 
 compress: css
 	java -jar ..\\apps\\yuicompressor-2.4.8.jar static\\css\\stylesheet.css -o static\\css\\stylesheet-min.css --charset utf-8

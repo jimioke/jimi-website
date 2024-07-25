@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wrotelearning on Jimi Oke</title>
+    <link>https://people.umass.edu/jboke/wrotelearning/</link>
+    <description>Recent content in Wrotelearning on Jimi Oke</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
+    <atom:link href="https://people.umass.edu/jboke/wrotelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another LaTeX post</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Nice Gantt charts in LaTeX</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Understanding Gaussian processes</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/understanding-gaussian-processes/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/understanding-gaussian-processes/</guid>
+      <description>To be completed.</description>
+    </item>
+    <item>
+      <title>Signing Pdfs Linux Okular</title>
+      <link>https://people.umass.edu/jboke/wrotelearning/signing-pdfs-linux-okular/</link>
+      <pubDate>Thu, 27 Jan 2022 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/wrotelearning/signing-pdfs-linux-okular/</guid>
+      <description>To be completed.</description>
+    </item>
+  </channel>
+</rss>

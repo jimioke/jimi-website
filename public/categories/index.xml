@@ -4,7 +4,30 @@
     <title>Categories on Jimi Oke</title>
     <link>https://people.umass.edu/jboke/categories/</link>
     <description>Recent content in Categories on Jimi Oke</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://people.umass.edu/jboke/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
+    <atom:link href="https://people.umass.edu/jboke/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex</title>
+      <link>https://people.umass.edu/jboke/categories/latex/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/categories/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>https://people.umass.edu/jboke/categories/statistics/</link>
+      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/categories/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://people.umass.edu/jboke/categories/linux/</link>
+      <pubDate>Thu, 27 Jan 2022 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jboke/categories/linux/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
