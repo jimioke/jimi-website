@@ -121,6 +121,13 @@
       <description>Origin-destination (OD) modeling facilitates effective demand-responsive public transportation planning in order to meet emergent needs. Given recent advances in transit information and personal communications technology, transit OD estimation methods have evolved from relying on limited survey sources to automated big data sources. Innovative modeling approaches have also been developed over several decades to estimate trip ODs, not only for single routes, but also for full networks, including transfers. In this paper, we synthesize a review of the state of the art in research and practice, along with descriptions of key data types and methodological approaches, indicating how they interact.</description>
     </item>
     <item>
+      <title>Drinking water accessibility typologies in low- and middle-income countries</title>
+      <link>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</guid>
+      <description>We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes.</description>
+    </item>
+    <item>
       <title>Drinking Water Accessibility Typologies In Low- And Middle-Income Countries</title>
       <link>https://people.umass.edu/jboke/publications/chung2023drinking/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
@@ -233,6 +240,13 @@
       <description>Mobility on demand (MoD) systems have recently emerged as a promising paradigm for sustainable personal urban mobility in cities. In the context of multi-agent simulation technology, the state-of-the-art lacks a platform that captures the dynamics between decentralized driver decision-making and the centralized coordinated decision-making. This work aims to fill this gap by introducing a comprehensive framework that models various facets of MoD, namely heterogeneous MoD driver decision-making and coordinated fleet management within SimMobility, an agent- and activity-based demand model integrated with a dynamic multi-modal network assignment model.</description>
     </item>
     <item>
+      <title>Insights Into Future Mobility: A Report from the Mobility of the Future Study</title>
+      <link>https://people.umass.edu/jboke/publications/2019-green-insights-into-future/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jboke/publications/2019-green-insights-into-future/</guid>
+      <description>The MIT Energy Initiative&amp;rsquo;s (MITEI&amp;rsquo;s) three-year Mobility of the Future study explored the major factors that affect the evolution of personal mobility from 2020 to 2050. Using a scenario-based approach, the diverse study team of MIT faculty, researchers, and students examined how different factors shape the future of personal mobility at different scales, from global and national markets to policy and mobility choices at the city and individual levels. This report presents results and findings to help stakeholders anticipate and navigate the challenges that lie ahead.</description>
+    </item>
+    <item>
       <title>Multimodal Transportation Flows in Energy Networks with an Application to Crude Oil Markets</title>
       <link>https://people.umass.edu/jboke/publications/2019-oke-multimodal-transportation-flows/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
@@ -308,13 +322,6 @@
       <pubDate>Wed, 31 Dec 1969 19:33:44 -0500</pubDate>
       <guid>https://people.umass.edu/jboke/publications/2024-arabi-resilience-multilayer-transportation/</guid>
       <description>This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure.</description>
-    </item>
-    <item>
-      <title>Drinking water accessibility typologies in low- and middle-income countries</title>
-      <link>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://people.umass.edu/jboke/publications/2023-chung-drinking-water-accessibility/</guid>
-      <description>We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes.</description>
     </item>
   </channel>
 </rss>

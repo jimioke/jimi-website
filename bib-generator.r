@@ -38,7 +38,11 @@ for(i in 1:nrow(df)) {
     }
     ref_status = "status: Published"
     ref_type = paste0("type: ", ref$Item.Type)
+
     ref_date = paste0("date: ", ref$Date)
+    if (nchar(str_split(ref_date, " ")[[1]][2]) == 7) {
+        ref_date = paste0(ref_date, "-01")
+    } 
     ref_title = paste0("title: \"", ref$Title, "\"")
     
  

@@ -253,7 +253,7 @@
     },
     {
       "key": "3N5VERMT",
-      "version": 2261,
+      "version": 2264,
       "itemType": "report",
       "title": "Artificial Intelligence Framework for Crosswalk Detection Across Massachusetts",
       "abstractNote": "The goal of this project was to develop an artificial intelligence (AI) framework to detect crosswalk locations across the state of Massachusetts, as well as their type classification (continental, parallel lines, or solid) and location category (intersection, midblock, or driveway). Aerial images downloaded from MassGIS were annotated, and these were used to train the AI model, which was then used to detect crosswalks across the entire state using images from both 2019 and 2021. About 88,000 crosswalks were detected in 2021. In terms of location category, 89% of these were intersection crosswalks, 8% were midblock, and 3% were at driveways. In terms of type, just under 65% were continental (zebra-style) crosswalks, about 35% were parallel lines, and less than 1% were solid/painted crosswalks. A python script was developed to perform the post-processing. The model and the post-processing script will be available to MassDOT to perform further analyses, and results will be expected to inform maintenance and safety initiatives.",
@@ -294,11 +294,15 @@
       ],
       "tags": [
         {
-          "tag": "Aerial photogrammetry",
+          "tag": "Safety",
           "type": 1
         },
         {
           "tag": "Artificial intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Aerial photogrammetry",
           "type": 1
         },
         {
@@ -311,10 +315,6 @@
         },
         {
           "tag": "Intersections",
-          "type": 1
-        },
-        {
-          "tag": "Safety",
           "type": 1
         }
       ],
@@ -788,6 +788,156 @@
       "itemKey": "JHXY5F6H",
       "libraryID": 1,
       "select": "zotero://select/library/items/JHXY5F6H"
+    },
+    {
+      "key": "TECBQR3N",
+      "version": 2271,
+      "itemType": "report",
+      "title": "Insights Into Future Mobility: A Report from the Mobility of the Future Study",
+      "abstractNote": "The MIT Energy Initiative's (MITEI's) three-year Mobility of the Future study explored the major factors that affect the evolution of personal mobility from 2020 to 2050. Using a scenario-based approach, the diverse study team of MIT faculty, researchers, and students examined how different factors shape the future of personal mobility at different scales, from global and national markets to policy and mobility choices at the city and individual levels. This report presents results and findings to help stakeholders anticipate and navigate the challenges that lie ahead. The report includes detailed findings on five areas of influence on the future landscape for personal mobility: (1) The potential impact of climate change policies on global fleet composition, fuel consumption, fuel prices, and economic output; (2) The outlook for vehicle ownership and travel, with a focus on the world\u2019s two largest light-duty vehicle markets\u2014the U.S. and China; (3) Characteristics of alternative vehicle powertrains and fuels that could affect their future market share; (4) Infrastructure considerations for charging and fueling, particularly as they affect future demand for electric and hydrogen fuel cell vehicles; and (5) The future of personal mobility in urban areas, with a focus on the potentially disruptive role of autonomous vehicles and ride-hailing services.",
+      "date": "2019/11/00",
+      "shortTitle": "Insights Into Future Mobility",
+      "libraryCatalog": "trid.trb.org",
+      "url": "https://energy.mit.edu/wp-content/uploads/2019/11/Insights-into-Future-Mobility.pdf",
+      "accessDate": "2024-07-25T14:18:18Z",
+      "place": "Cambridge, MA",
+      "institution": "MIT Energy Initiative",
+      "creators": [
+        {
+          "firstName": "William H.",
+          "lastName": "Green",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Robert C.",
+          "lastName": "Armstrong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Moshe",
+          "lastName": "Ben-Akiva",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John",
+          "lastName": "Heywood",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christopher",
+          "lastName": "Knittel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sergey",
+          "lastName": "Paltsev",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brian",
+          "lastName": "Reimer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chintan",
+          "lastName": "Vaishnav",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jinhua",
+          "lastName": "Zhao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eytan",
+          "lastName": "Gross",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joanna",
+          "lastName": "Moody",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emil",
+          "lastName": "Dimanchev",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emre",
+          "lastName": "Gen\u00e7er",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Abbas",
+          "lastName": "Ghandi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "I.-Yun Lisa",
+          "lastName": "Hsieh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ian",
+          "lastName": "Miller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jennifer",
+          "lastName": "Morris",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elizabeth",
+          "lastName": "Murphy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ashley",
+          "lastName": "Nunes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rakesh",
+          "lastName": "Sridhar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dustin",
+          "lastName": "Weigl",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-07-25T14:18:18Z",
+      "dateModified": "2024-07-25T14:22:48Z",
+      "uri": "http://zotero.org/users/6356012/items/TECBQR3N",
+      "itemID": 7925,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-07-25T14:18:20Z",
+          "dateModified": "2024-07-25T14:18:20Z",
+          "uri": "http://zotero.org/users/6356012/items/LDRPNMEK",
+          "path": "/home/jbo/Zotero/storage/LDRPNMEK/1667864.html",
+          "select": "zotero://select/library/items/LDRPNMEK"
+        }
+      ],
+      "notes": [],
+      "citationKey": "green2019insightsa",
+      "itemKey": "TECBQR3N",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TECBQR3N"
     },
     {
       "key": "GJTN5FQQ",
@@ -1756,15 +1906,15 @@
           "type": 1
         },
         {
+          "tag": "Predictive models",
+          "type": 1
+        },
+        {
           "tag": "Exhaust gases",
           "type": 1
         },
         {
           "tag": "Passenger trains",
-          "type": 1
-        },
-        {
-          "tag": "Predictive models",
           "type": 1
         },
         {
