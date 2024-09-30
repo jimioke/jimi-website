@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://people.umass.edu/jboke/publications/abdalazeem2024enhanced/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/presentations/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
@@ -38,13 +44,16 @@
     <loc>https://people.umass.edu/jboke/presentations/learning-crash-typology/</loc>
     <lastmod>2024-04-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://people.umass.edu/jboke/publications/arabi2024resilience/</loc>
+    <lastmod>2024-04-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/presentations/ml-enhanced-decision-making-uf-2024/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2024-apostolov-artificial-intelligence-framework/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jboke/publications/</loc>
+    <loc>https://people.umass.edu/jboke/publications/apostolov2024artificial/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2024-sarigiannis-feature-engineering-decision/</loc>
@@ -63,9 +72,6 @@
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/han2024linespecific/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jboke/publications/arabi2024resilience/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2023-apostolov-predicting-tree-failure/</loc>
@@ -137,6 +143,12 @@
     <loc>https://people.umass.edu/jboke/publications/2021-oke-tracking-energy-emissions/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://people.umass.edu/jboke/publications/oke2021tracking/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/oke2020evaluatinga/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jboke/publications/2020-martinez-infusion-pump-harnessing/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -166,6 +178,9 @@
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2019-green-insights-into-future/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/oke2019novela/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2019-oke-multimodal-transportation-flows/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
@@ -199,6 +214,8 @@
   </url><url>
     <loc>https://people.umass.edu/jboke/publications/2024-arabi-resilience-multilayer-transportation/</loc>
     <lastmod>1969-12-31T19:33:44-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jboke/publications/green2019insightsa/</loc>
   </url><url>
     <loc>https://people.umass.edu/jboke/tags/</loc>
   </url>

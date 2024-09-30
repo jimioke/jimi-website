@@ -36,6 +36,7 @@
       "DOIandURL": "both",
       "exportBibTeXStrings": "off",
       "exportBraceProtection": true,
+      "exportSort": "citekey",
       "exportTitleCase": true,
       "extraMergeCitekeys": true,
       "extraMergeCSL": true,
@@ -90,18 +91,21 @@
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": true,
-      "exportFileData": false,
       "Items": true,
+      "Normalize": false,
       "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
+      "exportDir": "/home/jbo/Projects/jboke-website/data",
+      "exportFileData": false,
+      "exportNotes": true,
+      "exportPath": "/home/jbo/Projects/jboke-website/data/okepublications.json",
       "keepUpdated": false,
-      "worker": true,
-      "Normalize": false
+      "worker": true
     }
   },
   "version": {
-    "zotero": "6.0.11.SOURCE.ba1906c05",
-    "bbt": "6.7.212"
+    "bbt": "6.7.229"
   },
   "collections": {},
   "items": [
@@ -172,6 +176,78 @@
       "itemKey": "FCRYAVND",
       "libraryID": 1,
       "select": "zotero://select/library/items/FCRYAVND"
+    },
+    {
+      "key": "J2NG359L",
+      "version": 2355,
+      "itemType": "journalArticle",
+      "title": "Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data",
+      "abstractNote": "Trip chaining is essential in estimating transit demand models based on big data sources, which hold advantages over traditional data collection methods in terms of both accuracy and cost-effectiveness. However, regional transit systems, accounting for 60% of transit systems in the United States, are often not equipped with smart card systems that are typically needed for trip chaining due to the high costs involved. This study introduces an innovative trip chaining framework that leverages boarding-only mobile ticketing automated fare collection (AFC) data. Our approach incorporates spatiotemporal passenger types obtained via typology analysis. This is followed by calibrating type-specific and season-aware parameters using survey data supplied by the network operators. We then trained a gradient boosting machine to learn the error structure of the initial trip chaining flow estimates and augment final trip frequency predictions. Our findings demonstrate that incorporating spatial error correction significantly improves the trip chaining results. However, the best performance is achieved when season-awareness and typology information are integrated with spatial error correction, reducing the mean absolute error (MAE) by approximately 70% and the symmetric mean absolute percentage error (SMAPE) by 85%. Furthermore, the typology, which we validate with a classification model, provides a deeper understanding of passenger travel characteristics which can facilitate further planning efforts. The spatial error correction model also provides insights into portions of the network that can be better targeted for survey data collection and mobile ticketing adoption to improve future models. Overall, this research will enable regional transit planners to efficiently utilize limited resources and generate valuable insights that would otherwise remain inaccessible.",
+      "date": "2024-09-06",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s42421-024-00108-y",
+      "accessDate": "2024-09-30T18:20:03Z",
+      "volume": "6",
+      "pages": "19",
+      "publicationTitle": "Data Science for Transportation",
+      "DOI": "10.1007/s42421-024-00108-y",
+      "issue": "3",
+      "journalAbbreviation": "Data Sci. Transp.",
+      "ISSN": "2948-1368",
+      "creators": [
+        {
+          "firstName": "Mohammed",
+          "lastName": "Abdalazeem",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Automated fare collection",
+          "type": 1
+        },
+        {
+          "tag": "Machine learning",
+          "type": 1
+        },
+        {
+          "tag": "Mobile ticketing",
+          "type": 1
+        },
+        {
+          "tag": "Public transit",
+          "type": 1
+        },
+        {
+          "tag": "Trip chaining",
+          "type": 1
+        },
+        {
+          "tag": "Typology analysis",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T18:20:03Z",
+      "dateModified": "2024-09-30T18:20:03Z",
+      "uri": "http://zotero.org/users/6356012/items/J2NG359L",
+      "itemID": 8874,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "abdalazeem2024enhanced",
+      "itemKey": "J2NG359L",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/J2NG359L"
     },
     {
       "key": "PTKY2H33",
@@ -335,7 +411,7 @@
       "version": 1919,
       "itemType": "journalArticle",
       "title": "Comprehensive Energy Modeling Framework for Multi-Powertrain Bus Transit Systems",
-      "abstractNote": "With the increasing emphasis on sustainable transportation solutions, there is an urgent need for a system that can accurately assess vehicle-specific energy consumption in real-time. However, the current modeling frameworks have a significant gap in that they are not demand- and congestion-responsive, nor are they capable of modeling the system-wide energy consumption of bus fleets at the vehicle-level, encompassing all three types of powertrains\u2014conventional, hybrid, and electric. To address this gap, we present a comprehensive modeling framework that takes into account passenger loading, considers the dynamics of the system including acceleration, and is capable of predicting the real-time energy usage of each bus in a transit network. Using the Pioneer Valley Transit Authority system as a case study, we calibrated existing powertrain-specific models for conventional diesel, hybrid, and battery electric buses. Our demand- and congestion-responsive energy consumption modeling framework fills this critical gap and offers significant potential for future sustainable transportation planning. Relying on detailed trajectories computed from one month of bus location data, along with passenger counts and road grade, our framework is a novel contribution in that it provides spatiotemporal energy predictions for an entire bus system. As it is readily calibrated with potential improvements in accuracy given more data, this framework can be applied by transit agencies for the purposes of real-time energy consumption monitoring, fleet electrification planning, equity analyses, and carbon emission reduction strategies.",
+      "abstractNote": "With the increasing emphasis on sustainable transportation solutions, there is an urgent need for a system that can accurately assess vehicle-specific energy consumption in real-time. However, the current modeling frameworks have a significant gap in that they are not demand- and congestion-responsive, nor are they capable of modeling the system-wide energy consumption of bus fleets at the vehicle-level, encompassing all three types of powertrains—conventional, hybrid, and electric. To address this gap, we present a comprehensive modeling framework that takes into account passenger loading, considers the dynamics of the system including acceleration, and is capable of predicting the real-time energy usage of each bus in a transit network. Using the Pioneer Valley Transit Authority system as a case study, we calibrated existing powertrain-specific models for conventional diesel, hybrid, and battery electric buses. Our demand- and congestion-responsive energy consumption modeling framework fills this critical gap and offers significant potential for future sustainable transportation planning. Relying on detailed trajectories computed from one month of bus location data, along with passenger counts and road grade, our framework is a novel contribution in that it provides spatiotemporal energy predictions for an entire bus system. As it is readily calibrated with potential improvements in accuracy given more data, this framework can be applied by transit agencies for the purposes of real-time energy consumption monitoring, fleet electrification planning, equity analyses, and carbon emission reduction strategies.",
       "date": "2024-01-01",
       "language": "en",
       "libraryCatalog": "SAGE Journals",
@@ -386,22 +462,22 @@
       "select": "zotero://select/library/items/S6GANRLT"
     },
     {
-      "key": "XXCKR2MC",
-      "version": 1917,
+      "key": "LEEM6E9Y",
+      "version": 2299,
       "itemType": "journalArticle",
       "title": "Resilience in multilayer transportation infrastructure networks: a review and conceptual framework for equity-based assessment",
       "abstractNote": "This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure. Our findings show that this approach significantly contributes to more informed and inclusive decision-making, fostering the development of resilient and equitable urban environments.",
-      "date": "2024",
+      "date": "2024-04-22",
+      "language": "EN",
       "shortTitle": "Resilience in multilayer transportation infrastructure networks",
-      "libraryCatalog": "Taylor and Francis+NEJM",
-      "url": "https://doi.org/10.1080/23789689.2024.2344909",
-      "accessDate": "2024-06-18T14:42:47Z",
-      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/23789689.2024.2344909",
-      "volume": "0",
-      "pages": "1\u201324",
+      "archiveLocation": "world",
+      "libraryCatalog": "www.tandfonline.com",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/23789689.2024.2344909",
+      "accessDate": "2024-08-14T18:21:15Z",
+      "rights": "© 2024 Informa UK Limited, trading as Taylor & Francis Group",
+      "extra": "Publisher: Taylor & Francis",
       "publicationTitle": "Sustainable and Resilient Infrastructure",
       "DOI": "10.1080/23789689.2024.2344909",
-      "issue": "0",
       "ISSN": "2378-9689",
       "creators": [
         {
@@ -425,42 +501,37 @@
           "creatorType": "author"
         }
       ],
-      "tags": [
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-08-14T18:21:15Z",
+      "dateModified": "2024-08-14T18:25:32Z",
+      "uri": "http://zotero.org/users/6356012/items/LEEM6E9Y",
+      "itemID": 8384,
+      "attachments": [
         {
-          "tag": "resilience",
-          "type": 1
-        },
-        {
-          "tag": "Equity",
-          "type": 1
-        },
-        {
-          "tag": "multilayer network",
-          "type": 1
-        },
-        {
-          "tag": "transportation infrastructure system",
-          "type": 1
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-08-14T18:21:22Z",
+          "dateModified": "2024-08-14T18:21:22Z",
+          "uri": "http://zotero.org/users/6356012/items/YZ7EFTHI",
+          "path": "/home/jbo/Zotero/storage/YZ7EFTHI/23789689.2024.html",
+          "select": "zotero://select/library/items/YZ7EFTHI"
         }
       ],
-      "relations": {},
-      "dateAdded": "2024-06-18T14:42:47Z",
-      "dateModified": "2024-06-18T14:42:47Z",
-      "uri": "http://zotero.org/users/6356012/items/XXCKR2MC",
-      "itemID": 7436,
-      "attachments": [],
       "notes": [],
       "citationKey": "arabi2024resilience",
-      "itemKey": "XXCKR2MC",
+      "itemKey": "LEEM6E9Y",
       "libraryID": 1,
-      "select": "zotero://select/library/items/XXCKR2MC"
+      "select": "zotero://select/library/items/LEEM6E9Y"
     },
     {
       "key": "6ZXSKBC8",
       "version": 1299,
       "itemType": "journalArticle",
       "title": "Entanglement and Composite Bosons",
-      "abstractNote": "We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity \u03c7N+1/\u03c7N that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity \u03c7N+1/\u03c7N approaches its ideal bosonic value.",
+      "abstractNote": "We build upon work by C. K. Law [Phys. Rev. A 71, 034306 (2005)] to show in general that the entanglement between two fermions largely determines the extent to which the pair behaves like an elementary boson. Specifically, we derive upper and lower bounds on a quantity χN+1/χN that governs the bosonic character of a pair of fermions when N such pairs approximately share the same wave function. Our bounds depend on the purity of the single-particle density matrix, an indicator of entanglement, and demonstrate that if the entanglement is sufficiently strong, the quantity χN+1/χN approaches its ideal bosonic value.",
       "date": "February 18, 2010",
       "libraryCatalog": "APS",
       "url": "https://link.aps.org/doi/10.1103/PhysRevLett.104.070402",
@@ -532,7 +603,7 @@
       "version": 1926,
       "itemType": "journalArticle",
       "title": "Drinking water accessibility typologies in low- and middle-income countries",
-      "abstractNote": "We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes. We clustered the countries based on their seven-dimensional water accessibility factor scores, referring to the resulting three clusters as \u2018typologies,\u2019 namely, Decentralized, Centralized and Hybrid. The typologies serve as a vehicle for analyzing water accessibility among countries with similar patterns, in contrast with geographically-based approaches. Finally, we fitted a decision tree classifier to analyze relationships between a country\u2019s typology membership and socioeconomic, geographic and transportation explanatory variables. We found that private car ownership, population density and per-capita gross domestic product are most relevant in predicting a country\u2019s drinking water accessibility typology.",
+      "abstractNote": "We present a data-driven typology framework for understanding patterns in drinking water accessibility across low- and middle-income countries. Further, we obtain novel typology-specific insights regarding the relationships between possible explanatory variables and typology outcomes. First, we conducted exploratory factor analysis to obtain a smaller set of interpretable factors from the initial set of 17 drinking water accessibility indicators from 73 countries. The resulting seven factors summarize the key drivers for water accessibility, and also serve as a vehicle for framing discussions on country outcomes. We clustered the countries based on their seven-dimensional water accessibility factor scores, referring to the resulting three clusters as ‘typologies,’ namely, Decentralized, Centralized and Hybrid. The typologies serve as a vehicle for analyzing water accessibility among countries with similar patterns, in contrast with geographically-based approaches. Finally, we fitted a decision tree classifier to analyze relationships between a country’s typology membership and socioeconomic, geographic and transportation explanatory variables. We found that private car ownership, population density and per-capita gross domestic product are most relevant in predicting a country’s drinking water accessibility typology.",
       "date": "2023-02",
       "language": "en",
       "libraryCatalog": "Institute of Physics",
@@ -794,7 +865,7 @@
       "version": 2271,
       "itemType": "report",
       "title": "Insights Into Future Mobility: A Report from the Mobility of the Future Study",
-      "abstractNote": "The MIT Energy Initiative's (MITEI's) three-year Mobility of the Future study explored the major factors that affect the evolution of personal mobility from 2020 to 2050. Using a scenario-based approach, the diverse study team of MIT faculty, researchers, and students examined how different factors shape the future of personal mobility at different scales, from global and national markets to policy and mobility choices at the city and individual levels. This report presents results and findings to help stakeholders anticipate and navigate the challenges that lie ahead. The report includes detailed findings on five areas of influence on the future landscape for personal mobility: (1) The potential impact of climate change policies on global fleet composition, fuel consumption, fuel prices, and economic output; (2) The outlook for vehicle ownership and travel, with a focus on the world\u2019s two largest light-duty vehicle markets\u2014the U.S. and China; (3) Characteristics of alternative vehicle powertrains and fuels that could affect their future market share; (4) Infrastructure considerations for charging and fueling, particularly as they affect future demand for electric and hydrogen fuel cell vehicles; and (5) The future of personal mobility in urban areas, with a focus on the potentially disruptive role of autonomous vehicles and ride-hailing services.",
+      "abstractNote": "The MIT Energy Initiative's (MITEI's) three-year Mobility of the Future study explored the major factors that affect the evolution of personal mobility from 2020 to 2050. Using a scenario-based approach, the diverse study team of MIT faculty, researchers, and students examined how different factors shape the future of personal mobility at different scales, from global and national markets to policy and mobility choices at the city and individual levels. This report presents results and findings to help stakeholders anticipate and navigate the challenges that lie ahead. The report includes detailed findings on five areas of influence on the future landscape for personal mobility: (1) The potential impact of climate change policies on global fleet composition, fuel consumption, fuel prices, and economic output; (2) The outlook for vehicle ownership and travel, with a focus on the world’s two largest light-duty vehicle markets—the U.S. and China; (3) Characteristics of alternative vehicle powertrains and fuels that could affect their future market share; (4) Infrastructure considerations for charging and fueling, particularly as they affect future demand for electric and hydrogen fuel cell vehicles; and (5) The future of personal mobility in urban areas, with a focus on the potentially disruptive role of autonomous vehicles and ride-hailing services.",
       "date": "2019/11/00",
       "shortTitle": "Insights Into Future Mobility",
       "libraryCatalog": "trid.trb.org",
@@ -865,7 +936,7 @@
         },
         {
           "firstName": "Emre",
-          "lastName": "Gen\u00e7er",
+          "lastName": "Gençer",
           "creatorType": "author"
         },
         {
@@ -1000,7 +1071,7 @@
       "version": 1922,
       "itemType": "journalArticle",
       "title": "Line-Specific Energy Modeling Framework for Urban Rail Transit Systems: A Case Study of Boston",
-      "abstractNote": "Urban rail transit systems play an essential role in improving mobility and efficiency. A complex rail transit network serves the Boston metropolitan area, U.S., which costs $38\u2009million for the 422\u2009GWh of system electricity consumed annually. With the aim of developing a tool for energy and cost reduction decision support, we propose a comprehensive machine learning framework to investigate line-specific contributions to energy. This effort builds on prior work in estimating a system-wide energy model for the Boston network. By introducing line-specific train movement and operation variables, we obtain a higher-performing model \n(R2=0.91)\n. Furthermore, the model better explains the relationship between energy and train movement, ridership, and weather variables. Most importantly, the model facilitates analyses of how each line contributes to system consumption at the hour level. We found that the non-line-specific variables made a contribution of \u22122.7% to the average hourly energy of consumption of \u22125.4\u2009MWh with a baseline energy consumption of 39\u2009MWh. The Red Line dominates the energy consumption among line-specific variables, contributing 2.3% to the hourly average. Our model could be further enhanced to evaluate the energy and cost impacts of line-specific strategies that may be required for future planning and disaster response, as well as for real-time energy monitoring by line.",
+      "abstractNote": "Urban rail transit systems play an essential role in improving mobility and efficiency. A complex rail transit network serves the Boston metropolitan area, U.S., which costs $38 million for the 422 GWh of system electricity consumed annually. With the aim of developing a tool for energy and cost reduction decision support, we propose a comprehensive machine learning framework to investigate line-specific contributions to energy. This effort builds on prior work in estimating a system-wide energy model for the Boston network. By introducing line-specific train movement and operation variables, we obtain a higher-performing model \n(R2=0.91)\n. Furthermore, the model better explains the relationship between energy and train movement, ridership, and weather variables. Most importantly, the model facilitates analyses of how each line contributes to system consumption at the hour level. We found that the non-line-specific variables made a contribution of −2.7% to the average hourly energy of consumption of −5.4 MWh with a baseline energy consumption of 39 MWh. The Red Line dominates the energy consumption among line-specific variables, contributing 2.3% to the hourly average. Our model could be further enhanced to evaluate the energy and cost impacts of line-specific strategies that may be required for future planning and disaster response, as well as for real-time energy monitoring by line.",
       "date": "2024-01-01",
       "language": "en",
       "shortTitle": "Line-Specific Energy Modeling Framework for Urban Rail Transit Systems",
@@ -1066,7 +1137,7 @@
       "version": 1456,
       "itemType": "journalArticle",
       "title": "Activity-based epidemic propagation and contact network scaling in auto-dependent metropolitan areas",
-      "abstractNote": "We build on recent work to develop a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages person-trajectories obtained from an activity-based model calibrated for two full-scale prototype cities, consisting of representative synthetic populations and mobility networks for two contrasting auto-dependent city typologies. We simulate the propagation of the COVID-19 epidemic in both cities to analyze spreading patterns in urban networks across various activity types. Investigating the impact of the transit network, we find that its removal dampens disease propagation significantly, suggesting that transit restriction is more critical for mitigating post-peak disease spreading\u00a0in transit dense cities. In the\u00a0latter stages of disease spread, we find that the greatest share of infections occur at work locations. A statistical analysis of the resulting activity-based contact networks indicates that transit contacts are scale-free, work contacts are Weibull distributed, and shopping or leisure contacts are exponentially distributed. We validate our simulation results against existing case and mortality data across multiple cities in their respective typologies. Our framework demonstrates the potential for tracking epidemic propagation in urban networks, analyzing socio-demographic impacts and assessing activity- and mobility-specific implications of both non-pharmaceutical and pharmaceutical intervention strategies.",
+      "abstractNote": "We build on recent work to develop a fully mechanistic, activity-based and highly spatio-temporally resolved epidemiological model which leverages person-trajectories obtained from an activity-based model calibrated for two full-scale prototype cities, consisting of representative synthetic populations and mobility networks for two contrasting auto-dependent city typologies. We simulate the propagation of the COVID-19 epidemic in both cities to analyze spreading patterns in urban networks across various activity types. Investigating the impact of the transit network, we find that its removal dampens disease propagation significantly, suggesting that transit restriction is more critical for mitigating post-peak disease spreading in transit dense cities. In the latter stages of disease spread, we find that the greatest share of infections occur at work locations. A statistical analysis of the resulting activity-based contact networks indicates that transit contacts are scale-free, work contacts are Weibull distributed, and shopping or leisure contacts are exponentially distributed. We validate our simulation results against existing case and mortality data across multiple cities in their respective typologies. Our framework demonstrates the potential for tracking epidemic propagation in urban networks, analyzing socio-demographic impacts and assessing activity- and mobility-specific implications of both non-pharmaceutical and pharmaceutical intervention strategies.",
       "date": "2021-11-22",
       "language": "en",
       "libraryCatalog": "www.nature.com",
@@ -1575,7 +1646,7 @@
       "version": 1931,
       "itemType": "journalArticle",
       "title": "Efficient automated schematic map drawing using multiobjective mixed integer programming",
-      "abstractNote": "We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of N\u00f6llenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two. We also employ an efficient augmented \u03f5-constraint method to assist in obtaining all Pareto optimal solutions, both supported and unsupported, for a given network. Through the Vienna Underground network and a cancer pathway, along with three numerical examples, we demonstrate the applications of our methods. Finally, we discuss future directions for research in this area.",
+      "abstractNote": "We present an efficient multiobjective mixed binary linear program that automates schematic mapping for network visualization and navigation. Schematic mapping has broad applications in representing transit networks, circuits, disease pathways, project tasks, organograms, and taxonomies. Good schematic maps employ distortion while preserving topology to facilitate access to physical or virtual networks. Automation is critical to saving time and costs, while encouraging adoption. We build upon previous work, particularly that of Nöllenburg and Wolff, improving upon the computational efficiency of their model by relaxing integrality constraints and reducing the number of objectives from three to two. We also employ an efficient augmented ϵ-constraint method to assist in obtaining all Pareto optimal solutions, both supported and unsupported, for a given network. Through the Vienna Underground network and a cancer pathway, along with three numerical examples, we demonstrate the applications of our methods. Finally, we discuss future directions for research in this area.",
       "date": "2015-09-01",
       "libraryCatalog": "ScienceDirect",
       "url": "https://www.sciencedirect.com/science/article/pii/S0305054815000416",
@@ -1641,7 +1712,7 @@
       "version": 1300,
       "itemType": "journalArticle",
       "title": "Tracking global bicycle ownership patterns",
-      "abstractNote": "Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia. We determine worldwide household ownership patterns and demonstrate a basis for understanding the global impact of cycling as a sustainable transit mode. Furthermore, we find a lower-bound estimate of the number of bicycles available to the world\u05f3s households. We establish that at the global level 42% of households own at least one bicycle, and thus there are at least 580 million bicycles in private household ownership. Our data are publicly available and amenable for future analyses.",
+      "abstractNote": "Over the past four decades, bicycle ownership has been documented in various countries but not globally analyzed. This paper presents an effort to fill this gap by tracking household bicycle possession. First, we gather survey data from 150 countries and extract percentage household bicycle ownership values. Performing cluster analysis, we determined four groups with the weighted mean percentage ownership ranging from 20% to 81%. Generally, bicycle ownership was highest in Northern Europe and lowest in West, Central and North Africa, and Central Asia. We determine worldwide household ownership patterns and demonstrate a basis for understanding the global impact of cycling as a sustainable transit mode. Furthermore, we find a lower-bound estimate of the number of bicycles available to the world׳s households. We establish that at the global level 42% of households own at least one bicycle, and thus there are at least 580 million bicycles in private household ownership. Our data are publicly available and amenable for future analyses.",
       "date": "December 1, 2015",
       "language": "en",
       "libraryCatalog": "ScienceDirect",
@@ -1856,6 +1927,212 @@
       "select": "zotero://select/library/items/VCMASFVL"
     },
     {
+      "key": "7RMV956E",
+      "version": 2283,
+      "itemType": "journalArticle",
+      "title": "A novel global urban typology framework for sustainable mobility futures",
+      "abstractNote": "Urban mobility significantly contributes to global carbon dioxide emissions. Given the rapid expansion and growth in urban areas, cities thus require innovative policies to ensure efficient and sustainable mobility. Urban typologies can serve as a vehicle for understanding dynamics of cities, which exhibit high variability in form, economic output, mobility behavior, among others. Yet, typologies relevant for sustainable urban mobility analyses are few, outdated and not large enough in scope. In this paper, we present a new typologization spanning 331 cities in 124 countries. Our sample represents 40% of the global urban population and contains the most recent data from 2008 to date. Using a factor analytic and agglomerative clustering approach, we identify 9 urban factors and 12 typologies. We discuss the implications of this new framework for researchers and planners and investigate the relationships between mobility and environmental sustainability indicators. Notably, we show an immediate application of the urban typologies to better understanding travel behavior and also describe their usage for detailed large-scale simulation in representative prototype cities for insights into sustainable future mobility policy pathways. Our data and results are publicly available for further exploration and will serve as a foundation for future analyses toward desirable urban and environmental outcomes.",
+      "date": "2019-09",
+      "language": "en",
+      "libraryCatalog": "Institute of Physics",
+      "url": "https://dx.doi.org/10.1088/1748-9326/ab22c7",
+      "accessDate": "2024-08-12T18:15:19Z",
+      "extra": "Publisher: IOP Publishing",
+      "volume": "14",
+      "pages": "095006",
+      "publicationTitle": "Environmental Research Letters",
+      "DOI": "10.1088/1748-9326/ab22c7",
+      "issue": "9",
+      "journalAbbreviation": "Environ. Res. Lett.",
+      "ISSN": "1748-9326",
+      "creators": [
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Youssef M.",
+          "lastName": "Aboutaleb",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arun",
+          "lastName": "Akkinepally",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlos Lima",
+          "lastName": "Azevedo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yafei",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. Christopher",
+          "lastName": "Zegras",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joseph",
+          "lastName": "Ferreira",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Moshe E.",
+          "lastName": "Ben-Akiva",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-08-12T18:15:19Z",
+      "dateModified": "2024-08-12T18:15:19Z",
+      "uri": "http://zotero.org/users/6356012/items/7RMV956E",
+      "itemID": 8357,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "IOP Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-08-12T18:15:21Z",
+          "dateModified": "2024-08-12T18:15:21Z",
+          "uri": "http://zotero.org/users/6356012/items/UZT26UFH",
+          "path": "/home/jbo/Zotero/storage/UZT26UFH/Oke et al. - 2019 - A novel global urban typology framework for sustai.pdf",
+          "select": "zotero://select/library/items/UZT26UFH"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2019novela",
+      "itemKey": "7RMV956E",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7RMV956E"
+    },
+    {
+      "key": "TVQUMULA",
+      "version": 2285,
+      "itemType": "journalArticle",
+      "title": "Evaluating the systemic effects of automated mobility-on-demand services via large-scale agent-based simulation of auto-dependent prototype cities",
+      "abstractNote": "The growing demand for urban mobility highlights the need for relevant and sustainable solutions in cities worldwide. Thus, we develop and implement a framework to analyze the systemic impacts of future urban mobility trends and policies. We build on prior work in classifying the world’s cities into 12 urban typologies that represent distinct land-use and behavioral characteristics by introducing a generalized approach for creating a detailed, simulatable prototype city that is representative of a given typology. We then generate and simulate two auto-dependent (largely US-specific) prototype cities via a state-of-the-art agent-based platform, SimMobility, for integrated demand microsimulation and supply mesoscopic simulation. We demonstrate the framework by analyzing the impacts of automated mobility on-demand (AMoD) implementation strategies in the cities based on demand, congestion, energy consumption and emissions outcomes. Our results show that the introduction of AMoD cannibalizes mass transit while increasing vehicle kilometers traveled (VKT) and congestion. In sprawling auto-dependent cities with low transit penetration, the congestion and energy consumption effects under best-case assumptions are similar regardless of whether AMoD competes with or complements mass transit. In dense auto-dependent cities with moderate transit modeshare, the integration of AMoD with transit yields better outcomes in terms of VKT and congestion. Such cities cannot afford to disinvest in mass transit, as this would result in unsustainable outcomes. Overall, this framework can provide insights into how AMoD can be sustainably harnessed not only in low-density and high-density auto-dependent cities, but also in other typologies.",
+      "date": "2020-10-01",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0965856420306327",
+      "accessDate": "2024-08-12T18:16:05Z",
+      "volume": "140",
+      "pages": "98-126",
+      "publicationTitle": "Transportation Research Part A: Policy and Practice",
+      "DOI": "10.1016/j.tra.2020.06.013",
+      "journalAbbreviation": "Transportation Research Part A: Policy and Practice",
+      "ISSN": "0965-8564",
+      "creators": [
+        {
+          "firstName": "Jimi B.",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arun Prakash",
+          "lastName": "Akkinepally",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Siyu",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yifei",
+          "lastName": "Xie",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Youssef M.",
+          "lastName": "Aboutaleb",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carlos Lima",
+          "lastName": "Azevedo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. Christopher",
+          "lastName": "Zegras",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joseph",
+          "lastName": "Ferreira",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Moshe",
+          "lastName": "Ben-Akiva",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Agent-based simulation",
+          "type": 1
+        },
+        {
+          "tag": "Automated mobility-on-demand",
+          "type": 1
+        },
+        {
+          "tag": "Future urban mobility",
+          "type": 1
+        },
+        {
+          "tag": "Prototype cities",
+          "type": 1
+        },
+        {
+          "tag": "Urban typologies",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-08-12T18:16:05Z",
+      "dateModified": "2024-08-12T18:16:05Z",
+      "uri": "http://zotero.org/users/6356012/items/TVQUMULA",
+      "itemID": 8359,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-08-12T18:16:11Z",
+          "dateModified": "2024-08-12T18:16:11Z",
+          "uri": "http://zotero.org/users/6356012/items/5QN43HV5",
+          "path": "/home/jbo/Zotero/storage/5QN43HV5/Oke et al. - 2020 - Evaluating the systemic effects of automated mobil.pdf",
+          "select": "zotero://select/library/items/5QN43HV5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-08-12T18:16:15Z",
+          "dateModified": "2024-08-12T18:16:15Z",
+          "uri": "http://zotero.org/users/6356012/items/32I2ZKEP",
+          "path": "/home/jbo/Zotero/storage/32I2ZKEP/S0965856420306327.html",
+          "select": "zotero://select/library/items/32I2ZKEP"
+        }
+      ],
+      "notes": [],
+      "citationKey": "oke2020evaluatinga",
+      "itemKey": "TVQUMULA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TVQUMULA"
+    },
+    {
       "key": "E5USYLMT",
       "version": 2263,
       "itemType": "report",
@@ -1955,7 +2232,7 @@
       "version": 1928,
       "itemType": "journalArticle",
       "title": "Feature Engineering and Decision Trees for Predicting High Crash-Risk Locations Using Roadway Indicators",
-      "abstractNote": "Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators. The three models were random forest, gradient boosting, and extra trees. This research used features engineering to reduce the number of indicators in the model, and the synthetic minority oversampling technique to address imbalances in the dataset between the minority (high crash-risk locations identified using crash reports) and majority classes (medium to low crash-risk locations identified based on local police testimonies, site inspections, and geometry analysis). Although all three models performed similarly, the extra trees model outperformed the other two on a range of performance metrics, including the area under the precision\u2013recall curve and the F1-score. The findings revealed that design speeds, pavement markings, signage presence, and pavement condition were the most influential factors affecting roadway safety. The contribution of this research is in the development of a transferable methodology for classifying high crash-risk locations in addition to revealing key indicators for crash-risk potential, which in turn can inform cost-effective data collection and maintenance activities.",
+      "abstractNote": "Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators. The three models were random forest, gradient boosting, and extra trees. This research used features engineering to reduce the number of indicators in the model, and the synthetic minority oversampling technique to address imbalances in the dataset between the minority (high crash-risk locations identified using crash reports) and majority classes (medium to low crash-risk locations identified based on local police testimonies, site inspections, and geometry analysis). Although all three models performed similarly, the extra trees model outperformed the other two on a range of performance metrics, including the area under the precision–recall curve and the F1-score. The findings revealed that design speeds, pavement markings, signage presence, and pavement condition were the most influential factors affecting roadway safety. The contribution of this research is in the development of a transferable methodology for classifying high crash-risk locations in addition to revealing key indicators for crash-risk potential, which in turn can inform cost-effective data collection and maintenance activities.",
       "date": "2024-01-07",
       "language": "en",
       "libraryCatalog": "SAGE Journals",
