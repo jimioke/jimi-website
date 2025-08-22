@@ -70,7 +70,7 @@
 <!--     <div class="column small-12 medium-6">
  -->      
     <h2>Papers under review/in press</h2>
-      {{ range (where .Pages "Params.kind" "==" "unpublished").GroupByDate "2006" "desc" }}
+      {{ range (where .Pages "Params.status" "==" "Unpublished").GroupByDate "2006" "desc" }}
       <div class="row">
         <div class="column small-1 medium-1">
           <h3>{{ .Key }}</h3>
@@ -89,7 +89,7 @@
 <!--      </div>
      <div class="column small-12 medium-6"> -->
       <h2>Published articles</h2>
-      {{ range (where .Pages "Params.type" "==" "journal").GroupByDate "2006" "desc" }}
+      {{ range (where .Pages "Params.type" "==" "journalArticle").GroupByDate "2006" "desc" }}
       <div class="row">
         <div class="column small-1 medium-1">
           <h3>{{ .Key }}</h3>

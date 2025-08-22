@@ -3,9 +3,9 @@ title: "Feature Engineering and Decision Trees for Predicting High Crash-Risk Lo
 author: Dimitrios Sarigiannis, Maria Atzemi, Jimi Oke, Eleni Christofa, Simos Gerasimidis
 status: Published
 type: journalArticle
-citation: "<em>Transportation Research Record</em>, <b>NA</b>(NA):03611981231217497"
+citation: "<em>Transportation Research Record</em>, <b>2678</b>(8):535-548"
 doi: 10.1177/03611981231217497
-date: 2024-01-07
+date: 2024-08-01
 ---
 
 

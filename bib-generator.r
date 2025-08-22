@@ -36,9 +36,16 @@ for(i in 1:nrow(df)) {
         }
         authors <- paste(authors, first_last_name, sep=author_sep)
     }
-    ref_status = "status: Published"
+    
     ref_type = paste0("type: ", ref$Item.Type)
-
+    
+    if (ref_type=="type: manuscript") {
+        ref_status = "status: Unpublished"
+    }
+    else {
+        ref_status = "status: Published"
+    }
+    
     ref_date = paste0("date: ", ref$Date)
     if (nchar(str_split(ref_date, " ")[[1]][2]) == 7) {
         ref_date = paste0(ref_date, "-01")
@@ -52,6 +59,10 @@ for(i in 1:nrow(df)) {
         ref_url <- paste0("online: ", ref$Url)
         ref_cit <- paste0("citation: \"<em>", ref$Publisher, "</em>, No. <b>", ref$Number, "</b>", "\"")
         ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_url, ref_date, "---", "\n", ref_abstract)
+    }  else if (str_split(ref_type, " ")[[1]][2] == "manuscript") {
+        ref_url <- paste0("online: ", ref$Url)
+        ref_cit <- paste0("citation: \"<em>", ref$Place, "</em>", "\"")
+        ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_date, "---", "\n", ref_abstract)
     } else {
         ref_cit = paste0("citation: \"<em>", ref$Publication.Title, "</em>, <b>", ref$Volume, "</b>(", ref$Issue, "):", ref$Pages, "\"")
         ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_doi, ref_date, "---", "\n", ref_abstract) 

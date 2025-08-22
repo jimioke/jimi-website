@@ -1,32 +1,663 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latex on Jimi Oke</title>
-    <link>https://people.umass.edu/jboke/categories/latex/</link>
+    <link>http://localhost:1313/jboke/categories/latex/</link>
     <description>Recent content in Latex on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
     
-        <atom:link href="https://people.umass.edu/jboke/categories/latex/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/jboke/categories/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Another LaTeX post</title>
-      <link>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</link>
+      <link>http://localhost:1313/jboke/wrotelearning/another-latex-post/</link>
       <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
       
-      <guid>https://people.umass.edu/jboke/wrotelearning/another-latex-post/</guid>
+      <guid>http://localhost:1313/jboke/wrotelearning/another-latex-post/</guid>
       <description>&lt;p&gt;To be completed.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Nice Gantt charts in LaTeX</title>
-      <link>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</link>
+      <link>http://localhost:1313/jboke/wrotelearning/nice-gantt-charts-latex/</link>
       <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
       
-      <guid>https://people.umass.edu/jboke/wrotelearning/nice-gantt-charts-latex/</guid>
-      <description>&lt;p&gt;To be completed.&lt;/p&gt;
+      <guid>http://localhost:1313/jboke/wrotelearning/nice-gantt-charts-latex/</guid>
+      <description>&lt;style&gt;
+.hljs {
+    background: #ffffff !important;
+    border: 1px solid #e1e1e1;
+}
+&lt;/style&gt;
+&lt;p&gt;The &lt;code&gt;pgfgantt&lt;/code&gt; package in $\LaTeX$ provides amazing functionality for professional Gantt charts. It&amp;rsquo;s my go to in writing proposals.&lt;/p&gt;
+&lt;p&gt;See the code I used to create the Gantt chart shown below (it&amp;rsquo;s a pretty busy chart!):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[margin=1in]&lt;/span&gt;{geometry}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{pgfplots}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{pgfgantt}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;%... (truncated - full code below)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;details&gt;
+&lt;summary&gt;Click to view the full code&lt;/summary&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[margin=1in]&lt;/span&gt;{geometry}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{pgfplots}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{pgfgantt}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{graphicx} &lt;span style=&#34;color:#75715e&#34;&gt;% Required for inserting images
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfplotsset&lt;/span&gt;{compat=newest}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\makeatletter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\def\pgfcalendarmonthshortername&lt;/span&gt;#1{&lt;span style=&#34;color:#75715e&#34;&gt;%
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfutil&lt;/span&gt;@translate{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ifcase&lt;/span&gt;#1&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Ja&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Fe&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Ma&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Ap&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Ma&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Ju&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Ju&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Au&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Se&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; Oc&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    No&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; De&lt;span style=&#34;color:#66d9ef&#34;&gt;\fi&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;%
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\def\pgfcalendarmonthsingleletter&lt;/span&gt;#1{&lt;span style=&#34;color:#75715e&#34;&gt;%
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\tiny&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfutil&lt;/span&gt;@translate{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ifcase&lt;/span&gt;#1&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; J&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; F&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; M&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; A&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    M&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; J&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; J&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; A&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; S&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; O&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    N&lt;span style=&#34;color:#66d9ef&#34;&gt;\or&lt;/span&gt; D&lt;span style=&#34;color:#66d9ef&#34;&gt;\fi&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;%
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\makeatother&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\title&lt;/span&gt;{gantt-chart-example}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\author&lt;/span&gt;{Jimi Oke}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\date&lt;/span&gt;{January 2024}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{document}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\pagestyle&lt;/span&gt;{empty}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;%\maketitle
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttset&lt;/span&gt;{group/.append style={orange},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;milestone/.append style={draw=none},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;progress label node anchor/.append style={text=red}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\newganttchartelement&lt;/span&gt;{project}{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    project/.style={&lt;span style=&#34;color:#75715e&#34;&gt;% inner sep=0pt,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      draw=none,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      fill=blue!60!black      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    project label font ={&lt;span style=&#34;color:#66d9ef&#34;&gt;\color&lt;/span&gt;{white}&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\newganttchartelement&lt;/span&gt;{admin}{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    admin/.style={&lt;span style=&#34;color:#75715e&#34;&gt;% inner sep=0pt,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      draw=none,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      fill=red!80!black      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    admin label font ={&lt;span style=&#34;color:#66d9ef&#34;&gt;\color&lt;/span&gt;{white}&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\newganttchartelement&lt;/span&gt;{dci}{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dci/.style={      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      draw=none,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      fill = orange
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dci label font ={&lt;span style=&#34;color:#66d9ef&#34;&gt;\color&lt;/span&gt;{white}&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% raThreebar left shift=.1, raThreebar right shift=-.1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\newganttchartelement&lt;/span&gt;{pub}{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pub/.style={      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      draw=none,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      fill = green!50!black
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pub label font ={&lt;span style=&#34;color:#66d9ef&#34;&gt;\color&lt;/span&gt;{white}&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% raThreebar left shift=.1, raThreebar right shift=-.1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{ganttchart}[y unit title=0.4cm,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    y unit chart=0.33cm,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    x unit=0.25cm,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% hgrid,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;% hgrid style/.style={black, solid},
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    vgrid, &lt;span style=&#34;color:#75715e&#34;&gt;%={black, solid},
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%title/.style={draw=gray},
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    title label anchor/.style={below=-1.6ex},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%group label node/.append style={draw},
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;% title left shift=.05,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;% title right shift=-.05,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    title height=1,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    title label font={&lt;span style=&#34;color:#66d9ef&#34;&gt;\footnotesize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group label font={&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\footnotesize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group/.append style={fill=gray},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    bar/.style={fill=green!50!black!50!},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    bar incomplete/.style={fill=red!40},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    bar label font={&lt;span style=&#34;color:#66d9ef&#34;&gt;\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    canvas/.append style={fill=none},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    progress label text={},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone height = .6,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    bar top shift=0.1,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    bar height=.8,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group right shift=0,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group top shift=0.2,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group height=.8,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    time slot format=isodate-yearmonth,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    time slot unit=month,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    link/.style={-&amp;gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    group inline label node/.style={yshift=0pt,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\color&lt;/span&gt;{white}&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={right=0mm},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone label node/.append style={font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\scriptsize\bfseries\sffamily&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    workshopR/.style={milestone/.append style={fill=blue!60!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={right=1mm}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestoneR/.style={milestone/.append style={fill=blue!60!black}},    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestoneL/.style={milestone/.append style={fill=blue!60!black},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    workshopL/.style={milestone/.append style={fill=blue!60!black,shape=isosceles triangle},milestone inline label node/.append style={left=0mm}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    deliverableR/.style={milestone/.append style={fill=blue!60!black,shape=rectangle}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    deliverableL/.style={milestone/.append style={fill=blue!60!black,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    deliverableT3L/.style={milestone/.append style={fill=orange,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;}},  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    deliverableT5L/.style={milestone/.append style={fill=green!50!black,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;}},       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    deliverableT3R/.style={milestone/.append style={fill=orange,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     milestone inline label node/.append style={right=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\sffamily&lt;/span&gt;}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    webinarL/.style={milestone/.append style={fill=green!50!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    adminprsL/.style={milestone/.append style={fill=red!80!black,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    admincallsL/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    admincallsR/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={right=1mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    admindelivR/.style={milestone/.append style={fill=red!80!black,shape=rectangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={right=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    scmeetingsL/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={left=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    scmeetingsR/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    milestone inline label node/.append style={right=0mm,font=&lt;span style=&#34;color:#66d9ef&#34;&gt;\bfseries\scriptsize\bfseries\sffamily&lt;/span&gt;}}        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ]{2023-9}{2028-12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% labels
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \gantttitle{&amp;#39;21}{1}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \gantttitlecalendar{year, month=singleletter}\\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2023}{4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2024}{12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2025}{12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2026}{12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2027}{12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{2028}{12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{}{1}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q1}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q2}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q3}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q1}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q2}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q3}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q1}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q2}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q3}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q1}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q2}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q3}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q1}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q2}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q3}{3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\gantttitle&lt;/span&gt;{Q4}{3}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% tasks
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttgroup&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[inline=true]&lt;/span&gt;{Task 1: Administration and reporting}{2023-10}{2028-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%\ganttadmin[inline=true]{T1.3 Monthly conference calls}{2023-11}{2028-09}\\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{D1.2}{2024-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2024-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2024-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2024-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2025-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2025-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2025-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2025-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2026-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2026-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2026-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2026-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2027-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2027-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2027-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2027-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2028-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2028-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2028-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[adminprsL,inline=true]&lt;/span&gt;{}{2028-10}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttadmin[inline=true]{T1.3 Monthly conference calls}{2023-11}{2028-09}\\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsR,inline=true]&lt;/span&gt;{M1.1 Kick-off meeting}{2023-10}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{M1.2}{2023-12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-2}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-5}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-6}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-8}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-11}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2024-12}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-2}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-5}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-6}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-8}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-11}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2025-12} 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-2}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-5}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-6}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-8}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-11}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2026-12}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-2}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-5}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-6}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-8}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-11}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2027-12}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-1}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-2}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-3}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-5}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-6}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-7}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-8}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admincallsL,inline=true]&lt;/span&gt;{}{2028-9}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttgroup&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[inline=true]&lt;/span&gt;{Task 2: Steering committee}{2023-10}{2028-4} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%\ganttadmin[inline=true]{T2.1 Identify stakeholders}{2023-10}{2024-1}\\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[admindelivR,inline=true]&lt;/span&gt;{D2.1 Steering committee members}{2024-2}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{M2.1 Mtgs.}{2024-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2024-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2025-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2025-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2026-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2026-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2027-4}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2027-10}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[scmeetingsL,inline=true]&lt;/span&gt;{}{2028-4}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttgroup&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[inline=true]&lt;/span&gt;{Task 3: Define, Coordinate, Integrate}{2023-10}{2028-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttdci[inline=true]{3.1 Preliminary literature review}{2023-09}{2023-10}\\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttdci[inline=true]{3.2 Prepare research agenda}{2023-09}{2023-10}\\    
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttdci[inline=true]{3.3 Coordination}{2023-09}{2028-09}\\        
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3R, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{D3.1: Performance metrics report &lt;span style=&#34;color:#66d9ef&#34;&gt;\&amp;amp;&lt;/span&gt; preliminary review}{2023-11} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3R, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{D3.2: 5-year research agenda}{2023-11} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{D3.3 Agenda updates}{2024-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{}{2025-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{}{2026-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{}{2027-9}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]&lt;/span&gt;{}{2028-9}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttgroup&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[inline=true]&lt;/span&gt;{Task 4: Conduct Research Projects}{2023-10}{2028-09} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;%\myline{thin}{blue}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t11, inline=true]&lt;/span&gt;{T4.1: Dynamic research synthesis}{2023-10}{2027-06}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily,inline=true]&lt;/span&gt;{W4.1.1 Research Needs workshop}{2024-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.1.1: Systematic literature review}{2024-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.1.2 Dynamic Synthesis workshop}{2025-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.1.1 Prototype dynamic synthesis pipeline}{2026-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.1.2 AI dynamic synthesis framework}{2026-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;%%% T4.2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t42, inline]&lt;/span&gt;{T4.2: Establish infrastructure and protocols}{2024-02}{2027-09} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.2.1 Standards workshop}{2024-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.1.1 Platform prototype V1.0}{2024-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.2.2 Protocols workshop}{2025-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;     
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.1.2 Platform prototype V2.0}{2025-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;           
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.2.1 Standards/protocols guidance}{2026-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.2.2 Platform &lt;span style=&#34;color:#66d9ef&#34;&gt;\&amp;amp;&lt;/span&gt; sharing infrastructure}{2026-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%%% T4.3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t43, inline]&lt;/span&gt;{T4.3: Define benchmarks and best practices}{2024-01}{2028-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{M4.3.1 Candidate benchmark datasets/models}{2024-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.3.1 Landmark Models workshop}{2025-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{M4.3.2 Internal validation topics}{2025-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.3.2 Internal Validation workshop}{2026-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{M4.3.3 Criteria for benchmark selection}{2026-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.3.1 Benchmarks}{2026-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.3.2 Internal validation guide}{2026-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.3.3 Illustrative examples}{2026-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%%%% T4.4.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t44, inline]&lt;/span&gt;{T4.4: Identify performance metric “North Stars:”}{2024-1}{2027-09}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.4.1: North Stars I workshop}{2024-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{M4.4.1 North Star candidates and selection process}{2025-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.4.2: North Stars II workshop}{2026-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.4.1 Final list of North Stars and process}{2027-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.4.2 North Star program evaluation}{2027-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     &lt;span style=&#34;color:#75715e&#34;&gt;%% T4.5
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t45, inline=true]&lt;/span&gt;{T4.5: Strengthen existing knowledge}{2024-03}{2028-03}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.5.1 Large-scale Simulation workshop}{2024-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.5.1 Large-scale simulation framework: AVs}{2025-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;     
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneL, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.5.2 Large-scale simulation framework: shared mobility}{2026-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;     
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.5.2 Advances &lt;span style=&#34;color:#66d9ef&#34;&gt;\&amp;amp;&lt;/span&gt; Experiments workshop}{2027-3} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.5.1 On-demand taxi application}{2027-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.5.2 Shared bikes and e-bikes application}{2027-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.5.3 Shared AVs application}{2027-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttproject&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t45, inline]&lt;/span&gt;{T4.6: Discover high-interest scenarios}{2024-06}{2028-09}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.6.1 Scenario space}{2024-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.6.2 Candidate strategies}{2024-12} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;{M4.6.3 Preliminary meta-model methods }{2025-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;           
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.6.1: Experimental Design &lt;span style=&#34;color:#66d9ef&#34;&gt;\&amp;amp;&lt;/span&gt; Meta-modeling workshop}{2026-6} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.6.1: Scenario discovery framework}{2026-9} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[milestoneL, milestone label font=\scriptsize\bfseries\sffamily, inline=true]&lt;/span&gt;        {M4.6.4 Preliminary SD data mining and analysis methods}{2027-1} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;               
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{W4.6.2: Robust Policy Analyses workshop}{2027-11} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.6.2: High-interest scenarios}{2028-4} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D4.6.3: Robust NAM policy recommendations}{2028-7} &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttgroup&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[inline=true]&lt;/span&gt;{Task 5: Publish research and engage with stakeholders}{2023-10}{2028-12}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttpub&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t45, inline]&lt;/span&gt;{T5.2 Share and transfer knowledge via WISEN-UP Network Platform}{2024-01}{2028-12}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttpub&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = t45, inline]&lt;/span&gt;{T5.3 Plan/host workshops, webinars and conference sessions}{2024-01}{2028-9}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = web1, webinarL,inline=true]&lt;/span&gt;{W5.1 Webinars}{2024-07} &lt;span style=&#34;color:#75715e&#34;&gt;%{2024-02} 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = web1, webinarL,inline=true]&lt;/span&gt;{}{2025-07}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = web1, webinarL,inline=true]&lt;/span&gt;{}{2026-07}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = web1, webinarL,inline=true]&lt;/span&gt;{}{2027-07}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[name = web1, webinarL,inline=true]&lt;/span&gt;{}{2028-07}&lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L,inline=true]&lt;/span&gt;{D5.1 White papers}{2024-09} &lt;span style=&#34;color:#75715e&#34;&gt;%{2024-02} 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L,inline=true]&lt;/span&gt;{}{2025-09}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L,inline=true]&lt;/span&gt;{}{2026-09}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L,inline=true]&lt;/span&gt;{}{2027-09}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L,inline=true]&lt;/span&gt;{}{2028-09}    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttmilestone[deliverableT5L, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]{D5.1}{2026-9} \\  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;\ganttmilestone&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[deliverableT5L, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]&lt;/span&gt;{D5.2 Final Report}{2028-12} 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem3}{elem4}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem1}{elem5}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem3}{elem5}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem2}{elem6}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem3}{elem6}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \ganttlink{elem5}{elem7}    
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \begin{scope}[minimum height=0mm, minimum width= 2mm,node distance=.75mm]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \node[fill=red!80!black, draw=none] (qprhandle) at ([yshift=-25pt]current bounding box.south){};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \node[minimum width=2mm,isosceles triangle, isosceles triangle stretches, fill=red!80!black, draw=none, below=of qprhandle] (scmhandle) {};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% %   \node[fill=cyan, draw, below=of raTwohandle] (raThreehandle) {};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \end{scope}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \begin{scope}[node distance=.75mm, font={\scriptsize\sffamily}]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%    \node[right= of qprhandle] {Quarterly progress reports};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%    \node[right= of scmhandle] {Steering Committee meetings};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% %   \node[right= of raTwohandle] {Research Assistant 2 (1 year)};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% %   \node[right= of raThreehandle] {Research Assistant 3 (3 years)};
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% \end{scope}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{ganttchart}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{document}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-16a110f6&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-16a110f6&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-16a110f6&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/jboke/files/gantt-chart-example-2.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-16a110f6&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-16a110f6&#34;&gt;
+    &lt;button id=&#34;pdf-prev-16a110f6&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-16a110f6&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-16a110f6&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-16a110f6&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-16a110f6&#34; href=&#34;http://localhost:1313/jboke/files/gantt-chart-example-2.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-16a110f6&#34; href=&#34;http://localhost:1313/jboke/files/gantt-chart-example-2.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/files\/gantt-chart-example-2.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;1&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/jboke\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-16a110f6&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-16a110f6&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-16a110f6&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-16a110f6&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-16a110f6&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-16a110f6&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-16a110f6&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
 </description>
     </item>
     

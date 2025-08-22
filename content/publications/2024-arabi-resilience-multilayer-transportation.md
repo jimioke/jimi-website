@@ -3,9 +3,9 @@ title: "Resilience in multilayer transportation infrastructure networks: a revie
 author: Mahsa Arabi, Simos Gerasimidis, Camille Barchers, Jimi Oke
 status: Published
 type: journalArticle
-citation: "<em>Sustainable and Resilient Infrastructure</em>, <b>0</b>(0):1–24"
+citation: "<em>Sustainable and Resilient Infrastructure</em>, <b>0</b>(0):1-24"
 doi: 10.1080/23789689.2024.2344909
-date: 2024
+date: 2024-04-22
 ---
 
 

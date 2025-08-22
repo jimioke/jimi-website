@@ -25,6 +25,8 @@
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
+      "cacheDelete": false,
+      "cacheRetain": false,
       "charmap": "",
       "citeCommand": "cite",
       "citekeyCaseInsensitive": true,
@@ -78,7 +80,6 @@
       "rawImports": false,
       "rawLaTag": "#LaTeX",
       "relativeFilePaths": false,
-      "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
       "skipFields": "file, abstract",
@@ -105,7 +106,8 @@
     }
   },
   "version": {
-    "bbt": "6.7.229"
+    "zotero": "6.0.11.SOURCE.ba1906c05",
+    "bbt": "6.7.263"
   },
   "collections": {},
   "items": [
@@ -209,19 +211,11 @@
       ],
       "tags": [
         {
-          "tag": "Artificial Intelligence",
-          "type": 1
-        },
-        {
-          "tag": "Automated fare collection",
-          "type": 1
-        },
-        {
           "tag": "Machine learning",
           "type": 1
         },
         {
-          "tag": "Mobile ticketing",
+          "tag": "Automated fare collection",
           "type": 1
         },
         {
@@ -230,6 +224,14 @@
         },
         {
           "tag": "Trip chaining",
+          "type": 1
+        },
+        {
+          "tag": "Mobile ticketing",
+          "type": 1
+        },
+        {
+          "tag": "Artificial Intelligence",
           "type": 1
         },
         {
@@ -250,15 +252,107 @@
       "select": "zotero://select/library/items/J2NG359L"
     },
     {
-      "key": "PTKY2H33",
-      "version": 1464,
+      "key": "FRD8N8PF",
+      "version": 2754,
+      "itemType": "journalArticle",
+      "title": "Roadway Crash Typology of Census Tracts Enables Targeted Interventions via Interpretable Machine Learning",
+      "abstractNote": "Roadway crashes are a leading cause of death and injury worldwide, necessitating targeted interventions for improved safety. While models exist to analyze spatial variations in specific risk factor effects, a comprehensive approach to identifying and characterizing distinct types of crash-prone spatial environments across large regions remains less explored. We address this gap by introducing a novel data-driven typology of census tracts based on crash indicators across Massachusetts, Connecticut, and Vermont using 2023 crash data, providing a framework for categorizing areas based on distinct crash patterns. We apply dimensionality reduction using Uniform Manifold Approximation and Projection (UMAP) to 25 crash characteristics derived from over 222,000 crash records and aggregated across 2,660 census tracts. This reveals six key latent dimensions that capture underlying variations in crash profiles. Gaussian Mixture Modeling (GMM) reveals five distinct crash types, driven by differences in speed conditions, roadway design, and vehicle involvement, which influence crash severity and frequency. We validate the typology using a Light Gradient Boosting Machines (LightGBM) classifier, which achieved 96% accuracy across 5 classes. Finally, we demonstrate how this typology enables targeted and evidence-based safety interventions. This integrated pipeline offers a novel tool for understanding regional safety patterns and guiding the development of context-specific, proactive safety interventions.",
+      "date": "2025-07-03",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "url": "https://doi.org/10.1007/s42421-025-00128-2",
+      "accessDate": "2025-08-08T19:56:38Z",
+      "volume": "7",
+      "pages": "14",
+      "publicationTitle": "Data Science for Transportation",
+      "DOI": "10.1007/s42421-025-00128-2",
+      "issue": "2",
+      "journalAbbreviation": "Data Sci. Transp.",
+      "ISSN": "2948-1368",
+      "creators": [
+        {
+          "firstName": "Mohammed",
+          "lastName": "Abdalazeem",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Statistics",
+          "type": 1
+        },
+        {
+          "tag": "LightGBM",
+          "type": 1
+        },
+        {
+          "tag": "Applied Statistics",
+          "type": 1
+        },
+        {
+          "tag": "Crash typology",
+          "type": 1
+        },
+        {
+          "tag": "Gaussian mixture modeling",
+          "type": 1
+        },
+        {
+          "tag": "Roadway safety",
+          "type": 1
+        },
+        {
+          "tag": "Spatial Demography",
+          "type": 1
+        },
+        {
+          "tag": "Targeted interventions",
+          "type": 1
+        },
+        {
+          "tag": "Transport Research",
+          "type": 1
+        },
+        {
+          "tag": "Transportation Technology and Traffic Engineering",
+          "type": 1
+        },
+        {
+          "tag": "UMAP",
+          "type": 1
+        },
+        {
+          "tag": "Urban Sociology",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-08T19:56:39Z",
+      "dateModified": "2025-08-08T19:56:39Z",
+      "uri": "http://zotero.org/users/6356012/items/FRD8N8PF",
+      "itemID": 10714,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "abdalazeem2025roadwaya",
+      "itemKey": "FRD8N8PF",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FRD8N8PF"
+    },
+    {
+      "key": "SZQ4VN2D",
+      "version": 2377,
       "itemType": "journalArticle",
       "title": "Predicting tree failure likelihood for utility risk mitigation via a convolutional neural network",
       "abstractNote": "Critical to the resilience of utility power lines, tree failure assessments have historically been performed via costly manual inspections. In this paper, we develop a convolutional neural network (CNN) to predict tree failure likelihood categories (Probable, Possible, Improbable) under three classification strategies. The CNN produced the best performance under the Probable/Possible vs. Improbable strategy, achieving a recall score of 0.82. We also perform a visual analysis of the predictions via Grad-CAM++ heatmaps, indicating an approach for incorporating interpretability into model selection. Benchmarking the results of our model against those produced by two state-of-the-art CNNs (ResNet-50 and Inception-v3), we show that our relatively simple model produces better results in a computational time that is three times faster. Via this novel framework, we demonstrate the potential of artificial intelligence to automate and consequently reduce the costs of tree failure likelihood assessments in proximity to power lines, thereby promoting sustainable infrastructure.",
       "date": "2023-11-02",
       "libraryCatalog": "Taylor and Francis+NEJM",
       "url": "https://doi.org/10.1080/23789689.2023.2233759",
-      "accessDate": "2024-02-19T19:03:38Z",
+      "accessDate": "2024-10-15T19:02:56Z",
       "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/23789689.2023.2233759",
       "volume": "8",
       "pages": "572-588",
@@ -316,16 +410,16 @@
         }
       ],
       "relations": {},
-      "dateAdded": "2024-02-19T19:03:38Z",
-      "dateModified": "2024-02-19T19:03:38Z",
-      "uri": "http://zotero.org/users/6356012/items/PTKY2H33",
-      "itemID": 6468,
+      "dateAdded": "2024-10-15T19:02:56Z",
+      "dateModified": "2024-10-15T19:02:56Z",
+      "uri": "http://zotero.org/users/6356012/items/SZQ4VN2D",
+      "itemID": 8919,
       "attachments": [],
       "notes": [],
-      "citationKey": "apostolov2023predictinga",
-      "itemKey": "PTKY2H33",
+      "citationKey": "apostolov2023predicting",
+      "itemKey": "SZQ4VN2D",
       "libraryID": 1,
-      "select": "zotero://select/library/items/PTKY2H33"
+      "select": "zotero://select/library/items/SZQ4VN2D"
     },
     {
       "key": "3N5VERMT",
@@ -462,22 +556,22 @@
       "select": "zotero://select/library/items/S6GANRLT"
     },
     {
-      "key": "LEEM6E9Y",
-      "version": 2299,
+      "key": "UMF45KNZ",
+      "version": 2379,
       "itemType": "journalArticle",
       "title": "Resilience in multilayer transportation infrastructure networks: a review and conceptual framework for equity-based assessment",
       "abstractNote": "This paper presents a comprehensive review of resilience concepts, methodologies, metrics, and modeling techniques, and identifies key research gaps. These include the lack of multilayer network representations of transportation infrastructures when quantifying resilience, and insufficient metrics for assessing equitable outcomes. To address these gaps, we propose a conceptual multilayer framework for transporttaion infrastructure networks and develop equitable resilience metrics that incorporate socioeconomic and demographic variables. Using Pioneer Valley as a case study, we apply our framework to assess the resilience of transportation networks and demonstrate its utility in guiding resource allocation to enhance both the physical robustness and social equity of infrastructure. Our findings show that this approach significantly contributes to more informed and inclusive decision-making, fostering the development of resilient and equitable urban environments.",
       "date": "2024-04-22",
-      "language": "EN",
       "shortTitle": "Resilience in multilayer transportation infrastructure networks",
-      "archiveLocation": "world",
-      "libraryCatalog": "www.tandfonline.com",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/23789689.2024.2344909",
-      "accessDate": "2024-08-14T18:21:15Z",
-      "rights": "© 2024 Informa UK Limited, trading as Taylor & Francis Group",
-      "extra": "Publisher: Taylor & Francis",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "url": "https://doi.org/10.1080/23789689.2024.2344909",
+      "accessDate": "2024-10-15T19:01:22Z",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/23789689.2024.2344909",
+      "volume": "0",
+      "pages": "1-24",
       "publicationTitle": "Sustainable and Resilient Infrastructure",
       "DOI": "10.1080/23789689.2024.2344909",
+      "issue": "0",
       "ISSN": "2378-9689",
       "creators": [
         {
@@ -501,30 +595,228 @@
           "creatorType": "author"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "tag": "resilience",
+          "type": 1
+        },
+        {
+          "tag": "Equity",
+          "type": 1
+        },
+        {
+          "tag": "multilayer network",
+          "type": 1
+        },
+        {
+          "tag": "transportation infrastructure system",
+          "type": 1
+        }
+      ],
       "relations": {},
-      "dateAdded": "2024-08-14T18:21:15Z",
-      "dateModified": "2024-08-14T18:25:32Z",
-      "uri": "http://zotero.org/users/6356012/items/LEEM6E9Y",
-      "itemID": 8384,
+      "dateAdded": "2024-10-15T19:01:23Z",
+      "dateModified": "2024-10-15T19:04:10Z",
+      "uri": "http://zotero.org/users/6356012/items/UMF45KNZ",
+      "itemID": 8916,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "arabi2024resiliencea",
+      "itemKey": "UMF45KNZ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/UMF45KNZ"
+    },
+    {
+      "key": "RTP6HEYZ",
+      "version": 2768,
+      "itemType": "journalArticle",
+      "title": "Benefits of aggressively co-undergrounding electric and broadband lines outweigh costs",
+      "abstractNote": "Electric power and broadband have become essential services for modern economies, but utilities face substantial challenges in providing disruption-free access. Recent legislation, including the US Infrastructure Investment and Jobs Act of 2021, has allocated enormous resources toward improving infrastructure systems. Historically, undergrounding has enhanced system reliability but has been cost effective only in densely populated areas. We investigate the conditions under which undergrounding becomes cost effective, particularly when co-deployed with fiber optic lines. We introduce a novel data-driven cost-benefit model and conduct a detailed localized case study in Shrewsbury, Massachusetts. The results indicate that when undergrounding is viable, aggressively co-undergrounding yields the highest net benefit. This finding is robust across various assumptions. Importantly, our model highlights the importance of assumptions regarding undergrounding’s effectiveness in reducing outages. Our model is readily deployable to other study areas, providing effective decision-making capabilities even with limited data.",
+      "date": "2025-03-28",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949790625000308",
+      "accessDate": "2025-08-19T17:17:58Z",
+      "volume": "2",
+      "pages": "100334",
+      "publicationTitle": "Cell Reports Sustainability",
+      "DOI": "10.1016/j.crsus.2025.100334",
+      "issue": "3",
+      "journalAbbreviation": "Cell Reports Sustainability",
+      "ISSN": "2949-7906",
+      "creators": [
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Atanas",
+          "lastName": "Apostolov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Abhiraksha",
+          "lastName": "Pattabhiraman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anna",
+          "lastName": "Goldstein",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael",
+          "lastName": "Bloomberg",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jay",
+          "lastName": "Taneja",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Erin",
+          "lastName": "Baker",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "broadband",
+          "type": 1
+        },
+        {
+          "tag": "co-undergrounding",
+          "type": 1
+        },
+        {
+          "tag": "cost-benefit analysis",
+          "type": 1
+        },
+        {
+          "tag": "critical infrastructure",
+          "type": 1
+        },
+        {
+          "tag": "decision-making",
+          "type": 1
+        },
+        {
+          "tag": "power lines",
+          "type": 1
+        },
+        {
+          "tag": "reliability",
+          "type": 1
+        },
+        {
+          "tag": "resilience",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:17:58Z",
+      "dateModified": "2025-08-19T17:17:58Z",
+      "uri": "http://zotero.org/users/6356012/items/RTP6HEYZ",
+      "itemID": 10849,
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Snapshot",
+          "title": "ScienceDirect Snapshot",
           "tags": [],
           "relations": {},
-          "dateAdded": "2024-08-14T18:21:22Z",
-          "dateModified": "2024-08-14T18:21:22Z",
-          "uri": "http://zotero.org/users/6356012/items/YZ7EFTHI",
-          "path": "/home/jbo/Zotero/storage/YZ7EFTHI/23789689.2024.html",
-          "select": "zotero://select/library/items/YZ7EFTHI"
+          "dateAdded": "2025-08-19T17:18:10Z",
+          "dateModified": "2025-08-19T17:18:10Z",
+          "uri": "http://zotero.org/users/6356012/items/ECXP2975",
+          "path": "/home/jbo/Zotero/storage/ECXP2975/S2949790625000308.html",
+          "select": "zotero://select/library/items/ECXP2975"
         }
       ],
       "notes": [],
-      "citationKey": "arabi2024resilience",
-      "itemKey": "LEEM6E9Y",
+      "citationKey": "arabi2025benefitsa",
+      "itemKey": "RTP6HEYZ",
       "libraryID": 1,
-      "select": "zotero://select/library/items/LEEM6E9Y"
+      "select": "zotero://select/library/items/RTP6HEYZ"
+    },
+    {
+      "key": "QWA9HYWU",
+      "version": 2832,
+      "itemType": "manuscript",
+      "title": "Harnessing hybrid buses in the near term leads to faster transit decarbonization",
+      "abstractNote": "To achieve net-zero emissions, transit systems will eventually have to transition to fully electric buses. We introduce an integrated decision-making and energy modeling framework to analyze transition strategies from diesel to zero-emitting buses under various budget scenarios. Using a detailed energy model of the buses to predict fuel usage, we then optimally assign types of buses to scheduled trips to minimize diesel consumption and emissions. Applying this framework to the Pioneer Valley Transit Authority network, we find that under realistic budget and infrastructure constraints, an electrification future that allows a mix of electric and hybrid buses reduces emissions more effectively than an all-electric future. Specifically, for a fixed budget, incorporating hybrid buses results in an additional 6% emissions reduction over the 18-year planning horizon compared to an electric-only future. This shows that hybrid buses can speed up the elimination of diesel buses and maximize emissions reduction while mitigating infrastructure and financial constraints. Our framework evaluates different fleet transition futures and provides transit agencies with a data-driven framework to plan investments and meet their decarbonization targets under realistic budgetary and infrastructure constraints.",
+      "date": "2025-8-13",
+      "place": "(accepted in iScience)",
+      "creators": [
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tolu",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Erin",
+          "lastName": "Baker",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:26:29Z",
+      "dateModified": "2025-08-22T19:11:54Z",
+      "uri": "http://zotero.org/users/6356012/items/QWA9HYWU",
+      "itemID": 10853,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "arabi2025harnessing",
+      "itemKey": "QWA9HYWU",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/QWA9HYWU"
+    },
+    {
+      "key": "YZ7R4LMM",
+      "version": 2833,
+      "itemType": "manuscript",
+      "title": "Typology of U.S. transit systems reveals energy data gap and potential for diesel-based emissions reductions",
+      "abstractNote": "We present a typology of 2,205 U.S. transit systems, derived from 167\noperational indicators in the National Transit Database (NTD), to reveal\ndistinct patterns. Using kernel principal component analysis and\nGaussian mixture modeling, we identify five distinct transit system\ntypes: *Metro Bus-Rail*, *Mid-Sized Urban*, *Hybrid Multimodal*, *Urban\nSpecialized*, and *Diverse Operations*. We also discover a gap in diesel\nconsumption reporting (76% of systems), which are predominantly of the\n*Mid-Sized Urban* type. To bridge this critical data gap, we apply\nextreme gradient boosting (XGBoost) to predict the diesel consumption\nfor 1,674 underreported systems. We then estimate lifecycle emissions,\naccounting for regional grid carbon intensity. The result highlights\nsignificant variability in diesel consumption and emissions across\ntransit types, with *Metro Bus-Rail* systems contributing the highest\nemissions. To evaluate decarbonization potential, we simulate fleet\nelectrification and grid decarbonization. Our scenario analyses indicate\nthat up to 79% of 8.17 MMTCO~2~e diesel-based transit emissions can be\neliminated through fleet electrification, with further grid\ndecarbonization eliminating the remainder. These findings provide\nactionable insights for policymakers to prioritize electrification,\noptimize resource allocation, and support sustainable transit strategies\nin the U.S.",
+      "date": "2025-8-15",
+      "place": "(under review in Env. Res. Lett.)",
+      "creators": [
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:40:26Z",
+      "dateModified": "2025-08-22T19:13:30Z",
+      "uri": "http://zotero.org/users/6356012/items/YZ7R4LMM",
+      "itemID": 10858,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "arabi2025typology",
+      "itemKey": "YZ7R4LMM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/YZ7R4LMM"
     },
     {
       "key": "6ZXSKBC8",
@@ -1133,6 +1425,313 @@
       "select": "zotero://select/library/items/5ZLNVSJS"
     },
     {
+      "key": "I5J8VALC",
+      "version": 2820,
+      "itemType": "report",
+      "title": "Robust Decision-Making Framework for Sustainable Operations and Planning of MBTA Rapid Transit Vehicles",
+      "abstractNote": "Urban Rail Transit (URT) systems play a critical role in modern cities but consume significant amounts of energy. Understanding and predicting energy consumption patterns in these systems is vital for sustainable urban planning, especially during disruptive events. This study presents a Long Short-Term Memory (LSTM) recurrent neural network, the model can accurately predict daily energy consumption and average daily temperature, with root mean squared errors (RMSE) of 50.6 MWh and 6.62°F. Additionally, a decision-making tool was developed to simulate various operational strategies and their impacts on energy consumption and temperature. These findings provide URT operators with a robust framework for making data-driven decisions and improving energy efficiency in URT systems.",
+      "date": "2024-09-01",
+      "language": "English",
+      "libraryCatalog": "ROSA P",
+      "callNumber": "dot:79350",
+      "url": "/view/dot/79350",
+      "accessDate": "2025-08-19T17:19:29Z",
+      "reportNumber": "24-063",
+      "creators": [
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Gonzales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Analysis",
+          "type": 1
+        },
+        {
+          "tag": "Decision making",
+          "type": 1
+        },
+        {
+          "tag": "Energy",
+          "type": 1
+        },
+        {
+          "tag": "energy forecasting",
+          "type": 1
+        },
+        {
+          "tag": "Neural networks",
+          "type": 1
+        },
+        {
+          "tag": "Rail transit",
+          "type": 1
+        },
+        {
+          "tag": "scenario analysis",
+          "type": 1
+        },
+        {
+          "tag": "Sustainable transportation",
+          "type": 1
+        },
+        {
+          "tag": "Transportation planning",
+          "type": 1
+        },
+        {
+          "tag": "urban rail transit",
+          "type": 1
+        },
+        {
+          "tag": "Urban transit",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:19:29Z",
+      "dateModified": "2025-08-19T17:51:26Z",
+      "uri": "http://zotero.org/users/6356012/items/I5J8VALC",
+      "itemID": 10851,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-08-19T17:19:31Z",
+          "dateModified": "2025-08-19T17:19:31Z",
+          "uri": "http://zotero.org/users/6356012/items/F6RQXS6E",
+          "path": "/home/jbo/Zotero/storage/F6RQXS6E/Han et al. - 2024 - Robust Decision-Making Framework for Sustainable O.pdf",
+          "select": "zotero://select/library/items/F6RQXS6E"
+        }
+      ],
+      "notes": [],
+      "citationKey": "han2024robust",
+      "itemKey": "I5J8VALC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/I5J8VALC"
+    },
+    {
+      "key": "SQAUYAJ5",
+      "version": 2830,
+      "itemType": "manuscript",
+      "title": "Novel typology of fatal crash behaviors via natural language processing",
+      "abstractNote": "This study presents a data-driven framework to uncover patterns of less-studied fatal driver behaviors. We analyzed 84,170 driver behavior reports from the Fatality Analysis Reporting System (FARS) between 2021 and 2023.  Using natural language processing methods, we obtained 194 distinct lemmas and quantified their importance in each report. We then applied principal components analysis to obtain 18 underlying behavioral factors. Finally, we clustered the reports via Gaussian Mixture Modeling, obtaining a novel typology of 15 behaviors. Our results reveal spatial disparities in fatal driver behaviors and provide a framework for type-specific crash mitigation efforts.",
+      "date": "2025-5-7",
+      "place": "(under review in Data Science for Transportation)",
+      "creators": [
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:38:39Z",
+      "dateModified": "2025-08-22T19:11:25Z",
+      "uri": "http://zotero.org/users/6356012/items/SQAUYAJ5",
+      "itemID": 10857,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "han2025novel",
+      "itemKey": "SQAUYAJ5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SQAUYAJ5"
+    },
+    {
+      "key": "N6EBH7W9",
+      "version": 2755,
+      "itemType": "journalArticle",
+      "title": "A Vision for Computational Decarbonization of Societal Infrastructure",
+      "abstractNote": "Modern society is at a critical inflection point with rapidly accelerating demand for energy due to growth in domestic manufacturing, datacenters, artificial intelligence (AI), electric vehicles, and electric heat pumps. Sustaining this growth while also reducing society’s carbon emissions will necessitate a shift beyond our long-standing focus on improving energy efficiency to optimizing carbon efficiency. This paper lays out a vision for a new field of computational decarbonization, which focuses on optimizing and reducing the lifecycle carbon emissions of complex computing and societal infrastructure systems. We identify an important class of decarbonization problems that arise from interdependencies across multiple infrastructure domains, including computing, transportation, the built environment, and the electric power grid. As we discuss, solving these problems will require developing novel computational techniques, algorithms, systems, and AI methods that sense, optimize, and reduce the operational, embodied, and lifecycle greenhouse gas emissions of societal infrastructure over long temporal and spatial scales.",
+      "date": "2025-03",
+      "libraryCatalog": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11018345",
+      "accessDate": "2025-08-08T19:57:05Z",
+      "volume": "29",
+      "pages": "27-35",
+      "publicationTitle": "IEEE Internet Computing",
+      "DOI": "10.1109/MIC.2025.3575016",
+      "issue": "2",
+      "ISSN": "1941-0131",
+      "creators": [
+        {
+          "firstName": "David",
+          "lastName": "Irwin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Prashant",
+          "lastName": "Shenoy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mohammad",
+          "lastName": "Hajiesmaili",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Walid A.",
+          "lastName": "Hanafy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ramesh",
+          "lastName": "Sitaraman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yuvraj",
+          "lastName": "Agarwal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Geoffrey J.",
+          "lastName": "Gordon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zico",
+          "lastName": "Kolter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Deepak",
+          "lastName": "Rajagopal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mani",
+          "lastName": "Srivastava",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vivienne",
+          "lastName": "Sze",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Priya",
+          "lastName": "Donti",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew",
+          "lastName": "Chien",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John",
+          "lastName": "Birge",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ali",
+          "lastName": "Hortacsu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Line",
+          "lastName": "Roald",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computational modeling",
+          "type": 1
+        },
+        {
+          "tag": "Energy efficiency",
+          "type": 1
+        },
+        {
+          "tag": "Training",
+          "type": 1
+        },
+        {
+          "tag": "Artificial intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Costs",
+          "type": 1
+        },
+        {
+          "tag": "Energy management",
+          "type": 1
+        },
+        {
+          "tag": "Optimization",
+          "type": 1
+        },
+        {
+          "tag": "Carbon emissions",
+          "type": 1
+        },
+        {
+          "tag": "Codecs",
+          "type": 1
+        },
+        {
+          "tag": "Low carbon economy",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-08T19:57:05Z",
+      "dateModified": "2025-08-08T19:57:05Z",
+      "uri": "http://zotero.org/users/6356012/items/N6EBH7W9",
+      "itemID": 10715,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-08-08T19:57:08Z",
+          "dateModified": "2025-08-08T19:57:08Z",
+          "uri": "http://zotero.org/users/6356012/items/ZVNEPB3Y",
+          "path": "/home/jbo/Zotero/storage/ZVNEPB3Y/Irwin et al. - 2025 - A Vision for Computational Decarbonization of Soci.pdf",
+          "select": "zotero://select/library/items/ZVNEPB3Y"
+        }
+      ],
+      "notes": [],
+      "citationKey": "irwin2025visionb",
+      "itemKey": "N6EBH7W9",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/N6EBH7W9"
+    },
+    {
       "key": "TIGUCQP6",
       "version": 1456,
       "itemType": "journalArticle",
@@ -1214,6 +1813,118 @@
       "itemKey": "TIGUCQP6",
       "libraryID": 1,
       "select": "zotero://select/library/items/TIGUCQP6"
+    },
+    {
+      "key": "7BFWDVHS",
+      "version": 2764,
+      "itemType": "preprint",
+      "title": "Distilling actionable insights through road network features to alleviate traffic congestion",
+      "abstractNote": "Policy transfer is an efficient strategy for urban policymaking. However, the unique city-specific\ncharacteristics complicate the transfer of congestion-mitigating policies. We study seven highly\ncongested cities worldwide and argue that, since regions with less congestion exist even within\nthese cities, understanding how road network features explain the intra-city variations in con-\ngestion can significantly enhance the efficacy of mitigation measures. While our findings reveal\nextreme city-specific variations in feature importance, suggesting that supply-side interventions\nmust be tailored to individual cities, the most effective features for demand-side interventions\nshare notable similarities across different cities. In the short term, our results directly impact the\nongoing mitigation measures in these cities, such as congestion pricing and personalised route\nchoice applications, specifically in making them more robust and increasing public acceptance. In\nthe long term, our insights encourage a re-evaluation of scepticism towards infrastructure invest-\nments in mitigating congestion and highlight the potential for designing congestion-resistant\nfuture cities. Moreover, given the diverse selection of cities, the few common observations suggest\nthat extrapolating those common observations to new cities will likely be effective, especially\nwhen a detailed analysis like ours is impossible due to data constraints. Finally, we provide key\nrecommendations for researchers from the data-driven traffic prediction community regarding\nthe need to focus on microscopic scales and for researchers in simulation-based counterfactual\napproaches to simulate the impact of road network features with values beyond the known\nranges for feature values in the studied cities.",
+      "date": "2025-06-05",
+      "libraryCatalog": "Research Square",
+      "url": "https://www.researchsquare.com/article/rs-4952650/v2",
+      "accessDate": "2025-08-08T19:59:49Z",
+      "extra": "ISSN: 2693-5015",
+      "DOI": "10.21203/rs.3.rs-4952650/v2",
+      "repository": "Research Square",
+      "creators": [
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yatao",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nina",
+          "lastName": "Wiedemann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Raubal",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-08T19:59:49Z",
+      "dateModified": "2025-08-08T19:59:49Z",
+      "uri": "http://zotero.org/users/6356012/items/7BFWDVHS",
+      "itemID": 10722,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-08-08T19:59:52Z",
+          "dateModified": "2025-08-08T19:59:52Z",
+          "uri": "http://zotero.org/users/6356012/items/7LYRV6CV",
+          "path": "/home/jbo/Zotero/storage/7LYRV6CV/Kumar et al. - 2025 - Distilling actionable insights through road networ.pdf",
+          "select": "zotero://select/library/items/7LYRV6CV"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kumar2025distilling",
+      "itemKey": "7BFWDVHS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7BFWDVHS"
+    },
+    {
+      "key": "32R548Y3",
+      "version": 2834,
+      "itemType": "manuscript",
+      "title": "Multi‑scale road network feature analysis in highly congested cities: Implications for sustainable cities",
+      "date": "2025-8-18",
+      "place": "(under review in Data Science for Transportation)",
+      "creators": [
+        {
+          "firstName": "Nishant",
+          "lastName": "Kumar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yatao",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nina",
+          "lastName": "Wiedemann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Raubal",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:34:44Z",
+      "dateModified": "2025-08-22T19:13:57Z",
+      "uri": "http://zotero.org/users/6356012/items/32R548Y3",
+      "itemID": 10855,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "kumar2025multiscale",
+      "itemKey": "32R548Y3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/32R548Y3"
     },
     {
       "key": "7BY9B2WF",
@@ -2228,20 +2939,22 @@
       "select": "zotero://select/library/items/E5USYLMT"
     },
     {
-      "key": "3HE37NVJ",
-      "version": 1928,
+      "key": "9H8BHE6G",
+      "version": 2374,
       "itemType": "journalArticle",
       "title": "Feature Engineering and Decision Trees for Predicting High Crash-Risk Locations Using Roadway Indicators",
       "abstractNote": "Road crashes are a prevalent public health issue across the globe. The objective of this research was to develop a methodology for accurately classifying high-risk crash locations. The hypothesis of this study was that readily obtained roadway indicators can be used along with machine learning techniques to categorize locations as high crash-risk. A database containing 5,383 locations was created during 2012 to 2015 as part of the Hellenic National Road Safety Project and used to develop three binary machine learning models to classify high crash-risk locations based on roadway indicators. The three models were random forest, gradient boosting, and extra trees. This research used features engineering to reduce the number of indicators in the model, and the synthetic minority oversampling technique to address imbalances in the dataset between the minority (high crash-risk locations identified using crash reports) and majority classes (medium to low crash-risk locations identified based on local police testimonies, site inspections, and geometry analysis). Although all three models performed similarly, the extra trees model outperformed the other two on a range of performance metrics, including the area under the precision–recall curve and the F1-score. The findings revealed that design speeds, pavement markings, signage presence, and pavement condition were the most influential factors affecting roadway safety. The contribution of this research is in the development of a transferable methodology for classifying high crash-risk locations in addition to revealing key indicators for crash-risk potential, which in turn can inform cost-effective data collection and maintenance activities.",
-      "date": "2024-01-07",
+      "date": "2024-08-01",
       "language": "en",
       "libraryCatalog": "SAGE Journals",
       "url": "https://doi.org/10.1177/03611981231217497",
-      "accessDate": "2024-06-18T14:45:11Z",
+      "accessDate": "2024-10-15T19:01:50Z",
       "extra": "Publisher: SAGE Publications Inc",
-      "pages": "03611981231217497",
+      "volume": "2678",
+      "pages": "535-548",
       "publicationTitle": "Transportation Research Record",
       "DOI": "10.1177/03611981231217497",
+      "issue": "8",
       "ISSN": "0361-1981",
       "creators": [
         {
@@ -2272,28 +2985,180 @@
       ],
       "tags": [],
       "relations": {},
-      "dateAdded": "2024-06-18T14:45:11Z",
-      "dateModified": "2024-06-18T14:45:11Z",
-      "uri": "http://zotero.org/users/6356012/items/3HE37NVJ",
-      "itemID": 7442,
+      "dateAdded": "2024-10-15T19:01:50Z",
+      "dateModified": "2024-10-15T19:01:50Z",
+      "uri": "http://zotero.org/users/6356012/items/9H8BHE6G",
+      "itemID": 8917,
       "attachments": [
         {
           "itemType": "attachment",
           "title": "SAGE PDF Full Text",
           "tags": [],
           "relations": {},
-          "dateAdded": "2024-06-18T14:45:12Z",
-          "dateModified": "2024-06-18T14:45:12Z",
-          "uri": "http://zotero.org/users/6356012/items/IAF4WTY9",
-          "path": "/home/jbo/Zotero/storage/IAF4WTY9/Sarigiannis et al. - 2024 - Feature Engineering and Decision Trees for Predict.pdf",
-          "select": "zotero://select/library/items/IAF4WTY9"
+          "dateAdded": "2024-10-15T19:01:51Z",
+          "dateModified": "2024-10-15T19:01:51Z",
+          "uri": "http://zotero.org/users/6356012/items/39GMX9CU",
+          "path": "/home/jbo/Zotero/storage/39GMX9CU/Sarigiannis et al. - 2024 - Feature Engineering and Decision Trees for Predict.pdf",
+          "select": "zotero://select/library/items/39GMX9CU"
         }
       ],
       "notes": [],
-      "citationKey": "sarigiannis2024feature",
-      "itemKey": "3HE37NVJ",
+      "citationKey": "sarigiannis2024featureb",
+      "itemKey": "9H8BHE6G",
       "libraryID": 1,
-      "select": "zotero://select/library/items/3HE37NVJ"
+      "select": "zotero://select/library/items/9H8BHE6G"
+    },
+    {
+      "key": "49J4CKVE",
+      "version": 2835,
+      "itemType": "manuscript",
+      "title": "Perspectives on Accelerating Integrated Seabed Characterization for the Clean Energy Transition: Outcomes of a National Science Foundation Workshop",
+      "abstractNote": "Global offshore wind development is rapidly expanding, with lease areas exceeding 400 square kilometers, leading to technical, economic, and environmental challenges in seabed characterization. Revolutionizing seabed characterization through integrated, cross-disciplinary scientific approaches presents an opportunity to reshape the offshore energy industry’s data requirements, collection, interpretation, and integration processes. Significant opportunities for transformative innovation lie in the development of more intelligent site characterization methods that incorporate data science-informed decision-making. The NSF-funded workshop Advancing Integrated Seabed Characterization for Clean Energy Transition (ASCENT) was held in November 2024, bringing together a geographically diverse group of international stakeholders, including academics, offshore wind developers, consultants, contractors, and government regulators. The workshop aimed to promote transformative, cross-disciplinary innovation in integrated seabed characterization methods. It focused on improving the quantification of geodata uncertainty and enhancing ground model reliability. Keynote presentations, panel\n\ndiscussions, and breakout sessions provided insights into regulatory perspectives on project data requirements, challenged the current state of practice in data collection and interpretation, and advanced the state-of-the-art in data integration and data science applications. This paper presents the workshop’s motivation, key outcomes, and future opportunities identified to reduce the carbon footprint and the economic and environmental costs of offshore renewable energy development.",
+      "date": "2025-8-18",
+      "place": "(under review in Sustainable Energy Technologies and Assessments)",
+      "creators": [
+        {
+          "firstName": "Zachary",
+          "lastName": "Westgate",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Don",
+          "lastName": "DeGroot",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Julie",
+          "lastName": "Brigham-Grette",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:35:59Z",
+      "dateModified": "2025-08-22T19:15:27Z",
+      "uri": "http://zotero.org/users/6356012/items/49J4CKVE",
+      "itemID": 10856,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "westgate2025perspectives",
+      "itemKey": "49J4CKVE",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/49J4CKVE"
+    },
+    {
+      "key": "U29CW5NB",
+      "version": 2836,
+      "itemType": "manuscript",
+      "title": "Scenario discovery yields robust multi-level pathways for regional decarbonization planning",
+      "abstractNote": "We present a comprehensive accounting and scenario discovery framework for sector-specific regional greenhouse gas emissions. Three regions in Connecticut, namely Bridgeport, Hartford, and New Haven, served as case studies. Our inventory approach combines bottom-up and top-down approaches, relying on readily available data sources. We also fitted autoregressive integrated moving average (ARIMA) models to project near-term emissions across all sectors in each region. The models indicate that absent any interventions, current emissions trends will remain unchanged. Sensitivity analysis highlights the importance of truck mileage and grid emissions factors in emissions. Critically, we then apply the data-driven scenario discovery method to elicit nine robust decarbonization pathways at the mild, moderate and deep level. Our results show that deep decarbonization is attainable but requires a concerted multi-sector approach focused on mobility, grid emissions, commercial emissions and residential fossil fuel use. We expect that this framework will be easily deployable to other regions, serving as a useful tool to identify key areas of focus for equitable and effective emissions mitigation planning efforts.",
+      "date": "2025-6-11",
+      "place": "(under review in Env. Res. Comms.)",
+      "creators": [
+        {
+          "firstName": "Peiyao",
+          "lastName": "Zhao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joseph",
+          "lastName": "Mega",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mohammed",
+          "lastName": "Abdalazeem",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mahsa",
+          "lastName": "Arabi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Camille V.",
+          "lastName": "Barchers",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-19T17:31:03Z",
+      "dateModified": "2025-08-22T19:16:20Z",
+      "uri": "http://zotero.org/users/6356012/items/U29CW5NB",
+      "itemID": 10854,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "zhao2025scenario",
+      "itemKey": "U29CW5NB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/U29CW5NB"
+    },
+    {
+      "key": "C2KAETG5",
+      "version": 2753,
+      "itemType": "journalArticle",
+      "title": "Typology of US metropolitan areas illuminates per-capita mobile greenhouse gas emissions impacts and informs mitigation strategies",
+      "abstractNote": "We present a novel typology of 349 metropolitan statistical areas in the United States and demonstrate its implication for understanding and mitigating per-capita mobile greenhouse gas emissions (PMGEs). Via factor analysis of 55 indicators across seven categories, we identified eight key drivers of mobile emissions. Based on these, we clustered the metro areas via Gaussian mixture modeling to obtain seven metro types. We used an extreme gradient boosting regression model to predict PMGEs based on all the indicators, excluding population. Using SHapley Additive exPlanations values, we identified the most relevant indicators. The model reveals that density and transit mitigate PMGEs, while car use and climate exacerbate it. The typology provides further insights into how these effects vary across network, mode share and development patterns. Ultimately, the typology can serve as a framework to identify relevant indicators and thereby guide the selection of strategies for effective, type-specific emissions mitigation.",
+      "date": "2025-07",
+      "language": "en",
+      "libraryCatalog": "Institute of Physics",
+      "url": "https://dx.doi.org/10.1088/1748-9326/adf07b",
+      "accessDate": "2025-08-08T19:55:28Z",
+      "extra": "Publisher: IOP Publishing",
+      "volume": "20",
+      "pages": "084075",
+      "publicationTitle": "Environmental Research Letters",
+      "DOI": "10.1088/1748-9326/adf07b",
+      "issue": "8",
+      "journalAbbreviation": "Environ. Res. Lett.",
+      "ISSN": "1748-9326",
+      "creators": [
+        {
+          "firstName": "Peiyao",
+          "lastName": "Zhao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-08T19:55:28Z",
+      "dateModified": "2025-08-08T19:56:04Z",
+      "uri": "http://zotero.org/users/6356012/items/C2KAETG5",
+      "itemID": 10712,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "IOP Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-08-08T19:55:32Z",
+          "dateModified": "2025-08-08T19:55:32Z",
+          "uri": "http://zotero.org/users/6356012/items/N6JGBMWA",
+          "path": "/home/jbo/Zotero/storage/N6JGBMWA/Zhao and Oke - 2025 - Typology of US metropolitan areas illuminates per-.pdf",
+          "select": "zotero://select/library/items/N6JGBMWA"
+        }
+      ],
+      "notes": [],
+      "citationKey": "zhao2025typologya",
+      "itemKey": "C2KAETG5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/C2KAETG5"
     }
   ]
 }
