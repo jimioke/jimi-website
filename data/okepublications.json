@@ -1606,6 +1606,53 @@
       "select": "zotero://select/library/items/SQAUYAJ5"
     },
     {
+      "key": "UIUSZATA",
+      "version": 2857,
+      "itemType": "manuscript",
+      "title": "Robust forecasting framework for energy-informed planning in urban rail transit systems",
+      "date": "08-25-2025",
+      "place": "(under review in Data Science for Transportation)",
+      "creators": [
+        {
+          "firstName": "Zhuo",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eleni",
+          "lastName": "Christofa",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Gonzales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sean",
+          "lastName": "Donaghy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jimi",
+          "lastName": "Oke",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-02T13:09:55Z",
+      "dateModified": "2025-09-02T13:11:45Z",
+      "uri": "http://zotero.org/users/6356012/items/UIUSZATA",
+      "itemID": 10886,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "han2025robust",
+      "itemKey": "UIUSZATA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/UIUSZATA"
+    },
+    {
       "key": "N6EBH7W9",
       "version": 2755,
       "itemType": "journalArticle",
