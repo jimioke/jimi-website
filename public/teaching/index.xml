@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Jimi Oke</title>
-    <link>http://localhost:1313/jboke/teaching/</link>
+    <link>https://people.umass.edu/jimi/teaching/</link>
     <description>Recent content in Teaching on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Mar 2020 09:38:55 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/jboke/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://people.umass.edu/jimi/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teaching</title>
-      <link>http://localhost:1313/jboke/teaching/teaching/</link>
+      <link>https://people.umass.edu/jimi/teaching/teaching/</link>
       <pubDate>Thu, 05 Mar 2020 09:38:55 -0500</pubDate>
-      <guid>http://localhost:1313/jboke/teaching/teaching/</guid>
+      <guid>https://people.umass.edu/jimi/teaching/teaching/</guid>
       <description>&lt;h2 id=&#34;cee-601-machine-learning-foundations-and-applications&#34;&gt;CEE 601: Machine Learning Foundations and Applications&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2023, Spring 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-616-probabilistic-machine-learning&#34;&gt;CEE 616: Probabilistic Machine Learning&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-790st-advanced-probabilistic-machine-learning&#34;&gt;CEE 790ST: Advanced Probabilistic Machine Learning&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Spring 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-697m-big-data-and-machine-learning-for-engineers&#34;&gt;CEE 697M: Big Data and Machine Learning for Engineers&lt;/h2&gt;&#xA;&lt;p&gt;This is a graduate course that delves into the theory of machine learning, broadly divided into supervised learning, unsupervised learning and neural networks. Slides and course material are available here.&lt;/p&gt;</description>
     </item>
   </channel>

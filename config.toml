@@ -1,4 +1,4 @@
-baseurl = "https://people.umass.edu/jboke"
+baseurl = "https://people.umass.edu/jimi"
 title = "Jimi Oke"
 languageCode = "en-us"
 canonifyurls = true
@@ -43,8 +43,8 @@ seminars_count = 5
 [[params.social]]
   icon = "envelope"
   icon_pack = "fa"
-  link = "mailto:jboke@umass.edu"
-  text = "jboke@umass.edu"
+  link = "mailto:jimi@umass.edu"
+  text = "jimi@umass.edu"
 
 [[params.social]]
   icon = "twitter"

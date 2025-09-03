@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jimi Oke</title>
-    <link>http://localhost:1313/jboke/categories/</link>
+    <link>https://people.umass.edu/jimi/categories/</link>
     <description>Recent content in Categories on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/jboke/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://people.umass.edu/jimi/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latex</title>
-      <link>http://localhost:1313/jboke/categories/latex/</link>
+      <link>https://people.umass.edu/jimi/categories/latex/</link>
       <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
-      <guid>http://localhost:1313/jboke/categories/latex/</guid>
+      <guid>https://people.umass.edu/jimi/categories/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistics</title>
-      <link>http://localhost:1313/jboke/categories/statistics/</link>
+      <link>https://people.umass.edu/jimi/categories/statistics/</link>
       <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
-      <guid>http://localhost:1313/jboke/categories/statistics/</guid>
+      <guid>https://people.umass.edu/jimi/categories/statistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/jboke/categories/linux/</link>
+      <link>https://people.umass.edu/jimi/categories/linux/</link>
       <pubDate>Thu, 27 Jan 2022 11:50:53 -0500</pubDate>
-      <guid>http://localhost:1313/jboke/categories/linux/</guid>
+      <guid>https://people.umass.edu/jimi/categories/linux/</guid>
       <description></description>
     </item>
   </channel>

@@ -97,10 +97,10 @@
       "Preferences": true,
       "biblatexAPA": false,
       "biblatexChicago": false,
-      "exportDir": "/home/jbo/Projects/jboke-website/data",
+      "exportDir": "/home/jbo/Projects/jimi-website/data",
       "exportFileData": false,
       "exportNotes": true,
-      "exportPath": "/home/jbo/Projects/jboke-website/data/okepublications.json",
+      "exportPath": "/home/jbo/Projects/jimi-website/data/okepublications.json",
       "keepUpdated": false,
       "worker": true
     }

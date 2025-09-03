@@ -3,7 +3,7 @@ library("yaml")
 library("anytime")
 library(stringr)
 
-# setwd("./Projects/jboke-website/")
+# setwd("./Projects/jimi-website/")
 # dois <- c("10.1103/PhysRevLett.104.070402",
 #           "10.1093/jamia/ocaa033",
 #           "10.1177/0361198119853553",
