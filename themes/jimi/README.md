@@ -1,4 +1,4 @@
-# Hugo Theme for robjhyndman.com
+# Hugo Theme for people.umass.edu/jimi
 
 The design is inspired by kieranhealy.org and is a modification of hugo-finite. 
 
