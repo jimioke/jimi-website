@@ -6,20 +6,58 @@
 {{ $presentations_title := index .Site.Params "presentations_title" | default "presentations" }}
 {{ $presentations_count := index .Site.Params "presentations_count" | default 3 }}
 <div class="row">
+  <div class="column small-12 medium-5 large-6">
+    <!-- First column content -->
+    <div class="row">
+      <div class="column small-12 medium-7 large-7">
+        <!-- Right column content -->
+        <h1 style="font-size: 26px;">Jimi Oke</h1>
+        <p  style="font-size: 16px;">Assistant Professor, Department of Civil and Environmental Engineering
+        <br>Director, Networks for Accessibility, Resilience and Sustainability Laboratory
+        <br>University of Massachusetts Amherst
+        <br>130 Natural Resources Rd, Amherst, MA 01003, USA
+        <br>
+        <br>Email: jimi (at) umass (dot) edu 
+        <br>Phone: +1 (413) 545-2325
+        <br>Office: Marston Hall 214D
+        </p>
+      </div>
+      <div class="column small-12 medium-5 large-5">
+        <!-- Left column content -->
+        <img src="/img/headshot-jun-2019-cropped.jpg" alt="Headshot" class="float-center" style="max-width: 50%;">
+        <p>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="column small-12 medium-5 large-offset-1">
+    <!-- Third column content -->
+    <h2 style="font-size: 22px;">Follow my work</h2>
+    <p style="font-size: 16px;"><a href="https://narslab.org/" target="_blank" rel="noopener">NARS Lab Website</a>
+        <br><a href="https://orcid.org/0000-0002-8719-7783" target="_blank" rel="noopener">ORCID</a>
+        <br><a href="https://scholar.google.com/citations?user=R6I47vYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <br><a href="https://www.researchgate.net/profile/Jimi Oke" target="_blank" rel="noopener">ResearchGate</a>
+        <br><a href="https://www.linkedin.com/in/jimioke" target="_blank" rel="noopener">LinkedIn</a>
+        <br><a href="https://twitter.com/jimi_oke" target="_blank" rel="noopener">Twitter</a>
+    </p>
+  </div>
+</div>
+<div class="row">
   <div class="column small-12 medium-7 large-6">
+    <h2 style="font-size: 22px;"><a href="/wrotelearning/">Recent blog {{ $posts_title }}</a></h2>
     {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "wrotelearning").Reverse) }}
     {{ partial "post-summary" . }}
     {{ end }}
   </div>
   <div class="column small-12 medium-5 large-offset-1">
-    <h2><a href="/publications/">Recent {{ $pubs_title }}</a></h2>
+    <h2 style="font-size: 22px;"><a href="/publications/">Recent {{ $pubs_title }}</a></h2>
     <ul class="compact fa-ul">
       {{ range first $pubs_count (where .Site.RegularPages.ByDate "Section" "publications").Reverse }}
       <li style="margin-bottom: 9px;">{{ partial "pub-summary" . }}</li>
       {{ end }}
     </ul>
     <div style="padding-top: 5ex;"></div>
-    <h2><a href="/presentations/">Recent and upcoming {{ $presentations_title }}</a></h2>
+    <h2 style="font-size: 22px;"><a href="/presentations/">Recent and upcoming {{ $presentations_title }}</a></h2>
     <ul class="compact fa-ul">
     {{ range first $presentations_count ((where .Site.RegularPages.ByDate "Section" "presentations").Reverse) }}
       <li style="margin-bottom: 9px;">{{ partial "presentation-summary" . }}</li>

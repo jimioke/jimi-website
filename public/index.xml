@@ -6,8 +6,15 @@
     <description>Recent content on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 14:43:53 -0500</lastBuildDate>
     <atom:link href="https://people.umass.edu/jimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating your CV in LaTeX</title>
+      <link>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</link>
+      <pubDate>Mon, 15 Sep 2025 14:43:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</guid>
+      <description>&lt;p&gt;Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on &lt;a href=&#34;https://www.overleaf.com/read/cxmzjdzskvrr#54e289&#34;&gt;Overleaf&lt;/a&gt;. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.&lt;/p&gt;&#xA;&lt;p&gt;I love the look of the &lt;a href=&#34;https://www.tug.org/FontCatalogue/linuxlibertine/&#34;&gt;Libertine&lt;/a&gt; font family, which gives the CV that classic professional feel.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Maps are good but are simpler maps better? Insights on urban bicycling in the US</title>
       <link>https://people.umass.edu/jimi/publications/2025-abdalazeem-maps-are-good/</link>
@@ -314,7 +321,7 @@
       <link>https://people.umass.edu/jimi/teaching/teaching/</link>
       <pubDate>Thu, 05 Mar 2020 09:38:55 -0500</pubDate>
       <guid>https://people.umass.edu/jimi/teaching/teaching/</guid>
-      <description>&lt;h2 id=&#34;cee-601-machine-learning-foundations-and-applications&#34;&gt;CEE 601: Machine Learning Foundations and Applications&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2023, Spring 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-616-probabilistic-machine-learning&#34;&gt;CEE 616: Probabilistic Machine Learning&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-790st-advanced-probabilistic-machine-learning&#34;&gt;CEE 790ST: Advanced Probabilistic Machine Learning&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Spring 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-697m-big-data-and-machine-learning-for-engineers&#34;&gt;CEE 697M: Big Data and Machine Learning for Engineers&lt;/h2&gt;&#xA;&lt;p&gt;This is a graduate course that delves into the theory of machine learning, broadly divided into supervised learning, unsupervised learning and neural networks. Slides and course material are available here.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;cee-260mie-273-probability-and-statistics-for-engineershttpsprobstatsnarslaborg&#34;&gt;&lt;a href=&#34;https://probstats.narslab.org/&#34;&gt;CEE 260/MIE 273: Probability and Statistics for Engineers&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is a core undergraduate course for civil/mechanical/industrial engineering majors at UMass Amherst. (&lt;a href=&#34;https://probstats.narslab.org/&#34;&gt;Course website&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2019, 2020, 2021, 2024, 2025.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-601-machine-learning-foundations-and-applications&#34;&gt;CEE 601: Machine Learning Foundations and Applications&lt;/h2&gt;&#xA;&lt;p&gt;Semesters taught: Fall 2023, Spring 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;cee-616-probabilistic-machine-learning&#34;&gt;CEE 616: Probabilistic Machine Learning&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;(Formerly CEE 697M: Big Data and Machine Learning for Engineers.)&lt;/em&gt; This is a graduate course that delves into the theory of machine learning from a probabilistic perspective, broadly divided into supervised learning, unsupervised learning and neural networks.&#xA;Semesters taught: Spring 2020, 2021, 2022, 2023; Fall 2025&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
