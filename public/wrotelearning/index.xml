@@ -6,21 +6,21 @@
     <description>Recent content in Wrotelearning on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 14:43:53 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 11:50:53 -0500</lastBuildDate>
     <atom:link href="https://people.umass.edu/jimi/wrotelearning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating your CV in LaTeX</title>
-      <link>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</link>
-      <pubDate>Mon, 15 Sep 2025 14:43:53 -0500</pubDate>
-      <guid>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</guid>
-      <description>&lt;p&gt;Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on &lt;a href=&#34;https://www.overleaf.com/read/cxmzjdzskvrr#54e289&#34;&gt;Overleaf&lt;/a&gt;. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.&lt;/p&gt;&#xA;&lt;p&gt;I love the look of the &lt;a href=&#34;https://www.tug.org/FontCatalogue/linuxlibertine/&#34;&gt;Libertine&lt;/a&gt; font family, which gives the CV that classic professional feel.&lt;/p&gt;</description>
+      <title>Fixing Gem Install Issues in Fedora</title>
+      <link>https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/</link>
+      <pubDate>Wed, 24 Sep 2025 11:50:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/</guid>
+      <description>&lt;style&gt;&#xA;.hljs {&#xA;    background: #ffffff !important;&#xA;    border: 1px solid #e1e1e1;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;I was recently struggling with upgrading rubygems on my Fedora 41 machine. On this specific machine, I could not run &lt;code&gt;bundle exec jekyll serve --livereload&lt;/code&gt; to view changes to my course &lt;a href=&#34;https://probstats.narslab.org/&#34;&gt;website&lt;/a&gt; locally. Specifically, running &lt;code&gt;gem update --system&lt;/code&gt; or &lt;code&gt;gem install&lt;/code&gt; was returning an error, as the process would fail when trying to install the &lt;a href=&#34;https://rubygems.org/gems/bigdecimal/versions/1.2.7?locale=en&#34;&gt;bigdecimal&lt;/a&gt; library:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;An error occurred while installing bigdecimal (3.2.3), and Bundler cannot continue.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I searched online for a fix. It seemed some C libraries were missing, but none of the recommended packages were available, until I stumbled upon &lt;a href=&#34;https://packages.fedoraproject.org/pkgs/redhat-rpm-config/redhat-rpm-config/index.html&#34;&gt;redhat-rpm-config&lt;/a&gt;. Installing this solved my problems:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Another LaTeX post</title>
-      <link>https://people.umass.edu/jimi/wrotelearning/another-latex-post/</link>
-      <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
-      <guid>https://people.umass.edu/jimi/wrotelearning/another-latex-post/</guid>
-      <description>&lt;p&gt;To be completed.&lt;/p&gt;</description>
+      <title>Creating your academic CV in LaTeX</title>
+      <link>https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/</link>
+      <pubDate>Mon, 15 Sep 2025 14:43:53 -0500</pubDate>
+      <guid>https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/</guid>
+      <description>&lt;p&gt;Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on &lt;a href=&#34;https://www.overleaf.com/read/cxmzjdzskvrr#54e289&#34;&gt;Overleaf&lt;/a&gt;. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.&lt;/p&gt;&#xA;&lt;p&gt;I love the look of the &lt;a href=&#34;https://www.tug.org/FontCatalogue/linuxlibertine/&#34;&gt;Libertine&lt;/a&gt; font family, which gives the CV that classic professional feel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nice Gantt charts in LaTeX</title>

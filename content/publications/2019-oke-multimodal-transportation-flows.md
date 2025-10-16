@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Networks and Spatial Economics</em>, <b>19</b>(2):521-555"
 doi: 10.1007/s11067-018-9387-0
+file: 2019-oke-multimodal-transportation-flows.pdf
 date: 2019-06-01
 ---
 

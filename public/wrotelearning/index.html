@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/academicons.min.css">
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/finite.min.css">
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/kube.min.css">
-    <link rel="stylesheet" href="https://people.umass.edu/jimi/css/jimi.min.css">
+    <link rel="stylesheet" href="https://people.umass.edu/jimi/css/jimi.css">
 </head>
   <body>
     <header>
@@ -108,6 +108,22 @@
                     
                     
                     
+                    <a href="https://people.umass.edu/jimi/categories/fedora" style="font-size:0.7rem">fedora</a>
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="https://people.umass.edu/jimi/categories/gems" style="font-size:0.7rem">gems</a>
+                
+                    
+                    
+                    
+                    
+                    
+                    
                     <a href="https://people.umass.edu/jimi/categories/latex" style="font-size:2.8rem">latex</a>
                 
                     
@@ -124,7 +140,15 @@
                     
                     
                     
-                    <a href="https://people.umass.edu/jimi/categories/statistics" style="font-size:2.8rem">statistics</a>
+                    <a href="https://people.umass.edu/jimi/categories/ruby" style="font-size:0.7rem">ruby</a>
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="https://people.umass.edu/jimi/categories/statistics" style="font-size:0.7rem">statistics</a>
                 
             </div>
         
@@ -136,10 +160,10 @@
   <h1>All Wrote Learning posts by date</h1>
     
     
-    <h2><a href="https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/">Creating your CV in LaTeX</a></h2>
+    <h2><a href="https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/">Fixing Gem Install Issues in Fedora</a></h2>
 <div class="post-metadata">
   <span class="post-date">
-    <time datetime="2025-09-15 14:43:53 -0500 -0500" itemprop="datePublished">September 15 2025</time>
+    <time datetime="2025-09-24 11:50:53 -0500 -0500" itemprop="datePublished">September 24 2025</time>
   </span>
   
   
@@ -147,7 +171,14 @@
   <span class="post-tags">
     <p><i class="fa fa-tags"></i>
     
-    <a class="post-tag" href="https://people.umass.edu/jimi/categories/statistics">statistics</a>
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/fedora">fedora</a>,
+     
+    
+    
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/ruby">ruby</a>, 
+    
+    
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/gems">gems</a>
     
   </span>
   
@@ -155,17 +186,24 @@
 </div>
 
 
-<p>Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on <a href="https://www.overleaf.com/read/cxmzjdzskvrr#54e289">Overleaf</a>. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.</p>
-<p>I love the look of the <a href="https://www.tug.org/FontCatalogue/linuxlibertine/">Libertine</a> font family, which gives the CV that classic professional feel.</p>
-<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/" class="badge badge-small">Read More…</a></p>
+<style>
+.hljs {
+    background: #ffffff !important;
+    border: 1px solid #e1e1e1;
+}
+</style>
+<p>I was recently struggling with upgrading rubygems on my Fedora 41 machine. On this specific machine, I could not run <code>bundle exec jekyll serve --livereload</code> to view changes to my course <a href="https://probstats.narslab.org/">website</a> locally. Specifically, running <code>gem update --system</code> or <code>gem install</code> was returning an error, as the process would fail when trying to install the <a href="https://rubygems.org/gems/bigdecimal/versions/1.2.7?locale=en">bigdecimal</a> library:</p>
+<pre tabindex="0"><code>An error occurred while installing bigdecimal (3.2.3), and Bundler cannot continue.
+</code></pre><p>I searched online for a fix. It seemed some C libraries were missing, but none of the recommended packages were available, until I stumbled upon <a href="https://packages.fedoraproject.org/pkgs/redhat-rpm-config/redhat-rpm-config/index.html">redhat-rpm-config</a>. Installing this solved my problems:</p>
+<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/" class="badge badge-small">Read More…</a></p>
 	
 <div style="padding-bottom: 2ex;"></div>
 
     
-    <h2><a href="https://people.umass.edu/jimi/wrotelearning/another-latex-post/">Another LaTeX post</a></h2>
+    <h2><a href="https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/">Creating your academic CV in LaTeX</a></h2>
 <div class="post-metadata">
   <span class="post-date">
-    <time datetime="2024-06-18 11:50:53 -0500 -0500" itemprop="datePublished">June 18 2024</time>
+    <time datetime="2025-09-15 14:43:53 -0500 -0500" itemprop="datePublished">September 15 2025</time>
   </span>
   
   
@@ -181,8 +219,9 @@
 </div>
 
 
-<p>To be completed.</p>
-
+<p>Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on <a href="https://www.overleaf.com/read/cxmzjdzskvrr#54e289">Overleaf</a>. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.</p>
+<p>I love the look of the <a href="https://www.tug.org/FontCatalogue/linuxlibertine/">Libertine</a> font family, which gives the CV that classic professional feel.</p>
+<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/" class="badge badge-small">Read More…</a></p>
 	
 <div style="padding-bottom: 2ex;"></div>
 

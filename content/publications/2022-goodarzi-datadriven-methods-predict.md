@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Construction and Building Materials</em>, <b>344</b>(NA):128166"
 doi: 10.1016/j.conbuildmat.2022.128166
+file: 2022-goodarzi-datadriven-methods-predict.pdf
 date: 2022-08-15
 ---
 

@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Data Science for Transportation</em>, <b>6</b>(3):19"
 doi: 10.1007/s42421-024-00108-y
+file: 2024-abdalazeem-enhanced-seasonal-typologyinformed.pdf
 date: 2024-09-06
 ---
 

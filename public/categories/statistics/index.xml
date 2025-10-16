@@ -5,22 +5,10 @@
     <description>Recent content in Statistics on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 14:43:53 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
     
         <atom:link href="https://people.umass.edu/jimi/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Creating your CV in LaTeX</title>
-      <link>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</link>
-      <pubDate>Mon, 15 Sep 2025 14:43:53 -0500</pubDate>
-      
-      <guid>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</guid>
-      <description>&lt;p&gt;Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on &lt;a href=&#34;https://www.overleaf.com/read/cxmzjdzskvrr#54e289&#34;&gt;Overleaf&lt;/a&gt;. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.&lt;/p&gt;
-&lt;p&gt;I love the look of the &lt;a href=&#34;https://www.tug.org/FontCatalogue/linuxlibertine/&#34;&gt;Libertine&lt;/a&gt; font family, which gives the CV that classic professional feel.&lt;/p&gt;
-&lt;p&gt;I still have several updates I would like to make, so this is definitely a work in progress.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Understanding Gaussian processes</title>

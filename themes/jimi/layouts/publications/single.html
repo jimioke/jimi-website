@@ -28,12 +28,15 @@
       <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="pub-banner" itemprop="image">
       {{end}}
       <div class="pub-info">
-	{{ if .Params.publication }}
+	{{ if .Params.citation }}
 	<div class="row">
 	  <div class="column small-2 medium-1 pub-row-heading">Cite</div>
-	  <div class="column small-10 medium-11">{{ .Params.publication | markdownify }}</div>
+	  <div class="column small-10 medium-11">{{ .Params.citation | markdownify }}</div>
 	</div>
 	{{ end }}
+      </div>
+      <div style="margin-bottom: 1em; margin-top: 1em;">
+	{{ partial "pub-icon.html" . }}
       </div>
       <div class="pub-content">{{ .Content }}</div>
 

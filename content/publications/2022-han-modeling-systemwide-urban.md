@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Record</em>, <b>2676</b>(12):627-640"
 doi: 10.1177/03611981221096442
+file: 2022-han-modeling-systemwide-urban.pdf
 date: 2022-12-01
 ---
 

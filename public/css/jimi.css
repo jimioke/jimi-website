@@ -52,11 +52,12 @@ p, ul, ol, dl, blockquote, hr, pre, table, form, fieldset, figure, address {
   background-color: #36454f;
 }
 
-a {color: #36454f;
+a {color: #A52A2A;
    text-decoration:none;
-   border-bottom: dotted 1px #A1A3A1;}
+   border-bottom: none;}
 
-a:hover {text-decoration:underline;}
+a:hover {color: #DC143C;
+         text-decoration:none;}
 
 a.badge.badge-red { color: #fff;}
 a.badge.badge-blue { color: #fff;}
@@ -207,7 +208,7 @@ hr {border-top: 1px solid #b3cde0; margin-top:5ex; margin-bottom: 5ex;}
 }
 
 #topbar {
-	background: #536878;
+	background: #5D4157;
 	padding:0px;
 	margin:0ex;
 	/* border-bottom: 3px solid #36454f; */
@@ -294,7 +295,7 @@ header h1 {	font-size: 24px;
 	padding-bottom: 20px;
 	font-size: .9em;
 	padding-top: 1em;
-	background-color: #536878;
+	background-color: #5D4157;
 	overflow: hidden;
 /*	box-shadow: 0 2px 4px #bbb inset;*/
 /*	background: #f0f0f0;*/

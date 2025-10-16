@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Annals of Operations Research</em>, <b>263</b>(1):529-549"
 doi: 10.1007/s10479-016-2358-2
+file: 2018-oke-spatial-associations-global.pdf
 date: 2018-04-01
 ---
 

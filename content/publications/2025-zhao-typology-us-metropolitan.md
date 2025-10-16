@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Environmental Research Letters</em>, <b>20</b>(8):084075"
 doi: 10.1088/1748-9326/adf07b
+link: https://iopscience.iop.org/article/10.1088/1748-9326/adf07b/pdf
 date: 2025-07-01
 ---
 

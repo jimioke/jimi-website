@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>IEEE Internet Computing</em>, <b>29</b>(2):27-35"
 doi: 10.1109/MIC.2025.3575016
+link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018345
 date: 2025-03-01
 ---
 

@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Sustainable and Resilient Infrastructure</em>, <b>0</b>(0):1-24"
 doi: 10.1080/23789689.2024.2344909
+file: 2024-arabi-resilience-multilayer-transportation.pdf
 date: 2024-04-22
 ---
 

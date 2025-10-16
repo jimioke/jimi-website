@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Record</em>, <b>2678</b>(1):150-164"
 doi: 10.1177/03611981231170181
+file: 2024-han-linespecific-energy-modeling.pdf
 date: 2024-01-01
 ---
 

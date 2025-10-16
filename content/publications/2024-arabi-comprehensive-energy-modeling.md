@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Record</em>, <b>2678</b>(1):707-720"
 doi: 10.1177/03611981231172502
+file: 2024-arabi-comprehensive-energy-modeling.pdf
 date: 2024-01-01
 ---
 

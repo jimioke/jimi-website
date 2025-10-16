@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Data Science for Transportation</em>, <b>5</b>(3):20"
 doi: 10.1007/s42421-023-00082-x
+file: 2023-abdalazeem-extracting-spatiotemporal-bus.pdf
 date: 2023-09-14
 ---
 

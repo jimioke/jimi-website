@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Cell Reports Sustainability</em>, <b>2</b>(3):100334"
 doi: 10.1016/j.crsus.2025.100334
+file: 2025-arabi-benefits-aggressively-coundergrounding.pdf
 date: 2025-03-28
 ---
 

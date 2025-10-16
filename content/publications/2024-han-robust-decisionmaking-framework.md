@@ -4,7 +4,8 @@ author: Zhuo Han, Eleni Christofa, Eric Gonzales, Jimi Oke
 status: Published
 type: report
 citation: "<em></em>, No. <b>24-063</b>"
-online: /view/dot/79350
+doi: 
+file: 2024-han-robust-decisionmaking-framework.pdf
 date: 2024-09-01
 ---
 

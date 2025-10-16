@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Part A: Policy and Practice</em>, <b>140</b>(NA):98-126"
 doi: 10.1016/j.tra.2020.06.013
+file: 2020-oke-evaluating-systemic-effects.pdf
 date: 2020-10-01
 ---
 

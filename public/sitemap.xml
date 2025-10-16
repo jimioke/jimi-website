@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://people.umass.edu/jimi/categories/</loc>
-    <lastmod>2025-09-15T14:43:53-05:00</lastmod>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</loc>
-    <lastmod>2025-09-15T14:43:53-05:00</lastmod>
+    <loc>https://people.umass.edu/jimi/categories/fedora/</loc>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/</loc>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/categories/gems/</loc>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/</loc>
-    <lastmod>2025-09-15T14:43:53-05:00</lastmod>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jimi/categories/statistics/</loc>
-    <lastmod>2025-09-15T14:43:53-05:00</lastmod>
+    <loc>https://people.umass.edu/jimi/categories/ruby/</loc>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/wrotelearning/</loc>
+    <lastmod>2025-09-24T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/</loc>
+    <lastmod>2025-09-15T14:43:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/categories/latex/</loc>
     <lastmod>2025-09-15T14:43:53-05:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-abdalazeem-maps-are-good/</loc>
@@ -77,13 +89,10 @@
     <loc>https://people.umass.edu/jimi/presentations/typology-informed-solutions-trbam-2024/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jimi/wrotelearning/another-latex-post/</loc>
-    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/categories/latex/</loc>
-    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
-  </url><url>
     <loc>https://people.umass.edu/jimi/wrotelearning/nice-gantt-charts-latex/</loc>
+    <lastmod>2024-06-18T11:50:53-05:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/categories/statistics/</loc>
     <lastmod>2024-06-18T11:50:53-05:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</loc>

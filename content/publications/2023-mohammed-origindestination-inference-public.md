@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>International Journal of Transportation Science and Technology</em>, <b>12</b>(1):315-328"
 doi: 10.1016/j.ijtst.2022.03.002
+file: 2023-mohammed-origindestination-inference-public.pdf
 date: 2023-03-01
 ---
 

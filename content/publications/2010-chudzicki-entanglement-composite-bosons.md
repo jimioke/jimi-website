@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Physical Review Letters</em>, <b>104</b>(7):070402"
 doi: 10.1103/PhysRevLett.104.070402
+file: 2010-chudzicki-entanglement-composite-bosons.pdf
 date: 2010-02-18
 ---
 

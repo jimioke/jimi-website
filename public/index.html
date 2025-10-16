@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/academicons.min.css">
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/finite.min.css">
     <link rel="stylesheet" href="https://people.umass.edu/jimi/css/kube.min.css">
-    <link rel="stylesheet" href="https://people.umass.edu/jimi/css/jimi.min.css">
+    <link rel="stylesheet" href="https://people.umass.edu/jimi/css/jimi.css">
 </head>
   <body>
     <header>
@@ -117,7 +117,47 @@
   <div class="column small-12 medium-7 large-6">
     <h2 style="font-size: 22px;"><a href="https://people.umass.edu/jimi/wrotelearning/">Recent blog posts</a></h2>
     
-    <h2><a href="https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/">Creating your CV in LaTeX</a></h2>
+    <h2><a href="https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/">Fixing Gem Install Issues in Fedora</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2025-09-24 11:50:53 -0500 -0500" itemprop="datePublished">September 24 2025</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <p><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/fedora">fedora</a>,
+     
+    
+    
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/ruby">ruby</a>, 
+    
+    
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/gems">gems</a>
+    
+  </span>
+  
+  
+</div>
+
+
+<style>
+.hljs {
+    background: #ffffff !important;
+    border: 1px solid #e1e1e1;
+}
+</style>
+<p>I was recently struggling with upgrading rubygems on my Fedora 41 machine. On this specific machine, I could not run <code>bundle exec jekyll serve --livereload</code> to view changes to my course <a href="https://probstats.narslab.org/">website</a> locally. Specifically, running <code>gem update --system</code> or <code>gem install</code> was returning an error, as the process would fail when trying to install the <a href="https://rubygems.org/gems/bigdecimal/versions/1.2.7?locale=en">bigdecimal</a> library:</p>
+<pre tabindex="0"><code>An error occurred while installing bigdecimal (3.2.3), and Bundler cannot continue.
+</code></pre><p>I searched online for a fix. It seemed some C libraries were missing, but none of the recommended packages were available, until I stumbled upon <a href="https://packages.fedoraproject.org/pkgs/redhat-rpm-config/redhat-rpm-config/index.html">redhat-rpm-config</a>. Installing this solved my problems:</p>
+<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/" class="badge badge-small">Read More…</a></p>
+	
+<div style="padding-bottom: 2ex;"></div>
+
+    
+    <h2><a href="https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/">Creating your academic CV in LaTeX</a></h2>
 <div class="post-metadata">
   <span class="post-date">
     <time datetime="2025-09-15 14:43:53 -0500 -0500" itemprop="datePublished">September 15 2025</time>
@@ -128,7 +168,7 @@
   <span class="post-tags">
     <p><i class="fa fa-tags"></i>
     
-    <a class="post-tag" href="https://people.umass.edu/jimi/categories/statistics">statistics</a>
+    <a class="post-tag" href="https://people.umass.edu/jimi/categories/latex">latex</a>
     
   </span>
   
@@ -138,7 +178,7 @@
 
 <p>Since 2009/2010, I have had one version or the other of my CV in LaTeX. In the last 5 years of my academic career, I now have a version that I like for keeping a record of papers, grants, teaching, awards, service, etc. You can view my most recent CV on <a href="https://www.overleaf.com/read/cxmzjdzskvrr#54e289">Overleaf</a>. Feel free to copy and modify as needed. Hopefully, soon, I will have a template.</p>
 <p>I love the look of the <a href="https://www.tug.org/FontCatalogue/linuxlibertine/">Libertine</a> font family, which gives the CV that classic professional feel.</p>
-<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/" class="badge badge-small">Read More…</a></p>
+<p class="text-right"><a href="https://people.umass.edu/jimi/wrotelearning/creating-latex-cv/" class="badge badge-small">Read More…</a></p>
 	
 <div style="padding-bottom: 2ex;"></div>
 
@@ -168,662 +208,6 @@
 <div style="padding-bottom: 2ex;"></div>
 
     
-    <h2><a href="https://people.umass.edu/jimi/wrotelearning/nice-gantt-charts-latex/">Nice Gantt charts in LaTeX</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2024-06-18 11:50:53 -0500 -0500" itemprop="datePublished">June 18 2024</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <p><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="https://people.umass.edu/jimi/categories/latex">latex</a>
-    
-  </span>
-  
-  
-</div>
-
-
-<style>
-.hljs {
-    background: #ffffff !important;
-    border: 1px solid #e1e1e1;
-}
-</style>
-<p>The <code>pgfgantt</code> package in $\LaTeX$ provides amazing functionality for professional Gantt charts. It&rsquo;s my go to in writing proposals.</p>
-<p>See the code I used to create the Gantt chart shown below (it&rsquo;s a pretty busy chart!):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{article}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[margin=1in]</span>{geometry}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{pgfplots}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{pgfgantt}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">%... (truncated - full code below)
-</span></span></span></code></pre></div><details>
-<summary>Click to view the full code</summary>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{article}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[margin=1in]</span>{geometry}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{pgfplots}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{pgfgantt}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{graphicx} <span style="color:#75715e">% Required for inserting images
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\pgfplotsset</span>{compat=newest}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\makeatletter</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\def\pgfcalendarmonthshortername</span>#1{<span style="color:#75715e">%
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\pgfutil</span>@translate{<span style="color:#66d9ef">\ifcase</span>#1<span style="color:#66d9ef">\or</span> Ja<span style="color:#66d9ef">\or</span> Fe<span style="color:#66d9ef">\or</span> Ma<span style="color:#66d9ef">\or</span> Ap<span style="color:#66d9ef">\or</span>
-</span></span><span style="display:flex;"><span>    Ma<span style="color:#66d9ef">\or</span> Ju<span style="color:#66d9ef">\or</span> Ju<span style="color:#66d9ef">\or</span> Au<span style="color:#66d9ef">\or</span> Se<span style="color:#66d9ef">\or</span> Oc<span style="color:#66d9ef">\or</span>
-</span></span><span style="display:flex;"><span>    No<span style="color:#66d9ef">\or</span> De<span style="color:#66d9ef">\fi</span>}<span style="color:#75715e">%
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\def\pgfcalendarmonthsingleletter</span>#1{<span style="color:#75715e">%
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\tiny</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\pgfutil</span>@translate{<span style="color:#66d9ef">\ifcase</span>#1<span style="color:#66d9ef">\or</span> J<span style="color:#66d9ef">\or</span> F<span style="color:#66d9ef">\or</span> M<span style="color:#66d9ef">\or</span> A<span style="color:#66d9ef">\or</span>
-</span></span><span style="display:flex;"><span>    M<span style="color:#66d9ef">\or</span> J<span style="color:#66d9ef">\or</span> J<span style="color:#66d9ef">\or</span> A<span style="color:#66d9ef">\or</span> S<span style="color:#66d9ef">\or</span> O<span style="color:#66d9ef">\or</span>
-</span></span><span style="display:flex;"><span>    N<span style="color:#66d9ef">\or</span> D<span style="color:#66d9ef">\fi</span>}<span style="color:#75715e">%
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\makeatother</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\title</span>{gantt-chart-example}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\author</span>{Jimi Oke}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\date</span>{January 2024}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\pagestyle</span>{empty}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">%\maketitle
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\ganttset</span>{group/.append style={orange},
-</span></span><span style="display:flex;"><span>milestone/.append style={draw=none},
-</span></span><span style="display:flex;"><span>progress label node anchor/.append style={text=red}}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\newganttchartelement</span>{project}{
-</span></span><span style="display:flex;"><span>    project/.style={<span style="color:#75715e">% inner sep=0pt,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      draw=none,
-</span></span><span style="display:flex;"><span>      fill=blue!60!black      
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    project label font ={<span style="color:#66d9ef">\color</span>{white}<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\newganttchartelement</span>{admin}{
-</span></span><span style="display:flex;"><span>    admin/.style={<span style="color:#75715e">% inner sep=0pt,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      draw=none,
-</span></span><span style="display:flex;"><span>      fill=red!80!black      
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    admin label font ={<span style="color:#66d9ef">\color</span>{white}<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\newganttchartelement</span>{dci}{
-</span></span><span style="display:flex;"><span>    dci/.style={      
-</span></span><span style="display:flex;"><span>      draw=none,
-</span></span><span style="display:flex;"><span>      fill = orange
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    dci label font ={<span style="color:#66d9ef">\color</span>{white}<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% raThreebar left shift=.1, raThreebar right shift=-.1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  }
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\newganttchartelement</span>{pub}{
-</span></span><span style="display:flex;"><span>    pub/.style={      
-</span></span><span style="display:flex;"><span>      draw=none,
-</span></span><span style="display:flex;"><span>      fill = green!50!black
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    pub label font ={<span style="color:#66d9ef">\color</span>{white}<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% raThreebar left shift=.1, raThreebar right shift=-.1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\begin</span>{ganttchart}[y unit title=0.4cm,
-</span></span><span style="display:flex;"><span>    y unit chart=0.33cm,
-</span></span><span style="display:flex;"><span>    x unit=0.25cm,
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% hgrid,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#75715e">% hgrid style/.style={black, solid},
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    vgrid, <span style="color:#75715e">%={black, solid},
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">%title/.style={draw=gray},
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    title label anchor/.style={below=-1.6ex},
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">%group label node/.append style={draw},
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#75715e">% title left shift=.05,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#75715e">% title right shift=-.05,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    title height=1,
-</span></span><span style="display:flex;"><span>    title label font={<span style="color:#66d9ef">\footnotesize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    group label font={<span style="color:#66d9ef">\bfseries\footnotesize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    group/.append style={fill=gray},
-</span></span><span style="display:flex;"><span>    bar/.style={fill=green!50!black!50!},
-</span></span><span style="display:flex;"><span>    bar incomplete/.style={fill=red!40},
-</span></span><span style="display:flex;"><span>    bar label font={<span style="color:#66d9ef">\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    canvas/.append style={fill=none},
-</span></span><span style="display:flex;"><span>    progress label text={},
-</span></span><span style="display:flex;"><span>    milestone height = .6,
-</span></span><span style="display:flex;"><span>    bar top shift=0.1,
-</span></span><span style="display:flex;"><span>    bar height=.8,
-</span></span><span style="display:flex;"><span>    group right shift=0,
-</span></span><span style="display:flex;"><span>    group top shift=0.2,
-</span></span><span style="display:flex;"><span>    group height=.8,
-</span></span><span style="display:flex;"><span>    time slot format=isodate-yearmonth,
-</span></span><span style="display:flex;"><span>    time slot unit=month,
-</span></span><span style="display:flex;"><span>    link/.style={-&gt;},
-</span></span><span style="display:flex;"><span>    group inline label node/.style={yshift=0pt,font=<span style="color:#66d9ef">\color</span>{white}<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={right=0mm},
-</span></span><span style="display:flex;"><span>    milestone label node/.append style={font=<span style="color:#66d9ef">\scriptsize\bfseries\sffamily</span>},
-</span></span><span style="display:flex;"><span>    workshopR/.style={milestone/.append style={fill=blue!60!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={right=1mm}},
-</span></span><span style="display:flex;"><span>    milestoneR/.style={milestone/.append style={fill=blue!60!black}},    
-</span></span><span style="display:flex;"><span>    milestoneL/.style={milestone/.append style={fill=blue!60!black},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},        
-</span></span><span style="display:flex;"><span>    workshopL/.style={milestone/.append style={fill=blue!60!black,shape=isosceles triangle},milestone inline label node/.append style={left=0mm}},
-</span></span><span style="display:flex;"><span>    deliverableR/.style={milestone/.append style={fill=blue!60!black,shape=rectangle}},
-</span></span><span style="display:flex;"><span>    deliverableL/.style={milestone/.append style={fill=blue!60!black,shape=rectangle},
-</span></span><span style="display:flex;"><span>     milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>}},
-</span></span><span style="display:flex;"><span>    deliverableT3L/.style={milestone/.append style={fill=orange,shape=rectangle},
-</span></span><span style="display:flex;"><span>     milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>}},  
-</span></span><span style="display:flex;"><span>    deliverableT5L/.style={milestone/.append style={fill=green!50!black,shape=rectangle},
-</span></span><span style="display:flex;"><span>     milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>}},       
-</span></span><span style="display:flex;"><span>    deliverableT3R/.style={milestone/.append style={fill=orange,shape=rectangle},
-</span></span><span style="display:flex;"><span>     milestone inline label node/.append style={right=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\sffamily</span>}},
-</span></span><span style="display:flex;"><span>    webinarL/.style={milestone/.append style={fill=green!50!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},
-</span></span><span style="display:flex;"><span>    adminprsL/.style={milestone/.append style={fill=red!80!black,shape=rectangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},    
-</span></span><span style="display:flex;"><span>    admincallsL/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},
-</span></span><span style="display:flex;"><span>    admincallsR/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={right=1mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},    
-</span></span><span style="display:flex;"><span>    admindelivR/.style={milestone/.append style={fill=red!80!black,shape=rectangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={right=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},    
-</span></span><span style="display:flex;"><span>    scmeetingsL/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={left=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}},
-</span></span><span style="display:flex;"><span>    scmeetingsR/.style={milestone/.append style={fill=red!80!black,shape=isosceles triangle},
-</span></span><span style="display:flex;"><span>    milestone inline label node/.append style={right=0mm,font=<span style="color:#66d9ef">\bfseries\scriptsize\bfseries\sffamily</span>}}        
-</span></span><span style="display:flex;"><span>    ]{2023-9}{2028-12}
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% labels
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \gantttitle{&#39;21}{1}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \gantttitlecalendar{year, month=singleletter}\\
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\gantttitle</span>{2023}{4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{2024}{12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{2025}{12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{2026}{12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{2027}{12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{2028}{12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{}{1}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q1}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q2}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q3}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q1}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q2}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q3}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q1}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q2}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q3}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q1}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q2}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q3}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q1}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q2}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q3}{3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\gantttitle</span>{Q4}{3}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% tasks
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttgroup</span><span style="color:#a6e22e">[inline=true]</span>{Task 1: Administration and reporting}{2023-10}{2028-12} <span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">%\ganttadmin[inline=true]{T1.3 Monthly conference calls}{2023-11}{2028-09}\\
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{D1.2}{2024-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2024-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2024-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2024-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2025-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2025-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2025-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2025-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2026-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2026-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2026-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2026-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2027-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2027-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2027-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2027-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2028-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2028-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2028-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[adminprsL,inline=true]</span>{}{2028-10}<span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">% \ganttadmin[inline=true]{T1.3 Monthly conference calls}{2023-11}{2028-09}\\
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsR,inline=true]</span>{M1.1 Kick-off meeting}{2023-10}<span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{M1.2}{2023-12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-2}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-5}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-6}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-8}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-11}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2024-12}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-2}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-5}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-6}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-8}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-11}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2025-12} 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-2}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-5}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-6}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-8}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-11}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2026-12}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-2}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-5}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-6}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-8}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-11}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2027-12}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-1}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-2}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-3}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-5}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-6}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-7}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-8}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admincallsL,inline=true]</span>{}{2028-9}<span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttgroup</span><span style="color:#a6e22e">[inline=true]</span>{Task 2: Steering committee}{2023-10}{2028-4} <span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">%\ganttadmin[inline=true]{T2.1 Identify stakeholders}{2023-10}{2024-1}\\
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[admindelivR,inline=true]</span>{D2.1 Steering committee members}{2024-2}<span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{M2.1 Mtgs.}{2024-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2024-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2025-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2025-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2026-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2026-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2027-4}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2027-10}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[scmeetingsL,inline=true]</span>{}{2028-4}<span style="color:#66d9ef">\\</span>        
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttgroup</span><span style="color:#a6e22e">[inline=true]</span>{Task 3: Define, Coordinate, Integrate}{2023-10}{2028-9} <span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% \ganttdci[inline=true]{3.1 Preliminary literature review}{2023-09}{2023-10}\\
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttdci[inline=true]{3.2 Prepare research agenda}{2023-09}{2023-10}\\    
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttdci[inline=true]{3.3 Coordination}{2023-09}{2028-09}\\        
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3R, milestone label  font=\scriptsize\sffamily, inline=true]</span>{D3.1: Performance metrics report <span style="color:#66d9ef">\&amp;</span> preliminary review}{2023-11} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3R, milestone label  font=\scriptsize\sffamily, inline=true]</span>{D3.2: 5-year research agenda}{2023-11} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]</span>{D3.3 Agenda updates}{2024-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]</span>{}{2025-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]</span>{}{2026-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]</span>{}{2027-9}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT3L, milestone label  font=\scriptsize\sffamily, inline=true]</span>{}{2028-9}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttgroup</span><span style="color:#a6e22e">[inline=true]</span>{Task 4: Conduct Research Projects}{2023-10}{2028-09} <span style="color:#66d9ef">\\</span> <span style="color:#75715e">%\myline{thin}{blue}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t11, inline=true]</span>{T4.1: Dynamic research synthesis}{2023-10}{2027-06}<span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily,inline=true]</span>{W4.1.1 Research Needs workshop}{2024-3} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.1.1: Systematic literature review}{2024-9} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.1.2 Dynamic Synthesis workshop}{2025-9} <span style="color:#66d9ef">\\</span>      
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]</span>{M4.1.1 Prototype dynamic synthesis pipeline}{2026-9} <span style="color:#66d9ef">\\</span>        
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.1.2 AI dynamic synthesis framework}{2026-12} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">%%% T4.2
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t42, inline]</span>{T4.2: Establish infrastructure and protocols}{2024-02}{2027-09} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.2.1 Standards workshop}{2024-6} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]</span>{M4.1.1 Platform prototype V1.0}{2024-9} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.2.2 Protocols workshop}{2025-6} <span style="color:#66d9ef">\\</span>     
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\bfseries\scriptsize\bfseries\sffamily, inline=true]</span>{M4.1.2 Platform prototype V2.0}{2025-12} <span style="color:#66d9ef">\\</span>           
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.2.1 Standards/protocols guidance}{2026-3} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.2.2 Platform <span style="color:#66d9ef">\&amp;</span> sharing infrastructure}{2026-12} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">%%% T4.3
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t43, inline]</span>{T4.3: Define benchmarks and best practices}{2024-01}{2028-3} <span style="color:#66d9ef">\\</span>   
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{M4.3.1 Candidate benchmark datasets/models}{2024-12} <span style="color:#66d9ef">\\</span>        
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.3.1 Landmark Models workshop}{2025-3} <span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{M4.3.2 Internal validation topics}{2025-12} <span style="color:#66d9ef">\\</span>      
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.3.2 Internal Validation workshop}{2026-3} <span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{M4.3.3 Criteria for benchmark selection}{2026-6} <span style="color:#66d9ef">\\</span>          
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.3.1 Benchmarks}{2026-9} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.3.2 Internal validation guide}{2026-9} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.3.3 Illustrative examples}{2026-12} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">%%%% T4.4.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t44, inline]</span>{T4.4: Identify performance metric “North Stars:”}{2024-1}{2027-09}<span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.4.1: North Stars I workshop}{2024-12} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{M4.4.1 North Star candidates and selection process}{2025-9} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.4.2: North Stars II workshop}{2026-12} <span style="color:#66d9ef">\\</span>                
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.4.1 Final list of North Stars and process}{2027-3} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.4.2 North Star program evaluation}{2027-6} <span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>     <span style="color:#75715e">%% T4.5
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t45, inline=true]</span>{T4.5: Strengthen existing knowledge}{2024-03}{2028-03}<span style="color:#66d9ef">\\</span>  <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopR, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.5.1 Large-scale Simulation workshop}{2024-9} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>{M4.5.1 Large-scale simulation framework: AVs}{2025-3} <span style="color:#66d9ef">\\</span>     
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneL, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>{M4.5.2 Large-scale simulation framework: shared mobility}{2026-6} <span style="color:#66d9ef">\\</span>     
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.5.2 Advances <span style="color:#66d9ef">\&amp;</span> Experiments workshop}{2027-3} <span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.5.1 On-demand taxi application}{2027-6} <span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.5.2 Shared bikes and e-bikes application}{2027-9} <span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.5.3 Shared AVs application}{2027-12} <span style="color:#66d9ef">\\</span>      
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttproject</span><span style="color:#a6e22e">[name = t45, inline]</span>{T4.6: Discover high-interest scenarios}{2024-06}{2028-09}<span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>{M4.6.1 Scenario space}{2024-9} <span style="color:#66d9ef">\\</span>       
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>{M4.6.2 Candidate strategies}{2024-12} <span style="color:#66d9ef">\\</span>       
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneR, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>{M4.6.3 Preliminary meta-model methods }{2025-9} <span style="color:#66d9ef">\\</span>           
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.6.1: Experimental Design <span style="color:#66d9ef">\&amp;</span> Meta-modeling workshop}{2026-6} <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.6.1: Scenario discovery framework}{2026-9} <span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[milestoneL, milestone label font=\scriptsize\bfseries\sffamily, inline=true]</span>        {M4.6.4 Preliminary SD data mining and analysis methods}{2027-1} <span style="color:#66d9ef">\\</span>               
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[workshopL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{W4.6.2: Robust Policy Analyses workshop}{2027-11} <span style="color:#66d9ef">\\</span>   
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.6.2: High-interest scenarios}{2028-4} <span style="color:#66d9ef">\\</span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableL, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D4.6.3: Robust NAM policy recommendations}{2028-7} <span style="color:#66d9ef">\\</span>   
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttgroup</span><span style="color:#a6e22e">[inline=true]</span>{Task 5: Publish research and engage with stakeholders}{2023-10}{2028-12}<span style="color:#66d9ef">\\</span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttpub</span><span style="color:#a6e22e">[name = t45, inline]</span>{T5.2 Share and transfer knowledge via WISEN-UP Network Platform}{2024-01}{2028-12}<span style="color:#66d9ef">\\</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttpub</span><span style="color:#a6e22e">[name = t45, inline]</span>{T5.3 Plan/host workshops, webinars and conference sessions}{2024-01}{2028-9}<span style="color:#66d9ef">\\</span>       
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[name = web1, webinarL,inline=true]</span>{W5.1 Webinars}{2024-07} <span style="color:#75715e">%{2024-02} 
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[name = web1, webinarL,inline=true]</span>{}{2025-07}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[name = web1, webinarL,inline=true]</span>{}{2026-07}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[name = web1, webinarL,inline=true]</span>{}{2027-07}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[name = web1, webinarL,inline=true]</span>{}{2028-07}<span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L,inline=true]</span>{D5.1 White papers}{2024-09} <span style="color:#75715e">%{2024-02} 
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L,inline=true]</span>{}{2025-09}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L,inline=true]</span>{}{2026-09}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L,inline=true]</span>{}{2027-09}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L,inline=true]</span>{}{2028-09}    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\\</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% \ganttmilestone[deliverableT5L, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]{D5.1}{2026-9} \\  
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">\ganttmilestone</span><span style="color:#a6e22e">[deliverableT5L, milestone label  font=\bfseries\scriptsize\sffamily, inline=true]</span>{D5.2 Final Report}{2028-12} 
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% \ganttlink{elem3}{elem4}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttlink{elem1}{elem5}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttlink{elem3}{elem5}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttlink{elem2}{elem6}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttlink{elem3}{elem6}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \ganttlink{elem5}{elem7}    
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \begin{scope}[minimum height=0mm, minimum width= 2mm,node distance=.75mm]
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \node[fill=red!80!black, draw=none] (qprhandle) at ([yshift=-25pt]current bounding box.south){};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \node[minimum width=2mm,isosceles triangle, isosceles triangle stretches, fill=red!80!black, draw=none, below=of qprhandle] (scmhandle) {};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% %   \node[fill=cyan, draw, below=of raTwohandle] (raThreehandle) {};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \end{scope}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \begin{scope}[node distance=.75mm, font={\scriptsize\sffamily}]
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">%    \node[right= of qprhandle] {Quarterly progress reports};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">%    \node[right= of scmhandle] {Steering Committee meetings};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% %   \node[right= of raTwohandle] {Research Assistant 2 (1 year)};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% %   \node[right= of raThreehandle] {Research Assistant 3 (3 years)};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">% \end{scope}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\end</span>{ganttchart}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
-</span></span></code></pre></div></details>
-<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
-
-<style>
-  #embed-pdf-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 20vh;
-     
-  }
-  
-  .pdf-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-  
-  #the-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-  
-  
-  .pdf-loadingWrapper {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 350px;
-  }
-  
-  .pdf-loading {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 3px solid #d2d0d0;;
-    border-radius: 50%;
-    border-top-color: #383838;
-    animation: spin 1s ease-in-out infinite;
-    -webkit-animation: spin 1s ease-in-out infinite;
-  }
-  
-  
-  
-  
-  
-  #overlayText {
-    word-wrap: break-word;
-    display: grid;
-    justify-content: end;
-  }
-  
-  #overlayText a {
-    position: relative;
-    top: 10px;
-    right: 4px;
-    color: #000;
-    margin: auto;
-    background-color: #eeeeee;
-    padding: 0.3em 1em;
-    border: solid 2px;
-    border-radius: 12px;
-    border-color: #00000030;
-    text-decoration: none;
-  }
-  
-  #overlayText svg {
-    height: clamp(1em, 2vw, 1.4em);
-    width:  clamp(1em, 2vw, 1.4em);
-  }
-  
-  
-  
-  @keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  @-webkit-keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-16a110f6">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-16a110f6">
-        <div class="pdf-loading" id="pdf-loading-16a110f6"></div>
-    </div>
-    <div id="overlayText">
-      <a href="https://people.umass.edu/jimi/files/gantt-chart-example-2.pdf" aria-label="Download" download>
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
-        </svg>
-      </a>
-    </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-16a110f6"></canvas>
-</div>
-
-<div class="pdf-paginator" id="pdf-paginator-16a110f6">
-    <button id="pdf-prev-16a110f6">Previous</button>
-    <button id="pdf-next-16a110f6">Next</button> &nbsp; &nbsp;
-    <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-16a110f6"></span> / <span class="pdf-pagecount" id="pdf-pagecount-16a110f6"></span>
-    </span>
-    <a class="pdf-source" id="pdf-source-16a110f6" href="https://people.umass.edu/jimi/files/gantt-chart-example-2.pdf">[pdf]</a>
-</div>
-
-<noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-16a110f6" href="https://people.umass.edu/jimi/files/gantt-chart-example-2.pdf">here</a>.
-</noscript>
-
-<script type="text/javascript">
-    (function(){
-    var url = '\/files\/gantt-chart-example-2.pdf';
-
-    var hidePaginator = "" === "true";
-    var hideLoader = "" === "true";
-    var selectedPageNum = parseInt("1") || 1;
-
-    
-    var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-    
-    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
-      pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/people.umass.edu\/jimi\/" + 'js/pdf-js/build/pdf.worker.js';
-
-    
-    var pdfDoc = null,
-        pageNum = selectedPageNum,
-        pageRendering = false,
-        pageNumPending = null,
-        scale = 3,
-        canvas = document.getElementById('pdf-canvas-16a110f6'),
-        ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-16a110f6"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-16a110f6');
-
-
-    
-    showPaginator();
-    showLoader();
-
-    
-
-    function renderPage(num) {
-      pageRendering = true;
-      
-      pdfDoc.getPage(num).then(function(page) {
-        var viewport = page.getViewport({scale: scale});
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-
-        
-        var renderContext = {
-          canvasContext: ctx,
-          viewport: viewport
-        };
-        var renderTask = page.render(renderContext);
-
-        
-        renderTask.promise.then(function() {
-          pageRendering = false;
-          showContent();
-
-          if (pageNumPending !== null) {
-            
-            renderPage(pageNumPending);
-            pageNumPending = null;
-          }
-        });
-      });
-
-      
-      document.getElementById('pdf-pagenum-16a110f6').textContent = num;
-    }
-
-    
-
-    function showContent() {
-      loadingWrapper.style.display = 'none';
-      canvas.style.display = 'block';
-    }
-
-    
-
-    function showLoader() {
-      if(hideLoader) return
-      loadingWrapper.style.display = 'flex';
-      canvas.style.display = 'none';
-    }
-
-    
-
-    function showPaginator() {
-      if(hidePaginator) return
-      paginator.style.display = 'block';
-    }
-
-    
-
-    function queueRenderPage(num) {
-      if (pageRendering) {
-        pageNumPending = num;
-      } else {
-        renderPage(num);
-      }
-    }
-
-    
-
-    function onPrevPage() {
-      if (pageNum <= 1) {
-        return;
-      }
-      pageNum--;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-prev-16a110f6').addEventListener('click', onPrevPage);
-
-    
-
-    function onNextPage() {
-      if (pageNum >= pdfDoc.numPages) {
-        return;
-      }
-      pageNum++;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-next-16a110f6').addEventListener('click', onNextPage);
-
-    
-
-    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-      pdfDoc = pdfDoc_;
-      var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-16a110f6').textContent = numPages;
-
-      
-      if(pageNum > numPages) {
-        pageNum = numPages
-      }
-
-      
-      renderPage(pageNum);
-    });
-    })();
-</script>
-
-	
-<div style="padding-bottom: 2ex;"></div>
-
-    
   </div>
   <div class="column small-12 medium-5 large-offset-1">
     <h2 style="font-size: 22px;"><a href="https://people.umass.edu/jimi/publications/">Recent publications</a></h2>
@@ -831,6 +215,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-16a110f6" href="
       
       <li style="margin-bottom: 9px;">
 <i class="fa-li fa  fa-file-o   fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="https://people.umass.edu/jimi/publications/2025-han-robust-forecasting-framework/">
 
 Zhuo Han, Eleni Christofa, Eric Gonzales, Sean Donaghy, Jimi Oke
 
@@ -840,18 +225,20 @@ Robust forecasting framework for energy-informed planning in urban rail transit 
 
 <em>(under review in Data Science for Transportation)</em>.
 
+</a>
 <a href="https://people.umass.edu/jimi/publications/2025-han-robust-forecasting-framework/" class="badge badge-small">Abstract</a>
 
 
 
 
 
-
+<a href="https://people.umass.edu/jimi/papers/2025-han-robust-forecasting-framework.pdf" class="badge badge-small badge-red">PDF</a>
 
 </li>
       
       <li style="margin-bottom: 9px;">
 <i class="fa-li fa  fa-file-o   fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="https://people.umass.edu/jimi/publications/2025-abdalazeem-maps-are-good/">
 
 Mohammed Abdalazeem, Geehan Altayb, Eleni Christofa, Jimi Oke
 
@@ -861,18 +248,20 @@ Maps are good but are simpler maps better? Insights on urban bicycling in the US
 
 <em>(under review in Env. Res. Comms.)</em>.
 
+</a>
 <a href="https://people.umass.edu/jimi/publications/2025-abdalazeem-maps-are-good/" class="badge badge-small">Abstract</a>
 
 
 
 
 
-
+<a href="https://people.umass.edu/jimi/papers/2025-abdalazeem-maps-are-good.pdf" class="badge badge-small badge-red">PDF</a>
 
 </li>
       
       <li style="margin-bottom: 9px;">
 <i class="fa-li fa  fa-file-o   fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="https://people.umass.edu/jimi/publications/2025-westgate-perspectives-accelerating-integrated/">
 
 Zachary Westgate, Don DeGroot, Julie Brigham-Grette, Jimi Oke
 
@@ -882,18 +271,20 @@ Perspectives on Accelerating Integrated Seabed Characterization for the Clean En
 
 <em>(under review in Sustainable Energy Technologies and Assessments)</em>.
 
+</a>
 <a href="https://people.umass.edu/jimi/publications/2025-westgate-perspectives-accelerating-integrated/" class="badge badge-small">Abstract</a>
 
 
 
 
 
-
+<a href="https://people.umass.edu/jimi/papers/2025-westgate-perspectives-accelerating-integrated.pdf" class="badge badge-small badge-red">PDF</a>
 
 </li>
       
       <li style="margin-bottom: 9px;">
 <i class="fa-li fa  fa-file-o   fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="https://people.umass.edu/jimi/publications/2025-kumar-multiscale-road-network/">
 
 Nishant Kumar, Yatao Zhang, Nina Wiedemann, Jimi Oke, Martin Raubal
 
@@ -903,18 +294,20 @@ Multi‑scale road network feature analysis in highly congested cities: Implicat
 
 <em>(under review in Data Science for Transportation)</em>.
 
+</a>
 <a href="https://people.umass.edu/jimi/publications/2025-kumar-multiscale-road-network/" class="badge badge-small">Abstract</a>
 
 
 
 
 
-
+<a href="https://people.umass.edu/jimi/papers/2025-kumar-multiscale-road-network.pdf" class="badge badge-small badge-red">PDF</a>
 
 </li>
       
       <li style="margin-bottom: 9px;">
 <i class="fa-li fa  fa-file-o   fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="https://people.umass.edu/jimi/publications/2025-arabi-typology-us-transit/">
 
 Mahsa Arabi, Jimi Oke
 
@@ -924,13 +317,14 @@ Typology of U.S. transit systems reveals energy data gap and potential for diese
 
 <em>(under review in Env. Res. Lett.)</em>.
 
+</a>
 <a href="https://people.umass.edu/jimi/publications/2025-arabi-typology-us-transit/" class="badge badge-small">Abstract</a>
 
 
 
 
 
-
+<a href="https://people.umass.edu/jimi/papers/2025-arabi-typology-us-transit.pdf" class="badge badge-small badge-red">PDF</a>
 
 </li>
       

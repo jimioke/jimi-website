@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Data Science for Transportation</em>, <b>7</b>(2):14"
 doi: 10.1007/s42421-025-00128-2
+link: https://rdcu.be/euJl4
 date: 2025-07-03
 ---
 

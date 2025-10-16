@@ -4,6 +4,8 @@ author: Mahsa Arabi, Tolu Oke, Erin Baker, Jimi Oke
 status: Unpublished
 type: manuscript
 citation: "<em>(accepted in iScience)</em>"
+doi: 
+file: 2025-arabi-harnessing-hybrid-buses.pdf
 date: 2025-08-13
 ---
 

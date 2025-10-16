@@ -4,6 +4,8 @@ author: Mohammed Abdalazeem, Geehan Altayb, Eleni Christofa, Jimi Oke
 status: Unpublished
 type: manuscript
 citation: "<em>(under review in Env. Res. Comms.)</em>"
+doi: 
+file: 2025-abdalazeem-maps-are-good.pdf
 date: 2025-08-25
 ---
 

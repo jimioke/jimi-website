@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Construction and Building Materials</em>, <b>369</b>(NA):130591"
 doi: 10.1016/j.conbuildmat.2023.130591
+file: 2023-goodarzi-stochastic-analysis-estimating.pdf
 date: 2023-03-10
 ---
 

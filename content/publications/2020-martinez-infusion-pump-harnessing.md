@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Journal of the American Medical Informatics Association</em>, <b>27</b>(6):884-892"
 doi: 10.1093/jamia/ocaa033
+file: 2020-martinez-infusion-pump-harnessing.pdf
 date: 2020-06-01
 ---
 

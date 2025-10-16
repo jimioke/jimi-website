@@ -4,6 +4,8 @@ author: Peiyao Zhao, Joseph Mega, Mohammed Abdalazeem, Mahsa Arabi, Camille V. B
 status: Unpublished
 type: manuscript
 citation: "<em>(under review in Env. Res. Comms.)</em>"
+doi: 
+file: 2025-zhao-scenario-discovery-yields.pdf
 date: 2025-06-11
 ---
 

@@ -4,7 +4,8 @@ author: William H. Green, Robert C. Armstrong, Moshe Ben-Akiva, John Heywood, Ch
 status: Published
 type: report
 citation: "<em>MIT Energy Initiative</em>, No. <b></b>"
-online: https://energy.mit.edu/wp-content/uploads/2019/11/Insights-into-Future-Mobility.pdf
+doi: 
+file: 2019-green-insights-into-future.pdf
 date: 2019-11-01
 ---
 

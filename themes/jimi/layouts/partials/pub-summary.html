@@ -1,5 +1,6 @@
-{{ $pub_kind := index .Params "kind" | default "unpublished" }}
-<i class="fa-li fa  {{ if eq $pub_kind "unpublished" }}fa-file-o  {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+{{ $pub_status := index .Params "status" | default "Unpublished" }}
+<i class="fa-li fa  {{ if eq $pub_status "Unpublished" }}fa-file-o  {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> 
+<a href="{{ .RelPermalink }}">
 {{ if isset .Params "author" }}
 {{ .Params.author | safeHTML }}
 {{ end }}
@@ -11,5 +12,6 @@
 {{ if isset .Params "citation" }}
 {{.Params.citation | safeHTML }}.
 {{ end }}
+</a>
 <a href="{{ .RelPermalink }}" class="badge badge-small">Abstract</a>
 {{ partial "pub-icon.html" . }}

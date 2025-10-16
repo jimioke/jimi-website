@@ -4,6 +4,8 @@ author: Mahsa Arabi, Jimi Oke
 status: Unpublished
 type: manuscript
 citation: "<em>(under review in Env. Res. Lett.)</em>"
+doi: 
+file: 2025-arabi-typology-us-transit.pdf
 date: 2025-08-15
 ---
 

@@ -4,7 +4,8 @@ author: Jimi Oke, Eleni Christofa, Eric Gonzales, Zhuo Han, Sean Donaghy
 status: Published
 type: report
 citation: "<em>Massachusetts Department of Transportation</em>, No. <b>21-023</b>"
-online: https://rosap.ntl.bts.gov/view/dot/60026
+doi: 
+file: 2021-oke-tracking-energy-emissions.pdf
 date: 2021-08-01
 ---
 

@@ -4,6 +4,8 @@ author: Zhuo Han, Jimi Oke
 status: Unpublished
 type: manuscript
 citation: "<em>(under review in Data Science for Transportation)</em>"
+doi: 
+file: 2025-han-novel-typology-fatal.pdf
 date: 2025-05-07
 ---
 

@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Record</em>, <b>2673</b>(12):15-29"
 doi: 10.1177/0361198119853553
+file: 2019-nahmias-biran-traditional-automated-mobility.pdf
 date: 2019-12-01
 ---
 

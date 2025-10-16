@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation</em>, <b>48</b>(4):1613-1638"
 doi: 10.1007/s11116-020-10106-y
+file: 2021-nahmias-biran-evaluating-impacts-shared.pdf
 date: 2021-08-01
 ---
 

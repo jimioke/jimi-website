@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Computers & Operations Research</em>, <b>61</b>(NA):1-17"
 doi: 10.1016/j.cor.2015.02.010
+file: 2015-oke-efficient-automated-schematic.pdf
 date: 2015-09-01
 ---
 

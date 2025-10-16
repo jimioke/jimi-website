@@ -4,7 +4,8 @@ author: Atanas Apostolov, Yuanchang Xie, Chengbo Ai, Francis Tainter, Jimi Oke
 status: Published
 type: report
 citation: "<em>Massachusetts Department of Transportation</em>, No. <b>20-024</b>"
-online: https://rosap.ntl.bts.gov/view/dot/75247
+doi: 
+file: 2024-apostolov-artificial-intelligence-framework.pdf
 date: 2024-02-01
 ---
 

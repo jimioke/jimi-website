@@ -3,13 +3,15 @@ title = "Jimi Oke"
 languageCode = "en-us"
 canonifyurls = true
 relativeurls = false
-paginate = 10
 theme = "jimi"
 DisqusShortname = "researchtips"
 #googleAnalytics = "UA-5004894-1"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 pluralizeListTitles = false
 buildFuture = true
+
+[pagination]
+pagerSize = 10
 
 [markup.goldmark.renderer]
 unsafe= true

@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Part A: Policy and Practice</em>, <b>154</b>(NA):92-107"
 doi: 10.1016/j.tra.2021.09.013
+file: 2021-nahmias-biran-benefits-avs-equity.pdf
 date: 2021-12-01
 ---
 

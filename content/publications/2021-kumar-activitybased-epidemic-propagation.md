@@ -5,6 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Scientific Reports</em>, <b>11</b>(1):22665"
 doi: 10.1038/s41598-021-01522-w
+file: 2021-kumar-activitybased-epidemic-propagation.pdf
 date: 2021-11-22
 ---
 

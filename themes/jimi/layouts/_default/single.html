@@ -17,6 +17,12 @@
       <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner" itemprop="image">
       {{ end }}
       <h1 itemprop="name">{{ .Title }}</h1>
+        {{ if eq .Section "publications" }}
+        <div style="margin-bottom: 1.5em;">
+          {{ partial "pub-icon.html" . }}
+        </div>
+        <p><strong>Abstract</strong></p>
+        {{ end }}
         {{ .Content }}
       </article>
     </div>
