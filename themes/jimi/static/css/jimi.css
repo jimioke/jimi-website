@@ -208,7 +208,7 @@ hr {border-top: 1px solid #b3cde0; margin-top:5ex; margin-bottom: 5ex;}
 }
 
 #topbar {
-	background: #5D4157;
+	background: #E8D5D8;
 	padding:0px;
 	margin:0ex;
 	/* border-bottom: 3px solid #36454f; */
@@ -221,9 +221,9 @@ hr {border-top: 1px solid #b3cde0; margin-top:5ex; margin-bottom: 5ex;}
 }
 
 #topbar .navbar {padding-bottom:14px; font-size:120%;}
-#topbar li a {color: #fff; border-bottom: none;}
-#topbar li a {color: #b3cde0;}
-#topbar li span a {color: #fff;}
+#topbar li a {color: #36454f; border-bottom: none;}
+#topbar li a:hover {color: #8B4789;}
+#topbar li span a {color: #36454f;}
 
 .avatar {
 	-webkit-border-radius: 50em;

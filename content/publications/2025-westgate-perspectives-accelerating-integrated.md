@@ -5,7 +5,6 @@ status: Unpublished
 type: manuscript
 citation: "<em>(under review in Sustainable Energy Technologies and Assessments)</em>"
 doi: 
-file: 2025-westgate-perspectives-accelerating-integrated.pdf
 date: 2025-08-18
 ---
 

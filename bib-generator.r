@@ -81,10 +81,14 @@ for(i in 1:nrow(df)) {
     ref_name <- tolower(paste(ref$Publication.Year,first_author_lastname,title_list,sep="-"  ))
 
     ref_pdf <- paste0("file: ", ref_name, ".pdf")
-    ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_doi, ref_pdf, ref_date, "---", "\n", ref_abstract)
-    # if (!file.exists(paste0("./content/publications/", ref_name, ".md"))) {
+    if ( ref_status == "status: Unpublished") {
+        ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_doi, ref_date, "---", "\n", ref_abstract)
+    } else {
+        ref_hugo_md <- c("---", ref_title, authors, ref_status, ref_type, ref_cit, ref_doi, ref_pdf, ref_date, "---", "\n", ref_abstract)
+    }
+    if (!file.exists(paste0("./content/publications/", ref_name, ".md"))) {
     write.table(ref_hugo_md, file = paste0("./content/publications/", ref_name, ".md"),
                 quote = FALSE, row.names = FALSE, col.names = FALSE)
     print(paste(i, ":",  ref_doi, "---", ref_name))
-    #}
+    }
 }

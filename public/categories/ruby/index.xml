@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Jimi Oke</title>
+    <link>http://localhost:36719/jimi/categories/ruby/</link>
+    <description>Recent content in Ruby on Jimi Oke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2025 11:50:53 -0500</lastBuildDate>
+    
+        <atom:link href="http://localhost:36719/jimi/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing Gem Install Issues in Fedora</title>
+      <link>http://localhost:36719/jimi/wrotelearning/fixing-gem-install-fedora/</link>
+      <pubDate>Wed, 24 Sep 2025 11:50:53 -0500</pubDate>
+      
+      <guid>http://localhost:36719/jimi/wrotelearning/fixing-gem-install-fedora/</guid>
+      <description>&lt;style&gt;
+.hljs {
+    background: #ffffff !important;
+    border: 1px solid #e1e1e1;
+}
+&lt;/style&gt;
+&lt;p&gt;I was recently struggling with upgrading rubygems on my Fedora 41 machine. On this specific machine, I could not run &lt;code&gt;bundle exec jekyll serve --livereload&lt;/code&gt; to view changes to my course &lt;a href=&#34;https://probstats.narslab.org/&#34;&gt;website&lt;/a&gt; locally. Specifically, running &lt;code&gt;gem update --system&lt;/code&gt; or &lt;code&gt;gem install&lt;/code&gt; was returning an error, as the process would fail when trying to install the &lt;a href=&#34;https://rubygems.org/gems/bigdecimal/versions/1.2.7?locale=en&#34;&gt;bigdecimal&lt;/a&gt; library:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;An error occurred while installing bigdecimal (3.2.3), and Bundler cannot continue.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I searched online for a fix. It seemed some C libraries were missing, but none of the recommended packages were available, until I stumbled upon &lt;a href=&#34;https://packages.fedoraproject.org/pkgs/redhat-rpm-config/redhat-rpm-config/index.html&#34;&gt;redhat-rpm-config&lt;/a&gt;. Installing this solved my problems:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install redhat-rpm-config
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;From there, I was able update rubygem and happily run &lt;code&gt;jekyll serve&lt;/code&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

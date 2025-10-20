@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics on Jimi Oke</title>
-    <link>https://people.umass.edu/jimi/categories/statistics/</link>
+    <link>http://localhost:36719/jimi/categories/statistics/</link>
     <description>Recent content in Statistics on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 11:50:53 -0500</lastBuildDate>
     
-        <atom:link href="https://people.umass.edu/jimi/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:36719/jimi/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Understanding Gaussian processes</title>
-      <link>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</link>
+      <link>http://localhost:36719/jimi/wrotelearning/understanding-gaussian-processes/</link>
       <pubDate>Tue, 18 Jun 2024 11:50:53 -0500</pubDate>
       
-      <guid>https://people.umass.edu/jimi/wrotelearning/understanding-gaussian-processes/</guid>
+      <guid>http://localhost:36719/jimi/wrotelearning/understanding-gaussian-processes/</guid>
       <description>&lt;p&gt;To be completed.&lt;/p&gt;
 </description>
     </item>
