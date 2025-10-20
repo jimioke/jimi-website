@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Jimi Oke</title>
-    <link>http://localhost:36719/jimi/categories/ruby/</link>
+    <link>https://people.umass.edu/jimi/categories/ruby/</link>
     <description>Recent content in Ruby on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Sep 2025 11:50:53 -0500</lastBuildDate>
     
-        <atom:link href="http://localhost:36719/jimi/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://people.umass.edu/jimi/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fixing Gem Install Issues in Fedora</title>
-      <link>http://localhost:36719/jimi/wrotelearning/fixing-gem-install-fedora/</link>
+      <link>https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/</link>
       <pubDate>Wed, 24 Sep 2025 11:50:53 -0500</pubDate>
       
-      <guid>http://localhost:36719/jimi/wrotelearning/fixing-gem-install-fedora/</guid>
+      <guid>https://people.umass.edu/jimi/wrotelearning/fixing-gem-install-fedora/</guid>
       <description>&lt;style&gt;
 .hljs {
     background: #ffffff !important;

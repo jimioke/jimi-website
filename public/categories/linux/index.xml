@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Jimi Oke</title>
-    <link>http://localhost:36719/jimi/categories/linux/</link>
+    <link>https://people.umass.edu/jimi/categories/linux/</link>
     <description>Recent content in Linux on Jimi Oke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jan 2022 11:50:53 -0500</lastBuildDate>
     
-        <atom:link href="http://localhost:36719/jimi/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://people.umass.edu/jimi/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Signing Pdfs Linux Okular</title>
-      <link>http://localhost:36719/jimi/wrotelearning/signing-pdfs-linux-okular/</link>
+      <link>https://people.umass.edu/jimi/wrotelearning/signing-pdfs-linux-okular/</link>
       <pubDate>Thu, 27 Jan 2022 11:50:53 -0500</pubDate>
       
-      <guid>http://localhost:36719/jimi/wrotelearning/signing-pdfs-linux-okular/</guid>
+      <guid>https://people.umass.edu/jimi/wrotelearning/signing-pdfs-linux-okular/</guid>
       <description>&lt;p&gt;To be completed.&lt;/p&gt;
 </description>
     </item>
