@@ -6,14 +6,28 @@
     <description>Recent content on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://people.umass.edu/jimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novel Typology of Fatal Crash Behaviors via Natural Language Processing</title>
+      <link>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</guid>
+      <description>&lt;p&gt;This study presents a data-driven framework to uncover patterns of less-studied fatal driver behaviors. We analyzed 84,170 driver behavior reports from the Fatality Analysis Reporting System (FARS) between 2021 and 2023. Using natural language processing methods, we obtained 194 distinct lemmas and quantified their importance in each report. We then applied principal components analysis to obtain 18 underlying behavioral factors. Finally, we clustered the reports via Gaussian Mixture Modeling, obtaining a novel typology of 15 behaviors. Our results reveal spatial disparities in fatal driver behaviors and provide a framework for type-specific crash mitigation efforts.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Harnessing hybrid buses in the near term leads to faster transit decarbonization</title>
       <link>https://people.umass.edu/jimi/publications/2025-arabi-harnessing-hybrid-buses/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://people.umass.edu/jimi/publications/2025-arabi-harnessing-hybrid-buses/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Early action in transportation, electricity grid and buildings is essential for deep and near net-zero decarbonization</title>
+      <link>https://people.umass.edu/jimi/publications/2025-zhao-early-action-transportation/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jimi/publications/2025-zhao-early-action-transportation/</guid>
+      <description>&lt;p&gt;In this work, we applied Scenario Discovery (SD) to explore emission reduction potentials and identify decarbonization pathways over multiple sectors, using the New Haven Milford Metropolitan statistical area as a case study in regional planning. We first generated a diverse set of future emission states using Latin Hypercube Sampling (LHS), and then applied Gaussian Mixture Analysis to cluster outcomes based on emission percentage changes between 2021 and 2050 (EPC) and cumulative emissions percentage change (CEPC). This analysis identified four decarbonization scenarios: \textit{Mild}, \textit{Moderate}, \textit{Deep}, and \textit{Near Net-Zero}. We further examine the pathways associated with these decarbonization scenarios and the parameter combinations that could drive progress toward the decarbonization targets, as well as the relative importance shifts of these activity parameters under different target-year assumptions. The results indicate that achieving \textit{Near-Net Zero} requires more than half of the total change in electrification rates and fuel economy (MPG), as well as in truck vehicle miles traveled (VMT) and commercial emissions, along with an earlier shift in these changes. In addition, the share of residential contributions to overall emissions actually increases throughout the planning horizon, indicating the need to prioritize the management of residential energy consumption.  Furthermore, we trained an eXtreme Gradient Boosting (XGBoost) model to predict EPC and CEPC. XGBoost model revealed the most relevant factors in each scenario. In particular, residential natural gas consumption is a key driver of emissions reduction in \textit{Near-Net Zero}, followed by commercial emissions, highlighting an effort to improve the efficiency of residential and commercial building energy consumption.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fixing Gem Install Issues in Fedora</title>
@@ -91,13 +105,6 @@
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://people.umass.edu/jimi/publications/2025-kumar-distilling-actionable-insights/</guid>
       <description>&lt;p&gt;Policy transfer is an efficient strategy for urban policymaking. However, the unique city-specific characteristics complicate the transfer of congestion-mitigating policies. We study seven highly congested cities worldwide and argue that, since regions with less congestion exist even within these cities, understanding how road network features explain the intra-city variations in con- gestion can significantly enhance the efficacy of mitigation measures. While our findings reveal extreme city-specific variations in feature importance, suggesting that supply-side interventions must be tailored to individual cities, the most effective features for demand-side interventions share notable similarities across different cities. In the short term, our results directly impact the ongoing mitigation measures in these cities, such as congestion pricing and personalised route choice applications, specifically in making them more robust and increasing public acceptance. In the long term, our insights encourage a re-evaluation of scepticism towards infrastructure invest- ments in mitigating congestion and highlight the potential for designing congestion-resistant future cities. Moreover, given the diverse selection of cities, the few common observations suggest that extrapolating those common observations to new cities will likely be effective, especially when a detailed analysis like ours is impossible due to data constraints. Finally, we provide key recommendations for researchers from the data-driven traffic prediction community regarding the need to focus on microscopic scales and for researchers in simulation-based counterfactual approaches to simulate the impact of road network features with values beyond the known ranges for feature values in the studied cities.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Novel typology of fatal crash behaviors via natural language processing</title>
-      <link>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</link>
-      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</guid>
-      <description>&lt;p&gt;This study presents a data-driven framework to uncover patterns of less-studied fatal driver behaviors. We analyzed 84,170 driver behavior reports from the Fatality Analysis Reporting System (FARS) between 2021 and 2023.  Using natural language processing methods, we obtained 194 distinct lemmas and quantified their importance in each report. We then applied principal components analysis to obtain 18 underlying behavioral factors. Finally, we clustered the reports via Gaussian Mixture Modeling, obtaining a novel typology of 15 behaviors. Our results reveal spatial disparities in fatal driver behaviors and provide a framework for type-specific crash mitigation efforts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Benefits of aggressively co-undergrounding electric and broadband lines outweigh costs</title>

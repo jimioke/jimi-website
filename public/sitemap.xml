@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://people.umass.edu/jimi/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-arabi-harnessing-hybrid-buses/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jimi/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <loc>https://people.umass.edu/jimi/publications/2025-zhao-early-action-transportation/</loc>
+    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/categories/</loc>
     <lastmod>2025-09-24T11:50:53-05:00</lastmod>
@@ -61,9 +67,6 @@
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-kumar-distilling-actionable-insights/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</loc>
-    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-arabi-benefits-aggressively-coundergrounding/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>

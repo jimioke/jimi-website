@@ -3,7 +3,7 @@ title: "Typology of U.S. transit systems reveals energy data gap and potential f
 author: Mahsa Arabi, Jimi Oke
 status: Unpublished
 type: manuscript
-citation: "<em>(under review in Env. Res. Lett.)</em>"
+citation: "<em>(under revision in Env. Res. Lett.)</em>"
 doi: 
 date: 2025-08-15
 ---

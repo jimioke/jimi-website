@@ -5,7 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Transportation Research Record</em>, <b>2678</b>(8):535-548"
 doi: 10.1177/03611981231217497
-file: 2024-sarigiannis-feature-engineering-decision.pdf
+link: https://journals.sagepub.com/doi/epub/10.1177/03611981231217497
 date: 2024-08-01
 ---
 

@@ -3,7 +3,7 @@ title: "Scenario discovery yields robust multi-level pathways for regional decar
 author: Peiyao Zhao, Joseph Mega, Mohammed Abdalazeem, Mahsa Arabi, Camille V. Barchers, Jimi Oke
 status: Unpublished
 type: manuscript
-citation: "<em>(under review in Env. Res. Comms.)</em>"
+citation: "<em>(under revision in Env. Res. Comms.)</em>"
 doi: 
 date: 2025-06-11
 ---

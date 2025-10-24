@@ -5,7 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Environmental Research Letters</em>, <b>14</b>(9):095006"
 doi: 10.1088/1748-9326/ab22c7
-file: 2019-oke-novel-global-urban.pdf
+link: https://iopscience.iop.org/article/10.1088/1748-9326/ab22c7/pdf
 date: 2019-09-01
 ---
 

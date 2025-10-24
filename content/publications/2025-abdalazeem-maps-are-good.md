@@ -3,7 +3,7 @@ title: "Maps are good but are simpler maps better? Insights on urban bicycling i
 author: Mohammed Abdalazeem, Geehan Altayb, Eleni Christofa, Jimi Oke
 status: Unpublished
 type: manuscript
-citation: "<em>(under revision in Env. Res. Comms.)</em>"
+citation: "<em>(under revision in Environmental Research Communications)</em>"
 doi: 
 date: 2025-08-25
 ---
