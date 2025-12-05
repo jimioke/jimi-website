@@ -5,7 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Data Science for Transportation</em>, <b>7</b>(3):22"
 doi: 10.1007/s42421-025-00135-3
-link: https://trebuchet.public.springernature.app/get_content/9481de0c-910c-4f84-8760-a592a7ffab21?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20251023&utm_content=10.1007/s42421-025-00135-3
+file: 2025-han-novel-typology-fatal.pdf
 date: 2025-10-23
 ---
 

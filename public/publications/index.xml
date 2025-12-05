@@ -6,8 +6,15 @@
     <description>Recent content in Publications on Jimi Oke</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://people.umass.edu/jimi/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bus Stop Typology Reveals Crash Risk Environments</title>
+      <link>https://people.umass.edu/jimi/publications/2025-oke-bus-stop-typology/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://people.umass.edu/jimi/publications/2025-oke-bus-stop-typology/</guid>
+      <description>&lt;p&gt;Bus stops are critical connectors in the public transit network, yet in Massachusetts, 46% of crashes involving vulnerable road users (VRUs) occur near bus stops. Traditional analysis methods overlook the complex patterns around bus stops that contribute to crashes. To address this, we developed a framework that groups bus stops into safety typologies in order to predict crash risk in a more targeted manner and guide interventions. First, we fused multi-source data for 1773 stops to obtain 313 crash-relevant features. Then we applied explanatory factor analysis to extract 13 underlying components of crash risk based on these features. Using these factors, we fitted a Gaussian mixture model, which resulted in 13 distinct bus stop types. Finally, we trained extreme gradient boosting models to predict crash risk for each type. Interpreting the models via SHapley Additive exPlanations (SHAP values), we identified crash risk characteristics, assessed their impact, and proposed targeted countermeasures to inform effective safety interventions. Our findings confirm that bus stop safety is inherently context-dependent, necessitating typology-informed solutions rather than a one-size-fits-all approach. The novel framework presented here can serve as a foundation for further research on bus stop safety, as well as provide planners and decision makers with actionable guidance for targeted safety improvements.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Novel Typology of Fatal Crash Behaviors via Natural Language Processing</title>
       <link>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</link>

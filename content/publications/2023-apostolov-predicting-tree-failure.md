@@ -5,7 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Sustainable and Resilient Infrastructure</em>, <b>8</b>(6):572-588"
 doi: 10.1080/23789689.2023.2233759
-link: https://www.tandfonline.com/doi/epdf/10.1080/23789689.2023.2233759?needAccess=true
+file: 2023-apostolove-predicting-tree-failure.pdf
 date: 2023-11-02
 ---
 

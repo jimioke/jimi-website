@@ -31,7 +31,7 @@ def main():
             
             authors = f"{authors}{author_sep}{first_last_name}"
         
-        ref_type = f"type: {ref['Item.Type']}"
+        ref_type = f"type: {ref['Item Type']}"
         
         if ref_type == "type: manuscript":
             ref_status = "status: Unpublished"
@@ -45,7 +45,7 @@ def main():
         
         ref_title = f'title: "{ref["Title"]}"'
         
-        ref_abstract = ref['Abstract.Note']
+        ref_abstract = ref['Abstract Note']
         
         # make hugo-finite theme compliant *.md files from reference
         type_value = ref_type.split(" ")[1] if len(ref_type.split(" ")) > 1 else ""
@@ -59,7 +59,7 @@ def main():
             ref_cit = f'citation: "<em>{ref["Place"]}</em>"'
             ref_hugo_md = ["---", ref_title, authors, ref_status, ref_type, ref_cit, ref_date, "---", "\n", ref_abstract]
         else:
-            ref_cit = f'citation: "<em>{ref["Publication.Title"]}</em>, <b>{ref["Volume"]}</b>({ref["Issue"]}):{ref["Pages"]}"'
+            ref_cit = f'citation: "<em>{ref["Publication Title"]}</em>, <b>{ref["Volume"]}</b>({ref["Issue"]}):{ref["Pages"]}"'
             ref_hugo_md = ["---", ref_title, authors, ref_status, ref_type, ref_cit, ref_doi, ref_date, "---", "\n", ref_abstract]
         
         # Process title for filename
@@ -72,7 +72,7 @@ def main():
         title_list = "-".join(title_list)
         
         # save the resulting ref_hugo_md into *.md file
-        ref_name = f"{ref['Publication.Year']}-{first_author_lastname}-{title_list}".lower()
+        ref_name = f"{ref['Publication Year']}-{first_author_lastname}-{title_list}".lower()
         
         ref_pdf = f"file: {ref_name}.pdf"
         
