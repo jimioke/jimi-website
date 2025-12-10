@@ -5,7 +5,7 @@ status: Published
 type: journalArticle
 citation: "<em>Data Science for Transportation</em>, <b>7</b>(2):14"
 doi: 10.1007/s42421-025-00128-2
-link: 2025-abdalazeem-roadway-crash-typology.pdf
+file: 2025-abdalazeem-roadway-crash-typology.pdf
 date: 2025-07-03
 ---
 
