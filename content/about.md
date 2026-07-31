@@ -5,7 +5,9 @@ date: 2020-03-03T12:52:21-05:00
 
 The following bio and [**this photo**](/img/headshot-jun-2019.jpg) may be used in media releases without further permission.
 
->**Jimi Oke** is an Assistant Professor in the [Department of Civil and Environmental Engineering](http://cee.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/), where he directs the [Networks for Accessibility, Sustainability and Resilience Laboratory](https://narslab.org/). From 2016 to 2019, he was a Postdoctoral Associate at the [Intelligent Transportation Systems Lab](http://its.mit.edu/) working on the [MIT Energy Initiative's Future Mobility Study](http://energy.mit.edu/research/mobilityofthefuture/). Jimi received his MSE and PhD in Civil Engineering from the [Johns Hopkins University](https://engineering.jhu.edu/case/), where he studied from 2012 to 2016. Prior to graduate school, Jimi taught mathematics at [The Pennington School](https://www.pennington.org/) after graduating from [Williams College](https://www.williams.edu/) with majors in Physics and Music in 2010.
+>**Jimi Oke** is an Associate Professor in the [Department of Civil and Environmental Engineering](http://cee.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/), where he directs the [Networks for Accessibility, Sustainability and Resilience Laboratory](https://narslab.org/). From 2016 to 2019, he was a Postdoctoral Associate at the [Intelligent Transportation Systems Lab](http://its.mit.edu/) working on the [MIT Energy Initiative's Future Mobility Study](http://energy.mit.edu/research/mobilityofthefuture/). Dr. Oke received his MSE and PhD in Civil Engineering from the [Johns Hopkins University](https://engineering.jhu.edu/case/), where he studied from 2012 to 2016. Prior to graduate school, Dr. Oke taught mathematics at [The Pennington School](https://www.pennington.org/) after graduating from [Williams College](https://www.williams.edu/) with majors in Physics and Music in 2010.
+
+Dr. Oke's current research focuses on sustainable mobility, energy and water, and has been funded by NSF, EPA, USDOT, MassDOT, among other agencies. He is affiliated with the American Society of Civil Engineers (ASCE) and the Institute for Operations Research and Management Sciences (INFORMS), and has served regularly as a review panelist for the NSF Environmental Sustainability program. 
 
 <!-- <h4><a href="/files/Oke-CV.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;pdf</a> <a href="/files/Oke-CV.pdf">Curriculum Vitae</a> &nbsp; </h4> -->
 
@@ -34,15 +36,16 @@ Here is a list of [recent news articles about me](/in-the-news/).
 
 ## Employment
 
-  * **Assistant Professor**, Department of Civil and Environmental Engineering, University of Massachsuetts Amherst (2019--date)
-  * **Postdoctoral Associate**, Department of Civil and Environmental Engineering, Massachsuetts Institute of Technology (2016--2019)
+  * **Associate Professor**, Department of Civil and Environmental Engineering, University of Massachusetts Amherst (2025--date)
+  * **Assistant Professor**, Department of Civil and Environmental Engineering, University of Massachusetts Amherst (2019--2025)
+  * **Postdoctoral Associate**, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (2016--2019)
   * **Teaching Fellow/Teacher**, The Pennington School (2010--2012)
 
 ## Education
   * BA, Physics (Honors), Music, Williams College, MA (2010)
   * MSE, Civil Engineering, Johns Hopkins University (2014)
   * PhD, Civil Engineering, Johns Hopkins University (2016)
-  * Kaufman Teaching Certificate, Teaching & Learning Lab, Massachsuetts Institute of Technology (2019)
+  * Kaufman Teaching Certificate, Teaching & Learning Lab, Massachusetts Institute of Technology (2019)
 
 ## Memberships
   * [Institute for Operations Research and the Management Sciences](https://www.informs.org/)
@@ -54,8 +57,8 @@ Here is a list of [recent news articles about me](/in-the-news/).
 ## Awards
   * 2023 ASCE Outstanding Reviewer, Journal of Infrastructure Systems (2024)
   * Armstrong Fund for Science, University of Massachusetts Amherst (2024)
-  * Brack Endowment Fund, Department of Civil and Environmental Engineering, University of Massachsuetts Amherst (2021)
-  * Postdoctoral Teaching Fellowship, Department of Civil and Environmental Engineering, Massachsuetts Institute of Technology (2017)
+  * Brack Endowment Fund, Department of Civil and Environmental Engineering, University of Massachusetts Amherst (2021)
+  * Postdoctoral Teaching Fellowship, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (2017)
   * Gordon Croft Fellowship, Environment, Energy, Sustainability & Health Institute, Johns Hopkins University (2015)
   * Civil Engineering Graduate Service Award, G.W.C. Whiting School of Engineering, Johns Hopkins University (2015)
   * Teaching-as-Research Fellowship, Center for the Integration of Research, Teaching and Learning, Johns Hopkins University (2015)
