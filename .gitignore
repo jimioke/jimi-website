@@ -1,1 +1,4 @@
 *.pdf
+
+.env.zotero
+__pycache__/

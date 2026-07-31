@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://people.umass.edu/jimi/publications/2025-oke-bus-stop-typology/</loc>
-    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <loc>https://people.umass.edu/jimi/publications/2026-zhao-early-action-transportation/</loc>
+    <lastmod>2026-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/</loc>
-    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/</loc>
+    <lastmod>2026-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-kostopoulou-scenario-discovery-approach/</loc>
+    <lastmod>2026-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-kumar-multiscale-interpretability-framework/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-ruger-explainable-datadriven-multifilter/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-azhdari-functional-bus-stop/</loc>
+    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-zhao-scenario-discovery-framework/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-abdalazeem-maps-are-good/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2026-arabi-typology-us-transit/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2025-han-robust-forecasting-framework/</loc>
+    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://people.umass.edu/jimi/publications/2025-oke-bus-stop-typology/</loc>
     <lastmod>2025-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-han-novel-typology-fatal/</loc>
@@ -16,9 +43,6 @@
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-arabi-harnessing-hybrid-buses/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-zhao-early-action-transportation/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/categories/</loc>
     <lastmod>2025-09-24T11:50:53-05:00</lastmod>
@@ -44,32 +68,11 @@
     <loc>https://people.umass.edu/jimi/categories/latex/</loc>
     <lastmod>2025-09-15T14:43:53-05:00</lastmod>
   </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-abdalazeem-maps-are-good/</loc>
-    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-han-robust-forecasting-framework/</loc>
-    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-kumar-multiscale-road-network/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-westgate-perspectives-accelerating-integrated/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-arabi-typology-us-transit/</loc>
-    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-abdalazeem-roadway-crash-typology/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-zhao-typology-us-metropolitan/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-zhao-scenario-discovery-yields/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://people.umass.edu/jimi/publications/2025-kumar-distilling-actionable-insights/</loc>
-    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://people.umass.edu/jimi/publications/2025-arabi-benefits-aggressively-coundergrounding/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
