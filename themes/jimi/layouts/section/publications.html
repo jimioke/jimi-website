@@ -89,7 +89,8 @@
 <!--      </div>
      <div class="column small-12 medium-6"> -->
       <h2>Published articles</h2>
-      {{ range (where .Pages "Params.type" "==" "journalArticle").GroupByDate "2006" "desc" }}
+      {{/* status filter too, else an accepted/in-press article lists twice */}}
+      {{ range (where (where .Pages "Params.type" "==" "journalArticle") "Params.status" "==" "Published").GroupByDate "2006" "desc" }}
       <div class="row">
         <div class="column small-1 medium-1">
           <h3>{{ .Key }}</h3>
@@ -108,7 +109,7 @@
 <!--      </div>
      <div class="column small-12 medium-6"> -->
       <h2>Reports</h2>
-      {{ range (where .Pages "Params.type" "==" "report").GroupByDate "2006" "desc" }}
+      {{ range (where (where .Pages "Params.type" "==" "report") "Params.status" "==" "Published").GroupByDate "2006" "desc" }}
       <div class="row">
         <div class="column small-1 medium-1">
           <h3>{{ .Key }}</h3>

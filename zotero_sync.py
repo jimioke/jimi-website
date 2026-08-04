@@ -9,6 +9,12 @@ It reproduces the frontmatter that bib_generator.py emits (title, author,
 status, type, citation, doi, file, date + abstract body), so the site theme
 renders the results identically.
 
+Accepted-but-not-yet-issued papers: tag the item in Zotero with "accepted" or
+"in-press". It then gets status: Unpublished (so the theme lists it under
+"Papers under review/in press") and an "(in press)" citation, while still
+picking up a PDF from static/papers/ or the Zotero URL. Remove the tag once
+the volume/issue/pages are assigned and it moves to "Published articles".
+
 Configuration comes from environment variables (never hardcode your key):
 
     ZOTERO_LIBRARY_ID     required  numeric library id
@@ -40,6 +46,11 @@ PAGE_SIZE = 100
 
 # Item types that are not publications (skip these entirely).
 SKIP_TYPES = {"attachment", "note", "annotation"}
+
+# Zotero tags marking a paper as accepted but not yet assigned to an issue.
+# Tag the item in Zotero with any of these and it moves to the "under review/
+# in press" section until the volume/issue/pages arrive (then remove the tag).
+ACCEPTED_TAGS = {"accepted", "in-press", "in press", "inpress"}
 
 STOPWORDS = {
     "in", "for", "and", "a", "an", "the", "of", "on", "this", "to",
@@ -146,6 +157,12 @@ def format_authors(creators):
     return ", ".join(names), first_last
 
 
+def is_accepted(data):
+    """True if the item carries an "accepted"/"in-press" tag (case-insensitive)."""
+    return any(t.get("tag", "").strip().lower() in ACCEPTED_TAGS
+               for t in data.get("tags") or [])
+
+
 def slug_from_title(title):
     words = [w.lower() for w in title.split(" ")]
     words = [w for w in words if w not in STOPWORDS][:3]
@@ -171,7 +188,10 @@ def build_page(data):
     doi = data.get("DOI", "").strip()
     abstract = data.get("abstractNote", "").strip()
 
-    status = "Unpublished" if item_type == "manuscript" else "Published"
+    # Unpublished = the theme's "under review/in press" section: unsubmitted
+    # manuscripts, plus anything tagged accepted/in-press in Zotero.
+    accepted = is_accepted(data)
+    status = "Unpublished" if (item_type == "manuscript" or accepted) else "Published"
 
     if item_type == "report":
         publisher = data.get("publisher") or data.get("institution") or ""
@@ -181,12 +201,16 @@ def build_page(data):
         citation = f"<em>{data.get('place', '')}</em>"
     else:  # journalArticle, conferencePaper, preprint, ...
         venue = data.get("publicationTitle") or data.get("proceedingsTitle") or ""
-        issue = data.get("issue", "")
-        issue_part = f"({issue})" if issue else ""  # omit empty parens
-        citation = (
-            f"<em>{venue}</em>, "
-            f"<b>{data.get('volume', '')}</b>{issue_part}:{data.get('pages', '')}"
-        )
+        if accepted:
+            # No volume/issue/pages yet — printing them would leave empty "<b></b>:".
+            citation = f"<em>{venue}</em> (in press)"
+        else:
+            issue = data.get("issue", "")
+            issue_part = f"({issue})" if issue else ""  # omit empty parens
+            citation = (
+                f"<em>{venue}</em>, "
+                f"<b>{data.get('volume', '')}</b>{issue_part}:{data.get('pages', '')}"
+            )
 
     name = f"{year}-{first_last}-{slug_from_title(title)}".lower()
 
@@ -195,8 +219,9 @@ def build_page(data):
              f'citation: "{citation}"', f"doi: {doi}"]
     # PDF/link (smart fallback): prefer a locally hosted PDF in static/papers/;
     # otherwise use the Zotero URL. Never emit a broken local link — if neither
-    # exists, the DOI badge stands alone. Manuscripts get neither.
-    if status == "Published":
+    # exists, the DOI badge stands alone. Manuscripts get neither; accepted
+    # papers do, since an author-hosted PDF is usually all there is pre-issue.
+    if item_type != "manuscript":
         if os.path.exists(os.path.join(PAPERS_DIR, f"{name}.pdf")):
             lines.append(f"file: {name}.pdf")
         elif url:
@@ -283,8 +308,9 @@ def main():
     on_disk = {f for f in os.listdir(content_dir) if f.endswith(".md")}
     orphans = sorted(on_disk - generated_files)
 
-    # DOI-only pages: Published items with neither a hosted PDF nor an external
-    # link. Adding static/papers/<slug>.pdf and re-running upgrades them to file:.
+    # DOI-only pages: items with neither a hosted PDF nor an external link
+    # (manuscripts are excluded — they intentionally get neither). Adding
+    # static/papers/<slug>.pdf and re-running upgrades them to file:.
     doi_only = []
     for filename in generated_files:
         path = os.path.join(content_dir, filename)
@@ -292,7 +318,7 @@ def main():
             continue
         with open(path, encoding="utf-8") as f:
             body = f.read()
-        if "status: Published" in body and "\nfile:" not in body and "\nlink:" not in body:
+        if "type: manuscript" not in body and "\nfile:" not in body and "\nlink:" not in body:
             doi_only.append(filename[:-3] + ".pdf")
 
     def report(label, items):
