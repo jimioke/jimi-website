@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo)",
+      "Bash(hugo:*)",
+      "Bash(git push:*)",
+      "Bash(python3 -m py_compile zotero_sync.py)",
+      "Bash(python3 zotero_sync.py)",
+      "Bash(echo \"\\(exit $?\\)\")",
+      "Bash(python3 zotero_sync.py --help)",
+      "Bash(cd *)",
+      "Bash(grep -vE '^  20[0-9]{2}-.*\\\\.pdf$')",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(grep -E '__pycache__|\\\\.pyc$')",
+      "Bash(awk '{print $1}')",
+      "Bash(python3 -)",
+      "Bash(grep -oE '<strong>[^<]{20,}</strong>' public/publications/index.html)",
+      "Bash(git commit *)",
+      "Bash(./sync-pubs.sh --overwrite --prune)",
+      "Bash(git -C /home/jbo/Projects/jimi-website status --short)",
+      "Bash(./sync-pubs.sh --dry-run)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
