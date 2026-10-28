@@ -1,6 +1,7 @@
 <ul class="compact fa-ul">
   {{ $url := .Get "url" }}
-  {{ range getJSON $url }}
+  {{ with resources.GetRemote $url }}
+  {{ range . | transform.Unmarshal }}
     {{ $p := . }}  
     <li>
       <p><strong><a href="{{ $p.html_url }}" target="_blank">{{ $p.name }}:</a></strong>
@@ -8,4 +9,5 @@
       {{ $p.description }}</p> 
     </li>
     {{ end }}
+  {{ end }}
 </ul>

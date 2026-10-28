@@ -3,9 +3,9 @@ title: "Robust Decision-Making Framework for Sustainable Operations and Planning
 author: Zhuo Han, Eleni Christofa, Eric Gonzales, Jimi Oke
 status: Published
 type: report
-citation: "<em></em>, No. <b>24-063</b>"
+citation: "<em>Massachusetts Department of Transportation</em>, No. <b>24-063</b>"
 doi: 
-link: /view/dot/79350
+link: https://rosap.ntl.bts.gov/view/dot/79350
 date: 2024-09-01
 ---
 
